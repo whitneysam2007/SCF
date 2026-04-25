@@ -91,7 +91,7 @@ export default function Donate() {
                   </div>
                 ))}
               </div>
-              <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all">
+              <Link href="/angels-of-light" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all">
                 BECOME AN ANGEL OF LIGHT <ArrowRight size={16} />
               </Link>
             </div>

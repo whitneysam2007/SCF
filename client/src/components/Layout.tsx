@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { href: "/about", label: "About" },
   { href: "/partners", label: "Partners" },
   { href: "/stories", label: "Stories" },
+  { href: "/angels-of-light", label: "Angels of Light" },
   { href: "/donate", label: "Donate" },
   { href: "/contact", label: "Contact" },
 ];

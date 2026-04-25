@@ -10,6 +10,7 @@ import Partners from "./pages/Partners";
 import Stories from "./pages/Stories";
 import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
+import AngelsOfLight from "./pages/AngelsOfLight";
 import Layout from "./components/Layout";
 
 function Router() {
@@ -22,6 +23,7 @@ function Router() {
         <Route path="/stories" component={Stories} />
         <Route path="/donate" component={Donate} />
         <Route path="/contact" component={Contact} />
+        <Route path="/angels-of-light" component={AngelsOfLight} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>

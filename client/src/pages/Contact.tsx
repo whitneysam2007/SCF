@@ -139,7 +139,7 @@ export default function Contact() {
                   <p className="font-body text-white/70 text-sm leading-relaxed mb-4">
                     Interested in joining our Angels of Light initiative? This small group of committed partners works together to multiply the reach of SCF.
                   </p>
-                  <p className="font-body text-[#D4A853] text-sm font-semibold">Select "Angels of Light Program" in the form to learn more.</p>
+                  <a href="/angels-of-light" className="inline-block font-body text-[#D4A853] text-sm font-semibold hover:underline">Learn more about Angels of Light &rarr;</a>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
                   <h3 className="font-display text-[#12365a] text-lg font-bold mb-3">Partnership Inquiries</h3>
