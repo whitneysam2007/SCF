@@ -55,9 +55,9 @@ export default function Layout({ children }: { children: ReactNode }) {
               className="h-10 md:h-12 w-auto rounded-sm object-cover"
             />
             <img
-              src="/manus-storage/scf-logo-text_b4b47593.png"
+              src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
               alt="Sabin Children's Foundation"
-              className="hidden sm:block h-8 md:h-10 w-auto object-contain"
+              className="hidden sm:block h-9 md:h-[46px] w-auto object-contain"
             />
           </Link>
 
