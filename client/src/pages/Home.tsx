@@ -148,7 +148,7 @@ export default function Home() {
               { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png" },
               { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9.png" },
               { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump_38ef47f7.png" },
-              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/medical-africa_f532dea5.png" },
+              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9.png" },
             ].map((item, i) => (
               <div key={i} className="group relative overflow-hidden rounded-lg aspect-[16/10]">
                 <img src={item.img} alt={item.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
