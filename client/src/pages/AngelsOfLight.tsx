@@ -267,8 +267,8 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <img
-                  src="/manus-storage/woman-headscarf_c6340b22.png"
-                  alt="Woman receiving care"
+                  src="/manus-storage/cairo-heba_2d53c88a.webp"
+                  alt="Acid attack survivor in Egypt receiving care"
                   className="rounded-lg shadow-lg w-full"
                 />
               </div>
@@ -298,8 +298,8 @@ export default function AngelsOfLight() {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="/manus-storage/children-sitting_cb5abcb1.png"
-                  alt="Children together"
+                  src="/manus-storage/chinese-orphans_00fe62d9.webp"
+                  alt="Chinese orphans with SCF volunteer"
                   className="rounded-lg shadow-lg w-full"
                 />
               </div>
@@ -309,8 +309,8 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <img
-                  src="/manus-storage/child-portrait_6768515f.png"
-                  alt="Child portrait"
+                  src="/manus-storage/disabled-learning-center_9ac6ba57.jpg"
+                  alt="Child at disabled children's learning center"
                   className="rounded-lg shadow-lg w-full"
                 />
               </div>
@@ -339,8 +339,8 @@ export default function AngelsOfLight() {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="/manus-storage/children-closeup_b4553241.png"
-                  alt="Happy children"
+                  src="/manus-storage/christmas-thailand_4cf5b594.jpg"
+                  alt="Children with Christmas bicycles in Thailand"
                   className="rounded-lg shadow-lg w-full"
                 />
               </div>
