@@ -339,7 +339,7 @@ export default function AngelsOfLight() {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="/manus-storage/christmas-thailand_4cf5b594.jpg"
+                  src="/manus-storage/christmas-thailand-v2_85706d92.png"
                   alt="Children with Christmas bicycles in Thailand"
                   className="rounded-lg shadow-lg w-full"
                 />
