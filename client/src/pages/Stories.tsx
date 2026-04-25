@@ -1,0 +1,186 @@
+/*
+ * SCF Stories Page — Documentary Realism Design
+ * Impact stories from the deck
+ */
+import { Link } from "wouter";
+import { AnimatedSection } from "@/components/AnimatedSection";
+import { ArrowRight, Quote } from "lucide-react";
+
+const STORIES = [
+  {
+    title: "Restoring Sight for $26",
+    location: "India",
+    category: "Eye Surgery",
+    img: "/manus-storage/elderly-smile_d9daed33.png",
+    text: "In India, a cataract surgery costs just $26 — and it can restore sight to a child or parent. Through our partnership with RAMI, thousands of people have received life-changing eye care, including cataract surgeries, eye exams, and corrective lenses.",
+  },
+  {
+    title: "Feeding Programs That Save Lives",
+    location: "Philippines",
+    category: "Nutrition",
+    img: "/manus-storage/feeding-program_2769e285.png",
+    text: "For just $8 per month, a child can receive the nutrition they need to survive and thrive. Our feeding programs in the Philippines provide daily meals to severely malnourished children, helping them recover and grow strong.",
+  },
+  {
+    title: "Clean Water Changes Everything",
+    location: "Uganda",
+    category: "Clean Water",
+    img: "/manus-storage/children-water_f6e57a45.png",
+    text: "A single well can bring clean water to an entire village. In Uganda and across East Africa, SCF partners install fresh water wells and sanitation systems that transform communities, reducing disease and giving children the chance to attend school instead of walking miles for water.",
+  },
+  {
+    title: "A New Smile, A New Life",
+    location: "Peru",
+    category: "Surgery",
+    img: "/manus-storage/peru-family_e1da7a0a.png",
+    text: "For $100, a cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
+  },
+  {
+    title: "Education Opens Doors",
+    location: "Multiple Countries",
+    category: "Education",
+    img: "/manus-storage/students-studying_9e8fed77.png",
+    text: "Schools, textbooks, and vocational programs open doors for children who might otherwise never have the opportunity to learn. SCF supports educational initiatives across multiple countries, giving children the tools they need to build a better future.",
+  },
+  {
+    title: "Healthcare Without Barriers",
+    location: "Global",
+    category: "Healthcare",
+    img: "/manus-storage/medical-africa_f532dea5.png",
+    text: "Sabin Children's Foundation partners with organizations willing to treat every individual in need. Across cultures, religions, and communities around the world, care is given without discrimination and without exception. Every life has equal value.",
+  },
+];
+
+export default function Stories() {
+  return (
+    <div>
+      {/* Hero */}
+      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/manus-storage/girl-school_bdc67035.png" alt="Girl at school" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/85 via-[#0a1428]/60 to-[#0a1428]/30" />
+        </div>
+        <div className="relative container pt-28 pb-16">
+          <div>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Stories of Impact</p>
+            <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+              Real Stories,
+              <span className="block text-[#D4A853]">Real Lives Changed</span>
+            </h1>
+            <p className="font-body text-white/80 text-lg max-w-xl">
+              Every dollar creates a ripple effect. These are the stories of lives transformed through the generosity of our partners.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Quote */}
+      <AnimatedSection className="py-16 md:py-20 bg-[#12365a]">
+        <div className="container text-center">
+          <div className="max-w-3xl mx-auto">
+            <Quote className="text-[#D4A853]/30 mx-auto mb-4" size={48} />
+            <p className="font-display text-white text-2xl md:text-3xl italic leading-relaxed mb-6">
+              "Care without barriers. Every life has equal value."
+            </p>
+            <p className="font-body text-[#D4A853] text-base font-semibold">— Sabin Children's Foundation</p>
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Stories */}
+      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+        <div className="container">
+          <div className="space-y-20">
+            {STORIES.map((story, i) => (
+              <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+                <div className={i % 2 === 1 ? "lg:order-2" : ""}>
+                  <div className="overflow-hidden rounded-lg shadow-xl">
+                    <img src={story.img} alt={story.title} className="w-full aspect-[16/10] object-cover" />
+                  </div>
+                </div>
+                <div className={i % 2 === 1 ? "lg:order-1" : ""}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded">{story.category}</span>
+                    <span className="font-body text-[#3e4c59]/50 text-sm">{story.location}</span>
+                  </div>
+                  <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
+                  <p className="font-body text-[#3e4c59] text-base md:text-lg leading-relaxed">{story.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Impact Numbers */}
+      <AnimatedSection className="py-20 md:py-28 bg-white">
+        <div className="container">
+          <div className="text-center mb-14">
+            <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">What Your Generosity Makes Possible</h2>
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              { cost: "$26", label: "Cataract Surgery" },
+              { cost: "$8/mo", label: "Child Nutrition" },
+              { cost: "$30", label: "Clubfoot Surgery" },
+              { cost: "$100", label: "Cleft Palate Surgery" },
+            ].map((item, i) => (
+              <div key={i} className="text-center p-6 bg-[#FDF8F0] rounded-lg">
+                <p className="font-stat text-[#D4A853] text-3xl font-bold mb-2">{item.cost}</p>
+                <p className="font-display text-[#12365a] text-sm font-bold">{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Photo Gallery */}
+      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+        <div className="container">
+          <div className="text-center mb-14">
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Gallery</p>
+            <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Faces of Hope</h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+            {[
+              "/manus-storage/child-portrait_6768515f.png",
+              "/manus-storage/girl-glasses_f44b1d2b.png",
+              "/manus-storage/boy-glasses_8817b354.png",
+              "/manus-storage/child-smile_91f0043d.png",
+              "/manus-storage/woman-headscarf_c6340b22.png",
+              "/manus-storage/young-woman_db6e5b49.png",
+              "/manus-storage/children-india_3608c2d6.png",
+              "/manus-storage/children-sitting_cb5abcb1.png",
+            ].map((src, i) => (
+              <div key={i} className="overflow-hidden rounded-lg aspect-square">
+                <img src={src} alt="SCF beneficiary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* CTA */}
+      <section className="relative py-20 md:py-24 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/manus-storage/children-waving_f0d014ab.png" alt="Children waving" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-[#0a1428]/70" />
+        </div>
+        <div className="relative container text-center">
+          <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">
+            Be Part of the Next Story
+          </h2>
+          <p className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8">Your generosity creates ripple effects that transform lives. Join us today.</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/donate" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all">
+              DONATE NOW <ArrowRight size={16} />
+            </Link>
+            <Link href="/contact" className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-sm tracking-wide rounded transition-all hover:bg-white/10">
+              CONTACT US
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
