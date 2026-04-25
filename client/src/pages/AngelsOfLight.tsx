@@ -112,7 +112,7 @@ export default function AngelsOfLight() {
               {
                 title: "You Give",
                 desc: "Your contribution goes 100% directly to life-saving programs for children and families. All operational costs are covered separately by private donors.",
-                img: "/manus-storage/elderly-woman_0cc57c14.png",
+                img: "/manus-storage/you-give-mother-child_2557e047.jpg",
               },
               {
                 title: "We Direct",
