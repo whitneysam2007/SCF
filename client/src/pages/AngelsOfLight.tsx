@@ -309,7 +309,7 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <img
-                  src="/manus-storage/disabled-learning-center_9ac6ba57.jpg"
+                  src="/manus-storage/disabled-learning-center-v2_b4aee080.png"
                   alt="Child at disabled children's learning center"
                   className="rounded-lg shadow-lg w-full"
                 />
