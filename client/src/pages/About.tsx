@@ -103,16 +103,18 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {[
-              { name: "Gary B. Sabin", role: "Founder and Chairman", desc: "Gary B. Sabin founded the Sabin Children's Foundation in 1993 with a vision to transform the lives of children around the world through efficient, impactful humanitarian work." },
-              { name: "S. Eric Ottesen", role: "President", desc: "Eric Ottesen serves as President of the Sabin Children's Foundation, overseeing partnerships and programs that deliver life-changing care to children in 18 countries." },
+              { name: "Gary B. Sabin", role: "Founder and Chairman", desc: "Gary B. Sabin founded the Sabin Children's Foundation in 1993 with a vision to transform the lives of children around the world through efficient, impactful humanitarian work.", img: "/manus-storage/gary-founder_663cbf0a.png" },
+              { name: "S. Eric Ottesen", role: "President", desc: "Eric Ottesen serves as President of the Sabin Children's Foundation, overseeing partnerships and programs that deliver life-changing care to children in 18 countries.", img: "/manus-storage/eric-founder_f2729364.png" },
             ].map((person, i) => (
-              <div key={i} className="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
-                <div className="w-16 h-16 rounded-full bg-[#12365a] flex items-center justify-center mb-5">
-                  <span className="font-display text-[#D4A853] text-xl font-bold">{person.name.split(" ").map(n => n[0]).join("")}</span>
+              <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100">
+                <div className="w-full h-64 overflow-hidden">
+                  <img src={person.img} alt={person.name} className="w-full h-full object-cover object-top" />
                 </div>
-                <h3 className="font-display text-[#12365a] text-xl font-bold mb-1">{person.name}</h3>
-                <p className="font-body text-[#D4A853] text-sm font-semibold mb-4">{person.role}</p>
-                <p className="font-body text-[#3e4c59] text-sm leading-relaxed">{person.desc}</p>
+                <div className="p-8">
+                  <h3 className="font-display text-[#12365a] text-xl font-bold mb-1">{person.name}</h3>
+                  <p className="font-body text-[#D4A853] text-sm font-semibold mb-4">{person.role}</p>
+                  <p className="font-body text-[#3e4c59] text-sm leading-relaxed">{person.desc}</p>
+                </div>
               </div>
             ))}
           </div>
