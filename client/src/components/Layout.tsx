@@ -49,9 +49,9 @@ export default function Layout({ children }: { children: ReactNode }) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
-              src="/manus-storage/scf-logo_ebbe9e96.png"
-              alt="SCF Logo"
-              className="h-10 md:h-12 w-auto"
+              src="/manus-storage/ripple-droplet-clean_59eee497.png"
+              alt="SCF Water Ripple"
+              className="h-10 md:h-12 w-auto rounded-sm object-cover"
             />
             <div className="hidden sm:block">
               <span className="font-display text-white text-sm md:text-base font-semibold leading-tight block">
