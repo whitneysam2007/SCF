@@ -243,7 +243,7 @@ export default function Home() {
             {[
               { src: "/manus-storage/africa-community_e5d09f33.png", label: "Uganda" },
               { src: "/manus-storage/girls-smiling_a37fc95e.png", label: "India" },
-              { src: "/manus-storage/peru-family_e1da7a0a.png", label: "Peru" },
+              { src: "/manus-storage/peru-family_e1da7a0a.png", label: "Guatemala" },
               { src: "/manus-storage/feeding-program_2769e285.png", label: "Philippines" },
             ].map((item, i) => (
               <div key={i} className="relative group overflow-hidden rounded-lg aspect-[4/3]">
