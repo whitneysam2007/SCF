@@ -54,14 +54,11 @@ export default function Layout({ children }: { children: ReactNode }) {
               alt="SCF Water Ripple"
               className="h-10 md:h-12 w-auto rounded-sm object-cover"
             />
-            <div className="hidden sm:block">
-              <span className="font-display text-white text-sm md:text-base font-semibold leading-tight block">
-                Sabin Children's
-              </span>
-              <span className="font-display text-white/80 text-xs md:text-sm leading-tight block">
-                Foundation
-              </span>
-            </div>
+            <img
+              src="/manus-storage/scf-logo-text_b4b47593.png"
+              alt="Sabin Children's Foundation"
+              className="hidden sm:block h-8 md:h-10 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}
