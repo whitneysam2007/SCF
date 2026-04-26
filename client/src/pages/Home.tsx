@@ -145,13 +145,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {[
-              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png" },
-              { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9.png" },
-              { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump-face-crop_6e4f8759.png" },
-              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9.png" },
+              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png", objPos: "" },
+              { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9.png", objPos: "" },
+              { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump-face-crop2_bb906eaf.png", objPos: "object-top" },
+              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9.png", objPos: "" },
             ].map((item, i) => (
               <div key={i} className="group relative overflow-hidden rounded-lg aspect-[16/10]">
-                <img src={item.img} alt={item.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={item.img} alt={item.title} className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${item.objPos}`} />
                 <div className="absolute inset-0 scrim-dark" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                   <item.icon className="text-[#D4A853] mb-3" size={28} />
