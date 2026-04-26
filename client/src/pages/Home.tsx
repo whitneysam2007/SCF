@@ -270,7 +270,7 @@ export default function Home() {
               { icon: Baby, title: "Maternal & Child Nutrition", desc: "Programs helping severely malnourished children recover and thrive.", img: "/manus-storage/mother-baby_f6648b22.jpg" },
               { icon: Droplets, title: "Clean Water, Sanitation & Hygiene", desc: "Fresh water wells and sanitation systems bringing safe water to communities.", img: "/manus-storage/pillar-clean-water_b4023a4b.png" },
               { icon: Eye, title: "Life-Changing Surgeries & Specialty Care", desc: "Cleft palate repairs, eye surgeries, clubfoot corrections, and prosthetics.", img: "/manus-storage/surgery-room_5bf1238e.png" },
-              { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/students-studying_9e8fed77.png" },
+              { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/pillar-education_7b8b8d1c.png" },
             ].map((pillar, i) => (
               <div key={i} className="group relative overflow-hidden rounded-lg">
                 <div className="aspect-[4/3] overflow-hidden">
