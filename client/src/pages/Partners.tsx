@@ -1,53 +1,59 @@
 /*
  * SCF Partners Page — Documentary Realism Design
  * Content from SCF Deck — partner organizations
+ * 3x3 logo grid for Who We Work With section
  */
 import { Link } from "wouter";
 import { AnimatedSection } from "@/components/AnimatedSection";
-import { ArrowRight, MapPin, Globe } from "lucide-react";
+import { ArrowRight, Globe } from "lucide-react";
 
-const PARTNERS = [
+const PARTNER_LOGOS = [
   {
-    name: "Remote Area Medical (RAM)",
-    region: "United States & Global",
-    focus: "Healthcare Access",
-    desc: "Remote Area Medical is a major nonprofit provider of free pop-up clinics delivering free dental, vision, and medical care to underserved communities. RAM operates in the U.S. and globally, reaching those who need it most.",
-    img: "/manus-storage/dental-care_c155dd88.png",
+    name: "Charity Vision",
+    formerName: "Deseret International",
+    logo: "/manus-storage/logo-charity-vision_0f8be18e.png",
+    url: "https://www.charityvision.org",
   },
   {
-    name: "Remote Area Medical Peru (RAMP)",
-    region: "Peru",
-    focus: "Healthcare & Surgery",
-    desc: "RAMP provides free healthcare and surgical care in remote areas of Peru, including cleft palate repairs, clubfoot corrections, and essential medical services for children and families.",
-    img: "/manus-storage/peru-family_e1da7a0a.png",
+    name: "The Humble Village",
+    logo: "/manus-storage/logo-humble-village_b2a5c825.webp",
+    url: "https://www.the-humble-village.org",
   },
   {
-    name: "Remote Area Medical Philippines (RAMP)",
-    region: "Philippines",
-    focus: "Healthcare & Nutrition",
-    desc: "RAMP Philippines delivers healthcare, feeding programs, and surgical care to vulnerable communities across the Philippines, focusing on children and families in remote areas.",
-    img: "/manus-storage/feeding-program_2769e285.png",
+    name: "Pathway India",
+    logo: "/manus-storage/logo-pathway-india_2f167b0f.png",
+    url: "https://www.pathwayindia.org",
   },
   {
-    name: "Remote Area Medical India (RAMI)",
-    region: "India",
-    focus: "Eye Surgery & Healthcare",
-    desc: "RAMI provides cataract surgeries, eye care, and essential healthcare to underserved communities in India. A single cataract surgery costs just $26 and can restore sight to a child or parent.",
-    img: "/manus-storage/eye-exam_3ebe0d11.png",
+    name: "Hope Projects",
+    logo: "/manus-storage/logo-hope-projects_3ff5121d.png",
+    url: "https://www.hopeprojects.com",
   },
   {
-    name: "Remote Area Medical Guatemala",
-    region: "Guatemala",
-    focus: "Maternal & Child Health",
-    desc: "Operating in Guatemala, this partnership focuses on maternal and child health, nutrition programs, and essential healthcare for indigenous communities.",
-    img: "/manus-storage/mother-reading_5819beb4.jpg",
+    name: "Rise and Rebuild",
+    logo: "/manus-storage/logo-rise-rebuild_4f129faa.jpg",
+    url: "https://www.riserebuildinc.org",
   },
   {
-    name: "Remote Area Medical Africa",
-    region: "Uganda & East Africa",
-    focus: "Healthcare, Water & Education",
-    desc: "Across East Africa, SCF partners deliver healthcare, clean water systems, nutrition programs, and educational support to communities in Uganda and surrounding regions.",
-    img: "/manus-storage/africa-community_e5d09f33.png",
+    name: "Rising Star Outreach",
+    logo: "/manus-storage/logo-rising-star_1360bac1.png",
+    url: "https://risingstaroutreach.org",
+  },
+  {
+    name: "Global Communities",
+    formerName: "Project Concern International",
+    logo: "/manus-storage/logo-global-communities_6e6ce44f.png",
+    url: "https://globalcommunities.org",
+  },
+  {
+    name: "Catholic Charities",
+    logo: "/manus-storage/logo-catholic-charities_29c96e5f.png",
+    url: "https://www.catholiccharitiesusa.org",
+  },
+  {
+    name: "The Church of Jesus Christ of Latter-day Saints",
+    logo: "/manus-storage/logo-lds-church_59e1ba88.png",
+    url: "https://www.churchofjesuschrist.org",
   },
 ];
 
@@ -103,31 +109,38 @@ export default function Partners() {
         </div>
       </AnimatedSection>
 
-      {/* Partner Organizations */}
+      {/* Who We Work With — 3x3 Partner Logo Grid */}
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
-          <div className="text-center mb-14">
+          <div className="text-center mb-16">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Organizations</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Who We Work With</h2>
           </div>
-          <div className="space-y-12">
-            {PARTNERS.map((partner, i) => (
-              <div key={i} className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center`}>
-                <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <div className="overflow-hidden rounded-lg aspect-[16/10]">
-                    <img src={partner.img} alt={partner.name} className="w-full h-full object-cover" />
-                  </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {PARTNER_LOGOS.map((partner, i) => (
+              <a
+                key={i}
+                href={partner.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center justify-center bg-[#FDF8F0] border border-gray-100 rounded-lg p-8 hover:shadow-lg hover:border-[#D4A853]/30 transition-all duration-300"
+              >
+                <div className="h-24 w-full flex items-center justify-center mb-5">
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="max-h-full max-w-[200px] object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
                 </div>
-                <div className={i % 2 === 1 ? "lg:order-1" : ""}>
-                  <div className="flex items-center gap-2 mb-3">
-                    <MapPin className="text-[#D4A853]" size={16} />
-                    <span className="font-body text-[#D4A853] text-sm font-semibold tracking-wide">{partner.region}</span>
-                  </div>
-                  <h3 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-2">{partner.name}</h3>
-                  <p className="font-body text-[#3e4c59]/60 text-sm font-semibold uppercase tracking-wider mb-4">{partner.focus}</p>
-                  <p className="font-body text-[#3e4c59] text-base leading-relaxed">{partner.desc}</p>
-                </div>
-              </div>
+                <h3 className="font-display text-[#12365a] text-base font-bold text-center leading-snug">
+                  {partner.name}
+                </h3>
+                {partner.formerName && (
+                  <p className="font-body text-[#3e4c59]/50 text-xs text-center mt-1">
+                    formerly {partner.formerName}
+                  </p>
+                )}
+              </a>
             ))}
           </div>
         </div>
