@@ -52,10 +52,10 @@ const PARTNERS = [
 ];
 
 const REGIONS = [
-  { name: "Central America", countries: "Guatemala, Honduras" },
+  { name: "Central America", countries: "Guatemala, El Salvador, Nicaragua" },
   { name: "South America", countries: "Peru, Bolivia" },
-  { name: "Africa", countries: "Uganda, Kenya, Ethiopia, Tanzania, Malawi" },
-  { name: "Asia", countries: "India, Philippines, Nepal, Myanmar" },
+  { name: "Africa", countries: "Egypt, Uganda, Kenya, Ethiopia, Tanzania, Zambia, Zimbabwe" },
+  { name: "Asia", countries: "India, Philippines, Nepal, Pakistan, Thailand, China" },
 ];
 
 export default function Partners() {
