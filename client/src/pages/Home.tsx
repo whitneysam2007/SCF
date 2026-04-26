@@ -265,10 +265,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {[
-              { icon: Stethoscope, title: "Essential Healthcare Access", desc: "Clinics, mobile health vans, and hospitals providing care to underserved communities.", img: "/manus-storage/elderly-care_12dcb885.png" },
-              { icon: Heart, title: "Safe Care for Vulnerable Children", desc: "Children's homes, orphanages, and support programs giving children safety and hope.", img: "/manus-storage/children-closeup_b4553241.png" },
+              { icon: Stethoscope, title: "Essential Healthcare Access", desc: "Clinics, mobile health vans, and hospitals providing care to underserved communities.", img: "/manus-storage/pillar-healthcare_f9271335.png" },
+              { icon: Heart, title: "Safe Care for Vulnerable Children", desc: "Children's homes, orphanages, and support programs giving children safety and hope.", img: "/manus-storage/pillar-safe-care_924b56c5.png" },
               { icon: Baby, title: "Maternal & Child Nutrition", desc: "Programs helping severely malnourished children recover and thrive.", img: "/manus-storage/mother-baby_f6648b22.jpg" },
-              { icon: Droplets, title: "Clean Water, Sanitation & Hygiene", desc: "Fresh water wells and sanitation systems bringing safe water to communities.", img: "/manus-storage/children-water_f6e57a45.png" },
+              { icon: Droplets, title: "Clean Water, Sanitation & Hygiene", desc: "Fresh water wells and sanitation systems bringing safe water to communities.", img: "/manus-storage/pillar-clean-water_b4023a4b.png" },
               { icon: Eye, title: "Life-Changing Surgeries & Specialty Care", desc: "Cleft palate repairs, eye surgeries, clubfoot corrections, and prosthetics.", img: "/manus-storage/surgery-room_5bf1238e.png" },
               { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/students-studying_9e8fed77.png" },
             ].map((pillar, i) => (
