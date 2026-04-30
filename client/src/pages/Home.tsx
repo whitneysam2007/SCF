@@ -348,7 +348,7 @@ export default function Home() {
               <p className="font-body text-white/80 text-lg leading-relaxed mb-6">
                 Angels of Light is a small group of committed partners who work together to multiply the reach of Sabin Children's Foundation. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-8">
                 {[
                   { title: "Flexible", desc: "Choose the participation level that fits your life — 1%, 5%, 10%, or a set annual gift." },
                   { title: "Community", desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving." },
