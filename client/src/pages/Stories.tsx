@@ -143,14 +143,14 @@ export default function Stories() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {[
-              "/manus-storage/child-portrait_6768515f.png",
+              "/manus-storage/child-portrait-crop_a19c0ab0.png",
               "/manus-storage/girl-glasses_f44b1d2b.png",
               "/manus-storage/boy-glasses_8817b354.png",
-              "/manus-storage/child-smile_91f0043d.png",
+              "/manus-storage/child-smile-crop_e17f6b11.png",
               "/manus-storage/woman-headscarf_c6340b22.png",
               "/manus-storage/young-woman_db6e5b49.png",
               "/manus-storage/children-india_3608c2d6.png",
-              "/manus-storage/children-sitting_cb5abcb1.png",
+              "/manus-storage/children-sitting-crop_afcc347f.png",
             ].map((src, i) => (
               <div key={i} className="overflow-hidden rounded-lg aspect-square">
                 <img src={src} alt="SCF beneficiary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
