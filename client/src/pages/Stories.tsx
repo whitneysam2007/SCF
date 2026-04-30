@@ -11,7 +11,7 @@ const STORIES = [
     title: "Restoring Sight for $26",
     location: "India",
     category: "Eye Surgery",
-    img: "/manus-storage/eye-exam-cataract_276aefa3.png",
+    img: "/manus-storage/eye-exam-cataract-crop_dd51a909.png",
     text: "In India, a cataract surgery costs just $26 — and it can restore sight to a child or parent. Through our partnership with RAMI, thousands of people have received life-changing eye care, including cataract surgeries, eye exams, and corrective lenses.",
   },
   {
