@@ -37,7 +37,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/children-group_e1e72738.png" alt="Children together" className="w-full h-full object-cover" />
+          <img src="/manus-storage/contact-hero-crop_90ef7c64.png" alt="Children eating at school with teachers" className="w-full h-full object-cover object-top" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/85 via-[#0a1428]/60 to-[#0a1428]/30" />
         </div>
         <div className="relative container pt-28 pb-16">
