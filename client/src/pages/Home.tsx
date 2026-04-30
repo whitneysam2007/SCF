@@ -189,7 +189,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <img src="/manus-storage/venture-philanthropy_24734dad.jpg" alt="SCF community health screening" className="rounded-lg shadow-2xl w-full object-cover" />
+              <img src="/manus-storage/venture-philanthropy2_ecca59c3.jpg" alt="Mother and child in rural home" className="rounded-lg shadow-2xl w-full object-cover" />
               <div className="absolute -bottom-6 -left-6 bg-[#12365a] text-white p-6 rounded-lg shadow-xl max-w-[240px]">
                 <p className="font-stat text-[#D4A853] text-3xl font-bold mb-1">100%</p>
                 <p className="font-body text-white/80 text-sm">Donation model — every dollar goes directly to programs</p>
