@@ -41,7 +41,7 @@ export default function About() {
               </p>
             </div>
             <div >
-              <img src="/manus-storage/girls-smiling_a37fc95e.png" alt="Girls smiling" className="rounded-lg shadow-2xl w-full" />
+              <img src="/manus-storage/about-hero-child_09758f14.jpg" alt="Child looking up with hope" className="rounded-lg shadow-2xl w-full object-cover" style={{aspectRatio: '3/4', maxHeight: '520px'}} />
             </div>
           </div>
         </div>
