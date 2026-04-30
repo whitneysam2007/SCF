@@ -334,7 +334,7 @@ export default function AngelsOfLight() {
                 </p>
                 <div className="text-center inline-block">
                   <p className="font-stat text-[#D4A853] text-2xl font-bold">$3,000</p>
-                  <p className="font-body text-[#3e4c59] text-sm">Joy and Laughter</p>
+
                 </div>
               </div>
               <div className="order-1 lg:order-2">
