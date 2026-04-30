@@ -18,7 +18,7 @@ const STORIES = [
     title: "Nutrition Programs That Save Lives",
     location: "Guatemala",
     category: "Nutrition",
-    img: "/manus-storage/feeding-programs-photo_db0f5f5d.jpg",
+    img: "/manus-storage/nutrition-family_b45b572b.jpg",
     text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
   },
   {
