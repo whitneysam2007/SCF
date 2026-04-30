@@ -32,7 +32,7 @@ const STORIES = [
     title: "A New Smile, A New Life",
     location: "Peru",
     category: "Surgery",
-    img: "/manus-storage/peru-family_e1da7a0a.png",
+    img: "/manus-storage/cleft-palate-before-after_bafa9a34.png",
     text: "For $100, a cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
   },
   {
