@@ -348,17 +348,15 @@ export default function Home() {
               <p className="font-body text-white/80 text-lg leading-relaxed mb-6">
                 Angels of Light is a small group of committed partners who work together to multiply the reach of Sabin Children's Foundation. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
               </p>
-              <div className="grid grid-cols-1 gap-4 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
                 {[
                   { title: "Flexible", desc: "Choose the participation level that fits your life — 1%, 5%, 10%, or a set annual gift." },
                   { title: "Community", desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving." },
                   { title: "Transparent", desc: "100% of your gift reaches programs. Receive real stories, real numbers, and the invitation to visit." },
                 ].map((item, i) => (
-                  <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-5 flex gap-4 items-start">
-                    <div>
-                      <h3 className="font-display text-[#D4A853] text-base font-bold mb-1">{item.title}</h3>
-                      <p className="font-body text-white/60 text-sm leading-relaxed">{item.desc}</p>
-                    </div>
+                  <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-5">
+                    <h3 className="font-display text-[#D4A853] text-base font-bold mb-2">{item.title}</h3>
+                    <p className="font-body text-white/60 text-sm leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>
