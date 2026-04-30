@@ -15,11 +15,11 @@ const STORIES = [
     text: "In India, a cataract surgery costs just $26 — and it can restore sight to a child or parent. Through our partnership with RAMI, thousands of people have received life-changing eye care, including cataract surgeries, eye exams, and corrective lenses.",
   },
   {
-    title: "Feeding Programs That Save Lives",
-    location: "Philippines",
+    title: "Nutrition Programs That Save Lives",
+    location: "Guatemala",
     category: "Nutrition",
     img: "/manus-storage/feeding-programs-photo_db0f5f5d.jpg",
-    text: "For just $8 per month, a child can receive the nutrition they need to survive and thrive. Our feeding programs in the Philippines provide daily meals to severely malnourished children, helping them recover and grow strong.",
+    text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
   },
   {
     title: "Clean Water Changes Everything",
