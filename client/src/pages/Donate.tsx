@@ -41,10 +41,10 @@ export default function Donate() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-14">
             {[
-              { cost: "$26", label: "Cataract Surgery", desc: "Restoring sight to a child or parent", img: "/manus-storage/elderly-smile_d9daed33.png" },
-              { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition", img: "/manus-storage/feeding-program_2769e285.png" },
-              { cost: "$30", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "/manus-storage/medical-africa_f532dea5.png" },
-              { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile", img: "/manus-storage/peru-family_e1da7a0a.png" },
+              { cost: "$26", label: "Cataract Surgery", desc: "Restoring sight to a child or parent", img: "/manus-storage/donate-cataract-crop_7101dc09.jpg" },
+              { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition", img: "/manus-storage/donate-nutrition-crop_b1f27dc0.jpg" },
+              { cost: "$30", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "/manus-storage/donate-clubfoot-crop_2c4f7335.png" },
+              { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile", img: "/manus-storage/donate-cleft-crop_f1090178.png" },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                 <div className="aspect-[4/3] overflow-hidden">
