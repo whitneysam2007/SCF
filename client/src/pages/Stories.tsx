@@ -18,7 +18,7 @@ const STORIES = [
     title: "Feeding Programs That Save Lives",
     location: "Philippines",
     category: "Nutrition",
-    img: "/manus-storage/feeding-program_2769e285.png",
+    img: "/manus-storage/feeding-programs-photo_db0f5f5d.jpg",
     text: "For just $8 per month, a child can receive the nutrition they need to survive and thrive. Our feeding programs in the Philippines provide daily meals to severely malnourished children, helping them recover and grow strong.",
   },
   {
