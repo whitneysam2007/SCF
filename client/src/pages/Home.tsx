@@ -125,7 +125,7 @@ export default function Home() {
               "If we hope to change the world, we have to begin with the children."
             </p>
             <cite className="font-body text-[#D4A853] text-base md:text-lg not-italic font-semibold tracking-wide">
-              — Gary B. Sabin, Founder and Chairman
+              Gary B. Sabin
             </cite>
           </blockquote>
         </div>
