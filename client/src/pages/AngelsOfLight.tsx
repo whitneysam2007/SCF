@@ -49,11 +49,11 @@ export default function AngelsOfLight() {
             The Angels of Light Initiative
           </p>
           <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-            A Community of Leaders
+            A Community of Angels
             <span className="block text-[#D4A853]">Expanding Life-Saving Impact</span>
           </h1>
           <p className="font-body text-white/80 text-lg max-w-2xl">
-            A community of leaders working together to expand life-saving impact for those in need.
+            A community of Angels working together to expand life-saving impact for those in need.
           </p>
           <a
             href="#become-angel"
