@@ -75,7 +75,7 @@ export default function Donate() {
               <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Together We Can Go Further</h2>
               <p className="font-body text-white/80 text-lg leading-relaxed mb-8">
-                Angels of Light is a small group of committed partners who work together to multiply the reach of Sabin Children's Foundation. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
+                Angels of Light is a small group of Angels who work together to multiply the reach of Sabin Children's Foundation. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
               </p>
               <div className="space-y-4 mb-8">
                 {[
