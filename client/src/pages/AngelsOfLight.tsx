@@ -87,8 +87,8 @@ export default function AngelsOfLight() {
             </div>
             <div>
               <img
-                src="/manus-storage/farming_150bcdd8.png"
-                alt="Sustainable farming impact"
+                src="/manus-storage/aol-multiply-boy-crop_f244b1e0.png"
+                alt="Child smiling"
                 className="rounded-lg shadow-2xl w-full"
               />
             </div>
