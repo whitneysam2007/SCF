@@ -22,13 +22,6 @@ const STORIES = [
     text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
   },
   {
-    title: "Clean Water Changes Everything",
-    location: "Uganda",
-    category: "Clean Water",
-    img: "/manus-storage/children-water_f6e57a45.png",
-    text: "A single well can bring clean water to an entire village. In Uganda and across East Africa, SCF partners install fresh water wells and sanitation systems that transform communities, reducing disease and giving children the chance to attend school instead of walking miles for water.",
-  },
-  {
     title: "A New Smile, A New Life",
     location: "Peru",
     category: "Surgery",
@@ -55,6 +48,13 @@ const STORIES = [
     category: "Surgery",
     img: "/manus-storage/clubfoot_sidebyside_6e6c240e.jpg",
     text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes. Cost: $30.",
+  },
+  {
+    title: "Clean Water Changes Everything",
+    location: "Uganda",
+    category: "Clean Water",
+    img: "/manus-storage/children-water_f6e57a45.png",
+    text: "A single well can bring clean water to an entire village. In Uganda and across East Africa, SCF partners install fresh water wells and sanitation systems that transform communities, reducing disease and giving children the chance to attend school instead of walking miles for water.",
   },
 ];
 
