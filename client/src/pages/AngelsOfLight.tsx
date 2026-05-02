@@ -308,11 +308,16 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
-              <div className="lg:col-span-2">
+              <div className="lg:col-span-2 flex flex-col gap-4">
                 <img
-                  src="/manus-storage/volunteer-africa_0323e985.png"
-                  alt="Volunteer with children"
-                  className="rounded-lg shadow-lg w-full"
+                  src="/manus-storage/rising-star-1_f1f91089.jpg"
+                  alt="Becky with Rising Star Outreach students in India"
+                  className="rounded-lg shadow-lg w-full object-cover"
+                />
+                <img
+                  src="/manus-storage/rising-star-2_a5fb59df.jpg"
+                  alt="Becky hugging two Rising Star students"
+                  className="rounded-lg shadow-lg w-full object-cover"
                 />
               </div>
               <div className="lg:col-span-3">
