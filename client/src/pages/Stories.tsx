@@ -39,7 +39,7 @@ const STORIES = [
     title: "Abandoned Orphans in India",
     location: "India",
     category: "Child Care",
-    img: "/manus-storage/orphans-girls-only_10d3bc2a.jpg",
+    img: "/manus-storage/gary-orphans_51388a11.jpg",
     text: "Huddled beside their mother's lifeless body in a roadside gutter, three young girls were found alone and frightened as people passed by. They were brought to Pathway in India, where they found safety, care, and a loving family. Today, the sisters are flourishing — growing up with hope for a brighter future.",
   },
   {
@@ -143,7 +143,7 @@ export default function Stories() {
               <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="overflow-hidden rounded-lg shadow-xl">
-                    <img src={story.img} alt={story.title} className="w-full aspect-[16/10] object-cover" />
+                    <img src={story.img} alt={story.title} className="w-full aspect-[4/3] object-cover" />
                   </div>
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
