@@ -70,7 +70,7 @@ export default function Partners() {
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/partners-hero_9633efce.png" alt="Volunteers with children" className="w-full h-full object-cover" />
+          <img src="/manus-storage/partners-banner-1-clean_356cbae3.png" alt="Two nurses in a mobile medical van" className="w-full h-full object-cover object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/85 via-[#0a1428]/60 to-[#0a1428]/30" />
         </div>
         <div className="relative container pt-28 pb-16">
