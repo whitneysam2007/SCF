@@ -41,6 +41,7 @@ const STORIES = [
     category: "Child Care",
     img: "/manus-storage/gary-orphans_51388a11.jpg",
     objectPosition: "top",
+    aspectRatio: "3/4",
     text: "Huddled beside their mother's lifeless body in a roadside gutter, three young girls were found alone and frightened as people passed by. They were brought to Pathway in India, where they found safety, care, and a loving family. Today, the sisters are flourishing — growing up with hope for a brighter future.",
   },
   {
@@ -144,7 +145,7 @@ export default function Stories() {
               <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="overflow-hidden rounded-lg shadow-xl">
-                    <img src={story.img} alt={story.title} className="w-full aspect-[4/3] object-cover" style={{ objectPosition: (story as any).objectPosition || 'center' }} />
+                    <img src={story.img} alt={story.title} className="w-full object-cover" style={{ objectPosition: (story as any).objectPosition || 'center', aspectRatio: (story as any).aspectRatio || '4/3' }} />
                   </div>
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
