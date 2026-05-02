@@ -44,6 +44,7 @@ export function AnimatedSection({
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? "translateY(0)" : "translateY(24px)",
         transition: "opacity 0.7s cubic-bezier(0.25,0.1,0.25,1), transform 0.7s cubic-bezier(0.25,0.1,0.25,1)",
+        backgroundColor: "#f5f7fb",
       }}
     >
       {children}
