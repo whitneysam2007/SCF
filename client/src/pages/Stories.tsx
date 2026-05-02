@@ -13,6 +13,8 @@ const STORIES = [
     category: "Eye Surgery",
     img: "/manus-storage/cataract-mother-cropped_37f34fe8.jpg",
     text: "This young mother saw her children for the first time thanks to a cataract surgery that cost $26.",
+    stat: "$26",
+    statLabel: "Restores sight",
   },
   {
     title: "Nutrition Programs That Save Lives",
@@ -20,6 +22,8 @@ const STORIES = [
     category: "Nutrition",
     img: "/manus-storage/nutrition-girl-face_2cad4fee.jpg",
     text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
+    stat: "$8/mo",
+    statLabel: "Saves a child from malnutrition",
   },
   {
     title: "A New Smile, A New Life",
@@ -27,13 +31,17 @@ const STORIES = [
     category: "Surgery",
     img: "/manus-storage/cleft-palate-clean_d0b5286c.png",
     text: "For $100, a cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
+    stat: "$100",
+    statLabel: "Cleft palate surgery",
   },
   {
     title: "Asa's Children: All Born Blind",
     location: "Pakistan",
     category: "Eye Surgery",
     img: "/manus-storage/asa-family-clean2_49decb9f.jpg",
-    text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time. Cost: $50 per child.",
+    text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time.",
+    stat: "$50",
+    statLabel: "Per child, restores sight",
   },
   {
     title: "Abandoned Orphans in India",
@@ -49,7 +57,9 @@ const STORIES = [
     location: "Philippines",
     category: "Surgery",
     img: "/manus-storage/clubfoot_sidebyside_6e6c240e.jpg",
-    text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes. Cost: $30.",
+    text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes.",
+    stat: "$30",
+    statLabel: "Corrects a child's foot",
   },
   {
     title: "Clean Water Changes Everything",
@@ -57,6 +67,8 @@ const STORIES = [
     category: "Clean Water",
     img: "/manus-storage/children-water_f6e57a45.png",
     text: "A single well can bring clean water to an entire village. In Uganda and across East Africa, SCF partners install fresh water wells and sanitation systems that transform communities, reducing disease and giving children the chance to attend school instead of walking miles for water.",
+    stat: "$5,000–$12,000",
+    statLabel: "Brings clean water to a community",
   },
 ];
 
@@ -154,7 +166,15 @@ export default function Stories() {
                     <span className="font-body text-[#3e4c59]/50 text-sm">{story.location}</span>
                   </div>
                   <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
-                  <p className="font-body text-[#3e4c59] text-base md:text-lg leading-relaxed">{story.text}</p>
+                  <p className="font-body text-[#3e4c59] text-base md:text-lg leading-relaxed mb-6">{story.text}</p>
+                  {(story as any).stat && (
+                    <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
+                      <div>
+                        <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">{(story as any).stat}</p>
+                        <p className="font-body text-[#12365a] text-sm font-semibold mt-1">{(story as any).statLabel}</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </article>
             ))}
