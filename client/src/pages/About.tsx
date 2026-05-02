@@ -6,6 +6,29 @@ import { Link } from "wouter";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { ArrowRight } from "lucide-react";
 
+const teamMembers = [
+  { name: "Gary Sabin", role: "Founder & Chairman", img: "/manus-storage/Gary_Sabin_Square-e1557441395765_1b8727f8.jpeg" },
+  { name: "Valerie Sabin", role: "Director", img: "/manus-storage/Gary-and-Val-Sabin_f9be02ec.jpg" },
+  { name: "Eric Ottesen", role: "President", img: "/manus-storage/Eric-Ottesen_0d73a20f.jpg" },
+  { name: "Spencer Plumb", role: "Vice President", img: "/manus-storage/IMG_8562-1-e1557441692941_b5ff3e3f.jpg" },
+  { name: "Kimberly Sabin Plumb", role: "Director", img: "/manus-storage/Spencer-and-Kim-Plumb_24f3c808.jpg" },
+  { name: "Mark Burton", role: "Vice President", img: "/manus-storage/Mark-Burton_992b7dfc.jpg" },
+  { name: "Van Tengberg", role: "Director", img: "/manus-storage/Van-Tengberg_1af3d39a.jpg" },
+  { name: "Jennifer Sabin Sattley", role: "Director", img: "/manus-storage/Jennifer-Sabin-Sattley_df244b88.jpg" },
+  { name: "Matt Romney", role: "Director", img: "/manus-storage/Matt_Romney-e1557440827771_c11f6a17.png" },
+  { name: "Steve Henry", role: "Director", img: "/manus-storage/IMG_8631-e1557442294325_8589e70d.jpg" },
+  { name: "Dan Haslam", role: "Director", img: "/manus-storage/IMG_8539-e1557441852358_612e19f6.jpg" },
+  { name: "Rachel Miller", role: "Secretary", img: "/manus-storage/IMG_8637-e1557442471441_c210f945.jpg" },
+];
+
+function TeamAvatar({ name, img }: { name: string; img: string }) {
+  return (
+    <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-4 border-white shadow-lg">
+      <img src={img} alt={name} className="w-full h-full object-cover object-top" />
+    </div>
+  );
+}
+
 export default function About() {
   return (
     <div>
@@ -94,27 +117,19 @@ export default function About() {
         </div>
       </AnimatedSection>
 
-      {/* Leadership */}
+      {/* Meet Our Team */}
       <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Meet Our Team</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            {[
-              { name: "Gary B. Sabin", role: "Founder and Chairman", desc: "Gary B. Sabin founded the Sabin Children's Foundation in 1993 with a vision to transform the lives of children around the world through efficient, impactful humanitarian work.", img: "/manus-storage/gary-founder_663cbf0a.png" },
-              { name: "S. Eric Ottesen", role: "President", desc: "Eric Ottesen serves as President of the Sabin Children's Foundation, overseeing partnerships and programs that deliver life-changing care to children in 18 countries.", img: "/manus-storage/eric-founder-v2_296dc3a8.png" },
-            ].map((person, i) => (
-              <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100">
-                <div className="w-full h-64 overflow-hidden">
-                  <img src={person.img} alt={person.name} className="w-full h-full object-cover object-top" />
-                </div>
-                <div className="p-8">
-                  <h3 className="font-display text-[#12365a] text-xl font-bold mb-1">{person.name}</h3>
-                  <p className="font-body text-[#D4A853] text-sm font-semibold mb-4">{person.role}</p>
-                  <p className="font-body text-[#3e4c59] text-sm leading-relaxed">{person.desc}</p>
-                </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 max-w-5xl mx-auto">
+            {teamMembers.map((person, i) => (
+              <div key={i} className="text-center">
+                <TeamAvatar name={person.name} img={person.img} />
+                <h3 className="font-display text-[#12365a] text-base font-bold mb-1">{person.name}</h3>
+                <p className="font-body text-[#D4A853] text-sm font-semibold">{person.role}</p>
               </div>
             ))}
           </div>
