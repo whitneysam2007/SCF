@@ -48,7 +48,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/manus-storage/hero-children-eating_4cc82ba0.jpg"
+            src="/manus-storage/hi-6_7997798d.webp"
             alt="Children smiling"
             className="w-full h-full object-cover"
           />
