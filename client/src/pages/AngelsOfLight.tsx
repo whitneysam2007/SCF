@@ -350,7 +350,7 @@ export default function AngelsOfLight() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="overflow-hidden rounded-lg">
               <img
-                src="/manus-storage/lusaka-1_7aae0148.jpg"
+                src="/manus-storage/lusaka-3_d337782e.jpg"
                 alt="Children carrying babies on their backs in Lusaka, Zambia"
                 className="w-full h-full object-cover"
               />
