@@ -217,53 +217,6 @@ export default function AngelsOfLight() {
           </div>
 
           <div className="space-y-16 max-w-5xl mx-auto">
-            {/* Story 1 — Fighting Blindness */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <div>
-                <img
-                  src="/manus-storage/eye-exam_3ebe0d11.png"
-                  alt="Eye examination"
-                  className="rounded-lg shadow-lg w-full"
-                />
-              </div>
-              <div>
-                <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Fighting Blindness in Pakistan</h3>
-                <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-4">
-                  In Faisalabad, Pakistan, thousands of children and adults face preventable blindness caused by untreated retinal disease. Through a partnership with Charity Vision, Sabin Children's Foundation funded a retinopathy laser clinic and state-of-the-art equipment, allowing doctors to diagnose and treat patients before vision is permanently lost.
-                </p>
-                <div className="flex gap-6">
-                  <div className="text-center">
-                    <p className="font-stat text-[#D4A853] text-2xl font-bold">$3</p>
-                    <p className="font-body text-[#3e4c59] text-sm">Cost of Glasses</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-stat text-[#D4A853] text-2xl font-bold">$50</p>
-                    <p className="font-body text-[#3e4c59] text-sm">Cost of Surgery</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Story 2 — Orphaned Children in India */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <div className="order-2 lg:order-1">
-                <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">A Home and Education for Orphaned Children</h3>
-                <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-4">
-                  In rural India, hundreds of orphaned children once faced an uncertain future without stable homes, education, or support. Through Sabin Children's Foundation's support, the Sabin Home for Children and Pathway School were built to provide a safe place to live, learn, and grow.
-                </p>
-                <p className="font-body text-[#3e4c59] text-base leading-relaxed">
-                  Today, 450 children receive housing, education, medical care, and opportunities in art, music, and athletics on a peaceful campus surrounded by mango and coconut trees, rice fields, and vegetable gardens that help sustain the community.
-                </p>
-              </div>
-              <div className="order-1 lg:order-2">
-                <img
-                  src="/manus-storage/girl-school_bdc67035.png"
-                  alt="Children at school"
-                  className="rounded-lg shadow-lg w-full"
-                />
-              </div>
-            </div>
-
             {/* Story 3 — Domestic Abuse Survivor */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
