@@ -112,6 +112,47 @@ export default function Stories() {
         </div>
       </AnimatedSection>
 
+      {/* Video Stories */}
+      <AnimatedSection className="py-20 md:py-28 bg-white">
+        <div className="container">
+          <div className="text-center mb-14">
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Short Films</p>
+            <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Stories in Their Own Words</h2>
+            <p className="font-body text-[#3e4c59] text-lg mt-4 max-w-2xl mx-auto">Watch the people and projects behind the numbers.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+            {[
+              { title: "Charity Vision", desc: "Restoring sight to thousands through affordable eye care.", videoId: "PZNsjotMgEE" },
+              { title: "Rising Star", desc: "A child's journey from vulnerability to hope.", videoId: "9X_XSnYdBJM" },
+              { title: "The Humble Village", desc: "How one community's life changed with clean water and support.", videoId: "U-Dxz4URuT0" },
+              { title: "Pathway", desc: "Coming soon.", videoId: null },
+            ].map((video, i) => (
+              <div key={i} className="rounded-lg overflow-hidden shadow-lg border border-gray-100">
+                {video.videoId ? (
+                  <div className="aspect-video">
+                    <iframe
+                      src={`https://www.youtube.com/embed/${video.videoId}`}
+                      title={video.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
+                  </div>
+                ) : (
+                  <div className="aspect-video bg-[#12365a] flex items-center justify-center">
+                    <p className="font-body text-white/60 text-sm">Video coming soon</p>
+                  </div>
+                )}
+                <div className="p-5 bg-white">
+                  <h3 className="font-display text-[#12365a] text-lg font-bold mb-1">{video.title}</h3>
+                  <p className="font-body text-[#3e4c59] text-sm">{video.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Impact Numbers */}
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
