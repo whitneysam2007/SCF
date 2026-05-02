@@ -123,7 +123,7 @@ export default function AngelsOfLight() {
               {
                 title: "Lives Change",
                 desc: "You receive clear reporting and measurable results, showing the real impact your support creates around the world.",
-                img: "/manus-storage/children-india_3608c2d6.png",
+                img: "/manus-storage/guatemala-family-garden_4ce7b931.jpg",
               },
             ].map((step, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:bg-white/10 transition-colors">
