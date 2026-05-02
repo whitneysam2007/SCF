@@ -213,7 +213,7 @@ export default function Stories() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {[
-              "/manus-storage/child-portrait-crop_a19c0ab0.png",
+              "/manus-storage/faces-of-hope-kids_f48425ed.png",
               "/manus-storage/girl-glasses_f44b1d2b.png",
               "/manus-storage/boy-glasses_8817b354.png",
               "/manus-storage/child-smile-crop_e17f6b11.png",
