@@ -67,7 +67,7 @@ export default function AngelsOfLight() {
       {/* What is Angels of Light */}
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-stretch">
             <div>
               <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
                 About the Initiative
@@ -85,11 +85,12 @@ export default function AngelsOfLight() {
                 Together, Angels of Light allow us to move faster, reach more children, and support more life-saving programs than any individual could alone.
               </p>
             </div>
-            <div className="flex items-end self-stretch">
+            <div className="min-h-full">
               <img
                 src="/manus-storage/aol-multiply-boy-crop_f244b1e0.png"
                 alt="Child smiling"
                 className="rounded-lg shadow-2xl w-full h-full object-cover object-top"
+                style={{ minHeight: '100%' }}
               />
             </div>
           </div>
