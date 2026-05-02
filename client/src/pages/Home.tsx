@@ -132,7 +132,7 @@ export default function Home() {
       </AnimatedSection>
 
       {/* ===== THE PROBLEM ===== */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-16">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
@@ -228,7 +228,7 @@ export default function Home() {
       </AnimatedSection>
 
       {/* ===== IMPACT STATS ===== */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Global Impact</p>
@@ -312,7 +312,7 @@ export default function Home() {
       </AnimatedSection>
 
       {/* ===== IMPACT COSTS ===== */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>

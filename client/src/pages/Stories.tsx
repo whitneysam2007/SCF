@@ -88,7 +88,7 @@ export default function Stories() {
       </AnimatedSection>
 
       {/* Stories */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="space-y-20">
             {STORIES.map((story, i) => (
@@ -125,7 +125,7 @@ export default function Stories() {
               { cost: "$30", label: "Clubfoot Surgery" },
               { cost: "$100", label: "Cleft Palate Surgery" },
             ].map((item, i) => (
-              <div key={i} className="text-center p-6 bg-[#FDF8F0] rounded-lg">
+              <div key={i} className="text-center p-6 bg-[#f5f7fb] rounded-lg">
                 <p className="font-stat text-[#D4A853] text-3xl font-bold mb-2">{item.cost}</p>
                 <p className="font-display text-[#12365a] text-sm font-bold">{item.label}</p>
               </div>
@@ -135,7 +135,7 @@ export default function Stories() {
       </AnimatedSection>
 
       {/* Photo Gallery */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Gallery</p>

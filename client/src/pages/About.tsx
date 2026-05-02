@@ -50,7 +50,7 @@ export default function About() {
       </section>
 
       {/* One Drop at a Time */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
@@ -94,7 +94,7 @@ export default function About() {
       </AnimatedSection>
 
       {/* Meet Our Team */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>

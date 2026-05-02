@@ -88,7 +88,7 @@ export default function Partners() {
       </section>
 
       {/* Global Reach */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Global Reach</p>
@@ -132,7 +132,7 @@ export default function Partners() {
                 href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex flex-col items-center justify-center bg-[#FDF8F0] border border-gray-100 rounded-lg p-8 hover:shadow-lg hover:border-[#D4A853]/30 transition-all duration-300"
+                className="group flex flex-col items-center justify-center bg-[#f5f7fb] border border-gray-100 rounded-lg p-8 hover:shadow-lg hover:border-[#D4A853]/30 transition-all duration-300"
               >
                 <div className="h-24 w-full flex items-center justify-center mb-5">
                   <img
