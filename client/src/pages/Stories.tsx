@@ -117,7 +117,7 @@ export default function Stories() {
               { title: "Charity Vision", desc: "Restoring sight to thousands through affordable eye care.", videoId: "PZNsjotMgEE" },
               { title: "Rising Star", desc: "A child's journey from vulnerability to hope.", videoId: "9X_XSnYdBJM" },
               { title: "The Humble Village", desc: "Children suffering from malnutrition, families with no path forward. Watch how SCF partners are changing that — providing food, education, and tools for lasting self-reliance.", videoId: "bh0TpBF26uQ" },
-              { title: "Pathway", desc: "Following the journey of children and families transformed by SCF programs.", videoId: "_CpT8ZJR7TI" },
+              { title: "Pathway", desc: "An orphanage and school for vulnerable and abandoned children in India. Come take a look around.", videoId: "_CpT8ZJR7TI" },
             ].map((video, i) => (
               <div key={i} className="rounded-lg overflow-hidden shadow-lg border border-gray-100">
                 {video.videoId ? (
