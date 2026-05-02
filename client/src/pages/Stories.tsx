@@ -36,11 +36,18 @@ const STORIES = [
     text: "For $100, a cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
   },
   {
-    title: "Education Opens Doors",
-    location: "Multiple Countries",
-    category: "Education",
-    img: "/manus-storage/students-studying_9e8fed77.png",
-    text: "Schools, textbooks, and vocational programs open doors for children who might otherwise never have the opportunity to learn. SCF supports educational initiatives across multiple countries, giving children the tools they need to build a better future.",
+    title: "Asa's Children: All Born Blind",
+    location: "Pakistan",
+    category: "Eye Surgery",
+    img: "/manus-storage/asa-family_8ed2d525.jpg",
+    text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time. Cost: $50 per child.",
+  },
+  {
+    title: "Abandoned Orphans in India",
+    location: "India",
+    category: "Child Care",
+    img: "/manus-storage/gary-orphans_51388a11.jpg",
+    text: "Huddled beside their mother's lifeless body in a roadside gutter, three young girls were found alone and frightened as people passed by. They were brought to Pathway in India, where they found safety, care, and a loving family. Today, the sisters are flourishing — growing up with hope for a brighter future.",
   },
   {
     title: "Clubfoot Surgery",
