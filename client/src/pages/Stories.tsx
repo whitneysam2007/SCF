@@ -10,7 +10,7 @@ const STORIES = [
   {
     title: "Life-changing Cataract Surgery",
     location: "Philippines",
-    category: "Eye Surgery",
+    category: "Surgery",
     img: "/manus-storage/cataract-mother-cropped_37f34fe8.jpg",
     text: "This young mother saw her children for the first time thanks to a cataract surgery.",
     stat: "$26",
@@ -27,7 +27,7 @@ const STORIES = [
   },
   {
     title: "A New Smile, A New Life",
-    location: "Peru",
+    location: "Philippines",
     category: "Surgery",
     img: "/manus-storage/cleft-palate-clean_d0b5286c.png",
     text: "Cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
@@ -37,7 +37,7 @@ const STORIES = [
   {
     title: "Asa's Children: All Born Blind",
     location: "Pakistan",
-    category: "Eye Surgery",
+    category: "Surgery",
     img: "/manus-storage/asa-family-clean2_49decb9f.jpg",
     text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time.",
     stat: "$50",
