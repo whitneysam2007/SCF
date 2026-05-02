@@ -32,14 +32,14 @@ const STORIES = [
     title: "Asa's Children: All Born Blind",
     location: "Pakistan",
     category: "Eye Surgery",
-    img: "/manus-storage/asa-family_8ed2d525.jpg",
+    img: "/manus-storage/asa-family-fixed_7042e391.jpg",
     text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time. Cost: $50 per child.",
   },
   {
     title: "Abandoned Orphans in India",
     location: "India",
     category: "Child Care",
-    img: "/manus-storage/gary-orphans_51388a11.jpg",
+    img: "/manus-storage/orphans-girls-only_10d3bc2a.jpg",
     text: "Huddled beside their mother's lifeless body in a roadside gutter, three young girls were found alone and frightened as people passed by. They were brought to Pathway in India, where they found safety, care, and a loving family. Today, the sisters are flourishing — growing up with hope for a brighter future.",
   },
   {
