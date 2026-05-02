@@ -127,18 +127,15 @@ export default function Partners() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {PARTNER_LOGOS.map((partner, i) => (
-              <a
+              <div
                 key={i}
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col items-center justify-center bg-[#f5f7fb] border border-gray-100 rounded-lg p-8 hover:shadow-lg hover:border-[#D4A853]/30 transition-all duration-300"
+                className="flex flex-col items-center justify-center bg-[#f5f7fb] border border-gray-100 rounded-lg p-8"
               >
                 <div className="h-24 w-full flex items-center justify-center mb-5">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="max-h-full max-w-[200px] object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
+                    className="max-h-full max-w-[200px] object-contain"
                   />
                 </div>
                 <h3 className="font-display text-[#12365a] text-base font-bold text-center leading-snug">
@@ -149,7 +146,7 @@ export default function Partners() {
                     formerly {partner.formerName}
                   </p>
                 )}
-              </a>
+              </div>
             ))}
           </div>
         </div>
