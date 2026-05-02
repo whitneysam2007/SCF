@@ -165,14 +165,14 @@ export default function AngelsOfLight() {
                   icon: "flex",
                 },
                 {
+                  title: "Transparent",
+                  desc: "100% of your gift is applied to our supported programs.",
+                  icon: "transparent",
+                },
+                {
                   title: "Community",
                   desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving.",
                   icon: "community",
-                },
-                {
-                  title: "Transparent",
-                  desc: "100% of your gift reaches programs. Receive real stories, real numbers, and the invitation to visit.",
-                  icon: "transparent",
                 },
               ].map((item, i) => (
                 <div key={i} className="bg-[#12365a] rounded-lg p-8 text-center">
@@ -194,9 +194,9 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-display text-white/90 text-xl md:text-2xl italic leading-relaxed mb-4">
-              "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+              "If you pour yourself out for the hungry and satisfy the desire of the afflicted, then shall your light rise in the darkness."
             </p>
-            <p className="font-body text-[#D4A853] text-base font-semibold">Matthew 5:16</p>
+            <p className="font-body text-[#D4A853] text-base font-semibold">Isaiah 58:10</p>
           </div>
         </div>
       </section>
