@@ -263,7 +263,7 @@ export default function Home() {
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">What We Do</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Our Pillars</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
             {[
               { icon: Stethoscope, title: "Essential Healthcare Access", desc: "Clinics, mobile health vans, and hospitals providing care to underserved communities.", img: "/manus-storage/pillar-healthcare_f9271335.png" },
               { icon: Heart, title: "Safe Care for Vulnerable Children", desc: "Children's homes, orphanages, and support programs giving children safety and hope.", img: "/manus-storage/pillar-safe-care_924b56c5.png" },
@@ -272,11 +272,11 @@ export default function Home() {
               { icon: Eye, title: "Life-Changing Surgeries & Specialty Care", desc: "Cleft palate repairs, eye surgeries, clubfoot corrections, and prosthetics.", img: "/manus-storage/surgery-room_5bf1238e.png" },
               { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/pillar-education_7b8b8d1c.png" },
             ].map((pillar, i) => (
-              <div key={i} className="group relative overflow-hidden rounded-lg">
-                <div className="aspect-[4/3] overflow-hidden">
+              <div key={i} className="group relative overflow-hidden rounded-lg flex flex-col h-full">
+                <div className="aspect-[4/3] overflow-hidden shrink-0">
                   <img src={pillar.img} alt={pillar.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 </div>
-                <div className="p-6 bg-white border border-gray-100">
+                <div className="p-6 bg-white border border-gray-100 flex-1">
                   <div className="flex items-center gap-3 mb-3">
                     <pillar.icon className="text-[#D4A853]" size={22} />
                     <h3 className="font-display text-[#12365a] text-lg font-bold">{pillar.title}</h3>
