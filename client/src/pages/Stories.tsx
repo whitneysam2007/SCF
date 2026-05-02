@@ -8,11 +8,11 @@ import { ArrowRight, Quote } from "lucide-react";
 
 const STORIES = [
   {
-    title: "Cataract Surgery: $26",
-    location: "India",
+    title: "Life-changing Cataract Surgery",
+    location: "Philippines",
     category: "Eye Surgery",
     img: "/manus-storage/cataract-mother_57a242d9.jpg",
-    text: "This young mother saw her children for the first time thanks to a cataract surgery. Cost: $26.",
+    text: "This young mother saw her children for the first time thanks to a cataract surgery that cost $26.",
   },
   {
     title: "Nutrition Programs That Save Lives",
