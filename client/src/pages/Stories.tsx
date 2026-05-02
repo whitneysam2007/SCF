@@ -43,11 +43,11 @@ const STORIES = [
     text: "Schools, textbooks, and vocational programs open doors for children who might otherwise never have the opportunity to learn. SCF supports educational initiatives across multiple countries, giving children the tools they need to build a better future.",
   },
   {
-    title: "Healthcare Without Barriers",
-    location: "Global",
-    category: "Healthcare",
-    img: "/manus-storage/medical-africa_f532dea5.png",
-    text: "Sabin Children's Foundation partners with organizations willing to treat every individual in need. Across cultures, religions, and communities around the world, care is given without discrimination and without exception. Every life has equal value.",
+    title: "Clubfoot Surgery",
+    location: "Philippines",
+    category: "Surgery",
+    img: "/manus-storage/clubfoot_sidebyside_6e6c240e.jpg",
+    text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes. Cost: $30.",
   },
 ];
 
