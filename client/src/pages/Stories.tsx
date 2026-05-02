@@ -74,44 +74,6 @@ export default function Stories() {
         </div>
       </section>
 
-      {/* Quote */}
-      <AnimatedSection className="py-16 md:py-20 bg-[#12365a]">
-        <div className="container text-center">
-          <div className="max-w-3xl mx-auto">
-            <Quote className="text-[#D4A853]/30 mx-auto mb-4" size={48} />
-            <p className="font-display text-white text-2xl md:text-3xl italic leading-relaxed mb-6">
-              "Care without barriers. Every life has equal value."
-            </p>
-            <p className="font-body text-[#D4A853] text-base font-semibold">— Sabin Children's Foundation</p>
-          </div>
-        </div>
-      </AnimatedSection>
-
-      {/* Stories */}
-      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
-        <div className="container">
-          <div className="space-y-20">
-            {STORIES.map((story, i) => (
-              <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-                <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <div className="overflow-hidden rounded-lg shadow-xl">
-                    <img src={story.img} alt={story.title} className="w-full aspect-[16/10] object-cover" />
-                  </div>
-                </div>
-                <div className={i % 2 === 1 ? "lg:order-1" : ""}>
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded">{story.category}</span>
-                    <span className="font-body text-[#3e4c59]/50 text-sm">{story.location}</span>
-                  </div>
-                  <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
-                  <p className="font-body text-[#3e4c59] text-base md:text-lg leading-relaxed">{story.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </AnimatedSection>
-
       {/* Video Stories */}
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
@@ -148,6 +110,44 @@ export default function Stories() {
                   <p className="font-body text-[#3e4c59] text-sm">{video.desc}</p>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Quote */}
+      <AnimatedSection className="py-16 md:py-20 bg-[#12365a]">
+        <div className="container text-center">
+          <div className="max-w-3xl mx-auto">
+            <Quote className="text-[#D4A853]/30 mx-auto mb-4" size={48} />
+            <p className="font-display text-white text-2xl md:text-3xl italic leading-relaxed mb-6">
+              "Care without barriers. Every life has equal value."
+            </p>
+            <p className="font-body text-[#D4A853] text-base font-semibold">— Sabin Children's Foundation</p>
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Stories */}
+      <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
+        <div className="container">
+          <div className="space-y-20">
+            {STORIES.map((story, i) => (
+              <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+                <div className={i % 2 === 1 ? "lg:order-2" : ""}>
+                  <div className="overflow-hidden rounded-lg shadow-xl">
+                    <img src={story.img} alt={story.title} className="w-full aspect-[16/10] object-cover" />
+                  </div>
+                </div>
+                <div className={i % 2 === 1 ? "lg:order-1" : ""}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded">{story.category}</span>
+                    <span className="font-body text-[#3e4c59]/50 text-sm">{story.location}</span>
+                  </div>
+                  <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
+                  <p className="font-body text-[#3e4c59] text-base md:text-lg leading-relaxed">{story.text}</p>
+                </div>
+              </article>
             ))}
           </div>
         </div>
