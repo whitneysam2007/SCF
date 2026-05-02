@@ -112,7 +112,7 @@ export default function Partners() {
             <img
               src="/manus-storage/scf-global-impact-map_93aa47aa.png"
               alt="SCF Global Impact Map showing 18 countries across 4 continents"
-              className="w-full max-w-5xl mx-auto rounded-lg shadow-md"
+              className="w-full rounded-lg shadow-md block"
             />
           </div>
         </div>
