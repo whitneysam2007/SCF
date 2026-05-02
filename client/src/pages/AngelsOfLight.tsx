@@ -303,6 +303,29 @@ export default function AngelsOfLight() {
         </div>
       </AnimatedSection>
 
+      {/* Story 7 — Hope for Lusaka's Street Children */}
+      <AnimatedSection className="py-16 md:py-20 bg-white">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="overflow-hidden rounded-lg">
+              <img
+                src="/manus-storage/lusaka-3_d337782e.jpg"
+                alt="Children carrying babies on their backs in Lusaka, Zambia"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
+              <p className="font-body text-[#3e4c59]/50 text-sm mb-2">Zambia</p>
+              <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Hope for Lusaka's Street Children</h3>
+              <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-6">
+                In Lusaka, Zambia, an estimated 100,000 children live on the streets, facing daily hunger, illness, and danger. Through Sabin Children's Foundation's support, drop-in centers and a medical clinic now serve thousands of orphaned and vulnerable children — providing shelter, meals, medical care, counseling, education, and skills training. Every day, the feeding center serves approximately 600 meals to children living on the streets of Lusaka.
+              </p>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Venture Philanthropy Testimonial */}
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
@@ -339,29 +362,6 @@ export default function AngelsOfLight() {
                   <p className="font-body text-[#3e4c59] text-sm">Investment That Keeps Growing</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </AnimatedSection>
-
-      {/* Story 7 — Hope for Lusaka's Street Children */}
-      <AnimatedSection className="py-16 md:py-20 bg-white">
-        <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="overflow-hidden rounded-lg">
-              <img
-                src="/manus-storage/lusaka-3_d337782e.jpg"
-                alt="Children carrying babies on their backs in Lusaka, Zambia"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
-              <p className="font-body text-[#3e4c59]/50 text-sm mb-2">Zambia</p>
-              <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Hope for Lusaka's Street Children</h3>
-              <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-6">
-                In Lusaka, Zambia, an estimated 100,000 children live on the streets, facing daily hunger, illness, and danger. Through Sabin Children's Foundation's support, drop-in centers and a medical clinic now serve thousands of orphaned and vulnerable children — providing shelter, meals, medical care, counseling, education, and skills training. Every day, the feeding center serves approximately 600 meals to children living on the streets of Lusaka.
-              </p>
             </div>
           </div>
         </div>
