@@ -4,7 +4,7 @@
  */
 import { useState } from "react";
 import { AnimatedSection } from "@/components/AnimatedSection";
-import { Send, CheckCircle, Mail } from "lucide-react";
+import { Send, CheckCircle, Mail, Phone, MapPin } from "lucide-react";
 import { toast } from "sonner";
 
 export default function Contact() {
@@ -129,7 +129,21 @@ export default function Contact() {
                       <Mail className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
                         <p className="font-body text-[#3e4c59] text-sm font-semibold">Email</p>
-                        <a href="mailto:info@sabinchildrensfoundation.org" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">info@sabinchildrensfoundation.org</a>
+                        <a href="mailto:eric@sabinfoundation.org" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">eric@sabinfoundation.org</a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Phone className="text-[#D4A853] mt-1 shrink-0" size={18} />
+                      <div>
+                        <p className="font-body text-[#3e4c59] text-sm font-semibold">Phone</p>
+                        <a href="tel:8012942400" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">801-294-2400</a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <MapPin className="text-[#D4A853] mt-1 shrink-0" size={18} />
+                      <div>
+                        <p className="font-body text-[#3e4c59] text-sm font-semibold">Address</p>
+                        <a href="https://maps.google.com/?q=45+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101" target="_blank" rel="noopener noreferrer" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">45 W S Temple, Suite 900<br />Salt Lake City, UT 84101</a>
                       </div>
                     </div>
                   </div>

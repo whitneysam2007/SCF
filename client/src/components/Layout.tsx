@@ -157,21 +157,21 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div>
               <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Location</h4>
               <a
-                href="https://maps.google.com/?q=17180+Bernardo+Center+Drive+Suite+200+San+Diego+CA+92128"
+                href="https://maps.google.com/?q=45+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/80 hover:text-white transition-colors leading-relaxed block"
               >
-                17180 Bernardo Center Drive, Suite 200<br />
-                San Diego, CA 92128
+                45 W S Temple, Suite 900<br />
+                Salt Lake City, UT 84101
               </a>
             </div>
 
             {/* Contact */}
             <div>
               <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Contact</h4>
-              <a href="tel:8583655110" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">858.365.5110</a>
-              <a href="mailto:info@sabinchildrensfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">info@sabinchildrensfoundation.org</a>
+              <a href="tel:8012942400" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">801-294-2400</a>
+              <a href="mailto:eric@sabinfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
             </div>
           </div>
         </div>
