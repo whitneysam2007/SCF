@@ -304,7 +304,7 @@ export default function AngelsOfLight() {
       </AnimatedSection>
 
       {/* Story 7 — Hope for Lusaka's Street Children */}
-      <AnimatedSection className="py-16 md:py-20 bg-white">
+      <AnimatedSection className="py-16 md:py-20 bg-[#f5f7fb]">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="overflow-hidden rounded-lg">
