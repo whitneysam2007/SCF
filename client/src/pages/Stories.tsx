@@ -70,6 +70,15 @@ const STORIES = [
     stat: "$5,000–$12,000",
     statLabel: "Brings clean water to a community",
   },
+  {
+    title: "Leprosy Screening in India",
+    location: "India",
+    category: "Healthcare",
+    img: "/manus-storage/leprosy-4_73d61a8b.jpg",
+    text: "Sabin Children's Foundation sponsors a leprosy screening program for at-risk schoolchildren in Hyderabad and Chennai, India. In its first two years, the program screened over 300,000 children and cured thousands of cases.",
+    stat: "$10",
+    statLabel: "Per child screened",
+  },
 ];
 
 export default function Stories() {
