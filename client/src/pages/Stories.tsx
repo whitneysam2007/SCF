@@ -145,7 +145,7 @@ export default function Stories() {
               <article key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="overflow-hidden rounded-lg shadow-xl">
-                    <img src={story.img} alt={story.title} className="w-full object-cover" style={{ objectPosition: (story as any).objectPosition || 'center', aspectRatio: (story as any).aspectRatio || '4/3' }} />
+                    <img src={story.img} alt={story.title} className="w-full object-cover" style={{ objectPosition: (story as any).objectPosition || 'center', aspectRatio: (story as any).aspectRatio || '16/10' }} />
                   </div>
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
