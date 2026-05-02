@@ -8,17 +8,17 @@ import { ArrowRight, Quote } from "lucide-react";
 
 const STORIES = [
   {
-    title: "Restoring Sight for $26",
+    title: "Cataract Surgery: $26",
     location: "India",
     category: "Eye Surgery",
-    img: "/manus-storage/eye-exam-cataract-crop_dd51a909.png",
-    text: "In India, a cataract surgery costs just $26 — and it can restore sight to a child or parent. Through our partnership with RAMI, thousands of people have received life-changing eye care, including cataract surgeries, eye exams, and corrective lenses.",
+    img: "/manus-storage/cataract-mother_57a242d9.jpg",
+    text: "This young mother saw her children for the first time thanks to a cataract surgery. Cost: $26.",
   },
   {
     title: "Nutrition Programs That Save Lives",
     location: "Guatemala",
     category: "Nutrition",
-    img: "/manus-storage/nutrition-girl_49ce299c.jpg",
+    img: "/manus-storage/nutrition-girl-face_2cad4fee.jpg",
     text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
   },
   {
