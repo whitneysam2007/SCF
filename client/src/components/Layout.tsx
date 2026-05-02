@@ -136,7 +136,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <footer className="bg-[#1a3a5c] text-white">
         {/* Main footer body */}
         <div className="container py-14">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
             {/* Brand Column */}
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-3">
@@ -172,6 +172,26 @@ export default function Layout({ children }: { children: ReactNode }) {
               <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Contact</h4>
               <a href="tel:8012942400" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">801-294-2400</a>
               <a href="mailto:eric@sabinfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Resources</h4>
+              <a
+                href="/manus-storage/scf-brochure_98763835.pdf"
+                download
+                className="text-sm text-white/80 hover:text-white transition-colors block mb-2"
+              >
+                Download Our Brochure
+              </a>
+              <a
+                href="/manus-storage/scf-slide-deck_91734ec9.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-white/80 hover:text-white transition-colors block"
+              >
+                View Our Slide Deck
+              </a>
             </div>
           </div>
         </div>

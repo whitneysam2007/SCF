@@ -112,6 +112,36 @@ export default function About() {
         </div>
       </AnimatedSection>
 
+      {/* Resources */}
+      <AnimatedSection className="py-16 md:py-20 bg-white">
+        <div className="container">
+          <div className="text-center mb-10">
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Resources</p>
+            <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">Learn More About SCF</h2>
+            <p className="font-body text-gray-600 text-lg max-w-xl mx-auto">Download our brochure or view our full slide deck to learn more about our mission, impact, and programs.</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-6">
+            <a
+              href="/manus-storage/scf-brochure_98763835.pdf"
+              download
+              className="inline-flex items-center gap-3 px-8 py-4 bg-[#12365a] hover:bg-[#0e2a47] text-white font-body font-bold text-sm tracking-wide rounded transition-all shadow-md"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              DOWNLOAD OUR BROCHURE
+            </a>
+            <a
+              href="/manus-storage/scf-slide-deck_91734ec9.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#12365a] text-[#12365a] hover:bg-[#12365a] hover:text-white font-body font-bold text-sm tracking-wide rounded transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              VIEW OUR SLIDE DECK
+            </a>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* CTA */}
       <section className="py-20 md:py-24 bg-[#12365a]">
         <div className="container text-center">
