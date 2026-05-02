@@ -265,7 +265,7 @@ export default function AngelsOfLight() {
                 <img
                   src="/manus-storage/disabled-learning-center-v2_b4aee080.png"
                   alt="Child at disabled children's learning center"
-                  className="rounded-lg shadow-lg w-full"
+                  className="rounded-lg shadow-lg w-full h-80 object-cover object-top"
                 />
               </div>
               <div>
