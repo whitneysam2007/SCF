@@ -87,7 +87,7 @@ export default function AngelsOfLight() {
             </div>
             <div>
               <img
-                src="/manus-storage/aol-multiply-boy-crop_f244b1e0.png"
+                src="/manus-storage/aol-boy-v3_d225d5df.png"
                 alt="Child smiling"
                 className="rounded-lg shadow-2xl w-full object-cover object-[center_20%]"
                 style={{ height: '480px' }}
