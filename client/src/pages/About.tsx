@@ -72,32 +72,6 @@ export default function About() {
         </div>
       </AnimatedSection>
 
-      {/* Our Model */}
-      <AnimatedSection className="py-20 md:py-28 bg-white">
-        <div className="container">
-          <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Model</p>
-            <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">Key Differentiators</h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            {[
-              { title: "100% Donation Model", desc: "All operational costs are covered separately by private donors. Every dollar you give goes directly to programs." },
-              { title: "Global Partnerships", desc: "We partner with trusted local organizations and physicians delivering care in 18 countries." },
-              { title: "Proven Projects", desc: "We fund programs with demonstrated, measurable impact that create lasting change." },
-              { title: "Transparent Reporting", desc: "You receive clear reporting and measurable results, showing the real impact your support creates." },
-            ].map((item, i) => (
-              <div key={i} className="text-center">
-                <div className="w-16 h-16 rounded-full bg-[#12365a] flex items-center justify-center mx-auto mb-5">
-                  <span className="font-stat text-[#D4A853] text-xl font-bold">{String(i + 1).padStart(2, "0")}</span>
-                </div>
-                <h3 className="font-display text-[#12365a] text-lg font-bold mb-3">{item.title}</h3>
-                <p className="font-body text-[#3e4c59] text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </AnimatedSection>
-
       {/* Founding Story */}
       <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
         <div className="container">
