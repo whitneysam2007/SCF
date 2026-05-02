@@ -49,21 +49,23 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission */}
+      {/* One Drop at a Time */}
       <AnimatedSection className="py-20 md:py-28 bg-[#FDF8F0]">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div >
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Mission</p>
-              <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-6">Transforming Lives Around the World Since 1993</h2>
-              <p className="font-body text-[#3e4c59] text-lg leading-relaxed mb-6">
-                The Sabin Children's Foundation is a nonprofit organization transforming lives around the world. We fund life-changing humanitarian projects that provide healthcare, nutrition, clean water, and education to children around the world.
-              </p>
+            <div>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">One Drop at a Time</p>
+              <blockquote className="border-l-4 border-[#D4A853] pl-6 mb-8">
+                <p className="font-display text-[#12365a] text-2xl md:text-3xl italic leading-relaxed mb-4">
+                  "Just as ripples spread out when a single pebble is dropped into water, the actions of individuals can have far-reaching effects."
+                </p>
+                <cite className="font-body text-[#D4A853] text-base not-italic font-semibold tracking-wide uppercase">— Dalai Lama</cite>
+              </blockquote>
               <p className="font-body text-[#3e4c59] text-lg leading-relaxed">
-                We connect generous people to the right projects to create lasting impact. Our venture philanthropy model identifies the most impactful and efficient humanitarian projects and channels donor resources to support them.
+                That is the belief at the heart of everything we do. The Sabin Children's Foundation was built on the conviction that one person, moved to act, can set something in motion that reaches far beyond what they can see. A well brings clean water to an entire village. A surgery restores a child's sight. A meal saves a life. A school changes the future of a community. We exist to connect generous people to those moments — to be the drop that starts the ripple.
               </p>
             </div>
-            <div >
+            <div>
               <img src="/manus-storage/about-hero-child_09758f14.jpg" alt="Child looking up with hope" className="rounded-lg shadow-2xl w-full object-cover" style={{aspectRatio: '3/4', maxHeight: '520px'}} />
             </div>
           </div>
