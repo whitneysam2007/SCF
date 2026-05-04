@@ -58,8 +58,8 @@ const STORIES = [
     category: "Surgery",
     img: "/manus-storage/clubfoot_sidebyside_6e6c240e.jpg",
     text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes.",
-    stat: "$30",
-    statLabel: "Corrects a child's foot",
+    stat: "$60",
+    statLabel: "Corrects both of a child's feet",
   },
   {
     title: "Clean Water Changes Everything",
