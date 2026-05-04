@@ -13,7 +13,7 @@ const STORIES = [
     category: "Surgery",
     img: "/manus-storage/cataract-mother-cropped_37f34fe8.jpg",
     text: "This young mother saw her children for the first time thanks to a cataract surgery.",
-    stat: "$26",
+    stat: "$50",
     statLabel: "Restores sight",
   },
   {
@@ -199,7 +199,7 @@ export default function Stories() {
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {[
-              { cost: "$26", label: "Cataract Surgery" },
+              { cost: "$50", label: "Cataract Surgery" },
               { cost: "$8/mo", label: "Child Nutrition" },
               { cost: "$30", label: "Clubfoot Surgery" },
               { cost: "$100", label: "Cleft Palate Surgery" },

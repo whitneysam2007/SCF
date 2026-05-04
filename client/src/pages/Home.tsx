@@ -323,7 +323,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             {[
-              { cost: "$26", label: "Cataract Surgery", desc: "Restoring sight to a child or parent" },
+              { cost: "$50", label: "Cataract Surgery", desc: "Restoring sight to a child or parent" },
               { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition" },
               { cost: "$30", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time" },
               { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile" },
