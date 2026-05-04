@@ -53,7 +53,7 @@ export default function AngelsOfLight() {
             <span className="block text-[#D4A853]">Expanding Life-Saving Impact</span>
           </h1>
           <p className="font-body text-white/80 text-lg max-w-2xl">
-            A community of Angels working together to expand life-saving impact for those in need.
+            A community of caring individuals working together to expand life-saving impact for those in need.
           </p>
           <a
             href="#become-angel"
