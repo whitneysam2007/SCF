@@ -161,7 +161,7 @@ export default function AngelsOfLight() {
               {[
                 {
                   title: "Flexible",
-                  desc: "Choose the participation level that fits your life — 1%, 5%, 10%, or a set annual gift.",
+                  desc: "Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.",
                   icon: "flex",
                 },
                 {
