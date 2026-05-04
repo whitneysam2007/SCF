@@ -136,7 +136,7 @@ export default function Contact() {
                       <Phone className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
                         <p className="font-body text-[#3e4c59] text-sm font-semibold">Phone</p>
-                        <a href="tel:8012942400" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">801-294-2400</a>
+                        <a href="tel:8583655112" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">858-365-5112</a>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">

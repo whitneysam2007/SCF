@@ -170,7 +170,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             {/* Contact */}
             <div>
               <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Contact</h4>
-              <a href="tel:8012942400" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">801-294-2400</a>
+              <a href="tel:8583655112" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
               <a href="mailto:eric@sabinfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
             </div>
 
