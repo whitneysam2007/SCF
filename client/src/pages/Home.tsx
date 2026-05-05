@@ -79,7 +79,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
-              className="font-body text-white/80 text-lg md:text-xl leading-relaxed mb-10 max-w-xl"
+              className="font-body text-white/80 text-xl md:text-3xl leading-relaxed mb-10 max-w-xl"
             >
               The Sabin Children's Foundation is a nonprofit organization connecting generous people to life-changing projects that provide healthcare, clean water, nutrition, and education to children who need it most.
             </motion.p>
