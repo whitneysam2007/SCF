@@ -143,7 +143,7 @@ export default function Contact() {
                       <MapPin className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
                         <p className="font-body text-[#3e4c59] text-sm font-semibold">Address</p>
-                        <a href="https://maps.google.com/?q=45+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101" target="_blank" rel="noopener noreferrer" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">45 W S Temple, Suite 900<br />Salt Lake City, UT 84101</a>
+                        <a href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101" target="_blank" rel="noopener noreferrer" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">15 W S Temple, Suite 900<br />Salt Lake City, UT 84101</a>
                       </div>
                     </div>
                   </div>

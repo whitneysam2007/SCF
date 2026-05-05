@@ -157,12 +157,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div>
               <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Location</h4>
               <a
-                href="https://maps.google.com/?q=45+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
+                href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/80 hover:text-white transition-colors leading-relaxed block"
               >
-                45 W S Temple, Suite 900<br />
+                15 W S Temple, Suite 900<br />
                 Salt Lake City, UT 84101
               </a>
             </div>
