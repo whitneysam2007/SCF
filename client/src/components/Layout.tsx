@@ -136,7 +136,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <footer className="bg-[#1a3a5c] text-white">
         {/* Main footer body */}
         <div className="container py-14">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-12 items-start">
             {/* Brand Column */}
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
@@ -151,7 +151,6 @@ export default function Layout({ children }: { children: ReactNode }) {
                   className="h-14 w-auto"
                 />
               </div>
-              <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">Expanding life-saving impact for children and families worldwide.</p>
             </div>
 
             {/* Location */}
