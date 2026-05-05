@@ -183,7 +183,7 @@ export default function Home() {
                 ].map((item) => (
                   <div key={item.step} className="flex items-start gap-4">
                     <span className="font-stat text-[#D4A853] text-2xl font-bold leading-none mt-0.5">{item.step}</span>
-                    <p className="font-body text-[#3e4c59] text-base leading-relaxed">{item.text}</p>
+                    <p className="font-body text-[#3e4c59] text-lg leading-relaxed">{item.text}</p>
                   </div>
                 ))}
               </div>
@@ -192,7 +192,7 @@ export default function Home() {
               <img src="/manus-storage/venture-philanthropy_baed5f58.png" alt="SCF community program" className="rounded-lg shadow-2xl w-full" />
               <div className="absolute -bottom-6 -left-6 bg-[#12365a] text-white p-6 rounded-lg shadow-xl max-w-[240px]">
                 <p className="font-stat text-[#D4A853] text-3xl font-bold mb-1">100%</p>
-                <p className="font-body text-white/80 text-base">Donation model — every dollar goes directly to programs</p>
+                <p className="font-body text-white/80 text-lg">Donation model — every dollar goes directly to programs</p>
               </div>
             </div>
           </div>
