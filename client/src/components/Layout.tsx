@@ -46,18 +46,18 @@ export default function Layout({ children }: { children: ReactNode }) {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${navBg}`}
       >
-        <nav className="container flex items-center justify-between h-16 md:h-20">
+        <nav className="container flex items-center justify-between h-20 md:h-28">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
               src="/manus-storage/ripple-droplet-clean_59eee497.png"
               alt="SCF Water Ripple"
-              className="h-9 md:h-[46px] w-auto rounded-sm object-cover"
+              className="h-12 md:h-[64px] w-auto rounded-sm object-cover"
             />
             <img
               src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
               alt="Sabin Children's Foundation"
-              className="hidden sm:block h-9 md:h-[46px] w-auto object-contain"
+              className="hidden sm:block h-12 md:h-[64px] w-auto object-contain"
             />
           </Link>
 
@@ -67,7 +67,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-4 py-2 text-sm font-body font-medium tracking-wide transition-colors rounded-sm
+                className={`px-4 py-2 text-base font-body font-medium tracking-wide transition-colors rounded-sm
                   ${location === link.href
                     ? "text-[#D4A853]"
                     : "text-white/90 hover:text-[#D4A853]"
@@ -78,7 +78,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             ))}
             <Link
               href="/donate"
-              className="ml-3 px-6 py-2.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-colors"
+              className="ml-3 px-6 py-3 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-colors"
             >
               GIVE NOW
             </Link>
