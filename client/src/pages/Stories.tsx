@@ -171,7 +171,7 @@ export default function Stories() {
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded text-left">{story.category}</span>
+                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded text-left min-w-[140px] inline-block">{story.category}</span>
                     <span className="font-body text-[#3e4c59]/50 text-sm">{story.location}</span>
                   </div>
                   <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
