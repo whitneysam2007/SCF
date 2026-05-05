@@ -227,7 +227,7 @@ export default function Stories() {
               "/manus-storage/boy-glasses_8817b354.png",
               "/manus-storage/child-smile-crop_e17f6b11.png",
               "/manus-storage/woman-headscarf_c6340b22.png",
-              "/manus-storage/faces-of-hope-kids_f48425ed.png",
+              "/manus-storage/R6B_7224(2)_f5fd0657.webp",
               "/manus-storage/children-india_3608c2d6.png",
               "/manus-storage/children-sitting-crop_afcc347f.png",
             ].map((src, i) => (
