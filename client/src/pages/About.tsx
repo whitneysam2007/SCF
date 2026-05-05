@@ -130,7 +130,7 @@ export default function About() {
               DOWNLOAD OUR BROCHURE
             </a>
             <a
-              href="/manus-storage/Final_SCFDeck(4)_d3000f39.pdf"
+              href="/manus-storage/Final_SCFDeck(6)_f5d43381.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#12365a] text-[#12365a] hover:bg-[#12365a] hover:text-white font-body font-bold text-sm tracking-wide rounded transition-all"

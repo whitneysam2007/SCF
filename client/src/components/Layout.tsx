@@ -185,7 +185,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 Download Our Brochure
               </a>
               <a
-                href="/manus-storage/Final_SCFDeck(4)_d3000f39.pdf"
+                href="/manus-storage/Final_SCFDeck(6)_f5d43381.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/80 hover:text-white transition-colors block"
