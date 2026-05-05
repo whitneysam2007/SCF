@@ -194,7 +194,7 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-display text-white/90 text-xl md:text-2xl italic leading-relaxed mb-4">
-              "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+              "Let your light so shine before men, that they may see your good works,<br className="hidden md:block" /> and glorify your Father which is in heaven."
             </p>
             <p className="font-body text-[#D4A853] text-base font-semibold">Matthew 5:16</p>
           </div>
