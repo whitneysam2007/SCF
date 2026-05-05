@@ -40,7 +40,7 @@ export default function About() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">About Us</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">About Us</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Helping the Least of the Least
               <span className="block text-[#D4A853]">In the Most Efficient Way</span>
@@ -54,7 +54,7 @@ export default function About() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">One Drop at a Time</p>
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">One Drop at a Time</p>
               <blockquote className="border-l-4 border-[#D4A853] pl-6 mb-8">
                 <p className="font-display text-[#12365a] text-2xl md:text-3xl italic leading-relaxed mb-4">
                   "Just as ripples spread out when a single pebble is dropped into water, the actions of individuals can have far-reaching effects."
@@ -77,7 +77,7 @@ export default function About() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Story</p>
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Story</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Founded on a Simple Belief</h2>
             </div>
             <blockquote className="text-center mb-12">
@@ -97,7 +97,7 @@ export default function About() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Meet Our Team</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 max-w-5xl mx-auto">
@@ -105,7 +105,7 @@ export default function About() {
               <div key={i} className="text-center">
                 <TeamAvatar name={person.name} img={person.img} />
                 <h3 className="font-display text-[#12365a] text-base font-bold mb-1">{person.name}</h3>
-                <p className="font-body text-[#D4A853] text-sm font-semibold">{person.role}</p>
+                <p className="font-body text-[#D4A853] text-base font-semibold">{person.role}</p>
               </div>
             ))}
           </div>
@@ -116,7 +116,7 @@ export default function About() {
       <AnimatedSection className="py-16 md:py-20 bg-white">
         <div className="container">
           <div className="text-center mb-10">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Resources</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Resources</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">Learn More About SCF</h2>
             <p className="font-body text-gray-600 text-lg max-w-xl mx-auto">Download our brochure or view our full slide deck to learn more about our mission, impact, and programs.</p>
           </div>
@@ -124,7 +124,7 @@ export default function About() {
             <a
               href="/manus-storage/Final_SCFBrochure(2)_69810193.pdf"
               download
-              className="inline-flex items-center gap-3 px-8 py-4 bg-[#12365a] hover:bg-[#0e2a47] text-white font-body font-bold text-sm tracking-wide rounded transition-all shadow-md"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-[#12365a] hover:bg-[#0e2a47] text-white font-body font-bold text-base tracking-wide rounded transition-all shadow-md"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               DOWNLOAD OUR BROCHURE
@@ -133,7 +133,7 @@ export default function About() {
               href="/manus-storage/Final_SCFDeck(6)_f5d43381.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#12365a] text-[#12365a] hover:bg-[#12365a] hover:text-white font-body font-bold text-sm tracking-wide rounded transition-all"
+              className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#12365a] text-[#12365a] hover:bg-[#12365a] hover:text-white font-body font-bold text-base tracking-wide rounded transition-all"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
               VIEW OUR SLIDE DECK
@@ -150,10 +150,10 @@ export default function About() {
           </h2>
           <p className="font-body text-white/70 text-lg max-w-xl mx-auto mb-8">Learn how you can partner with us to transform lives around the world.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all">
+            <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all">
               GET IN TOUCH <ArrowRight size={16} />
             </Link>
-            <Link href="/donate" className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-sm tracking-wide rounded transition-all hover:bg-white/10">
+            <Link href="/donate" className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10">
               DONATE NOW
             </Link>
           </div>

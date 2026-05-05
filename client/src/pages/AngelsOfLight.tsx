@@ -56,7 +56,7 @@ export default function AngelsOfLight() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/75 via-[#0a1428]/55 to-[#0a1428]/25" />
         </div>
         <div className="relative container pt-28 pb-16">
-          <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+          <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
             The Angels of Light Initiative
           </p>
           <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
@@ -68,7 +68,7 @@ export default function AngelsOfLight() {
           </p>
           <a
             href="#become-angel"
-            className="mt-8 inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+            className="mt-8 inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
           >
             <Sparkles size={16} /> BECOME AN ANGEL OF LIGHT
           </a>
@@ -80,7 +80,7 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             <div>
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
                 About the Initiative
               </p>
               <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-6">
@@ -112,7 +112,7 @@ export default function AngelsOfLight() {
       <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
               How It Works
             </p>
             <h2 className="font-display text-white text-3xl md:text-4xl font-bold">
@@ -143,7 +143,7 @@ export default function AngelsOfLight() {
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="w-8 h-8 rounded-full bg-[#D4A853] text-[#12365a] font-stat font-bold text-sm flex items-center justify-center shrink-0">
+                    <span className="w-8 h-8 rounded-full bg-[#D4A853] text-[#12365a] font-stat font-bold text-base flex items-center justify-center shrink-0">
                       {i + 1}
                     </span>
                     <h3 className="font-display text-white text-xl font-bold">{step.title}</h3>
@@ -161,7 +161,7 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-14">
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold italic">
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold italic">
                 An Invitation
               </p>
               <h2 className="font-display text-[#12365a] text-3xl md:text-4xl lg:text-5xl font-bold italic mb-4">
@@ -226,7 +226,7 @@ export default function AngelsOfLight() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
               Real Impact
             </p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">
@@ -255,7 +255,7 @@ export default function AngelsOfLight() {
                 <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
                   <div>
                     <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$15,000</p>
-                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Life-Changing Surgery</p>
+                    <p className="font-body text-[#12365a] text-base font-semibold mt-1">Life-Changing Surgery</p>
                   </div>
                 </div>
               </div>
@@ -271,7 +271,7 @@ export default function AngelsOfLight() {
                 <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
                   <div>
                     <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$5,000</p>
-                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Warmth for Every Child</p>
+                    <p className="font-body text-[#12365a] text-base font-semibold mt-1">Warmth for Every Child</p>
                   </div>
                 </div>
               </div>
@@ -314,7 +314,7 @@ export default function AngelsOfLight() {
                 <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
                   <div>
                     <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$3,000</p>
-                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Christmas Joy for Every Child</p>
+                    <p className="font-body text-[#12365a] text-base font-semibold mt-1">Christmas Joy for Every Child</p>
                   </div>
                 </div>
               </div>
@@ -342,8 +342,8 @@ export default function AngelsOfLight() {
               />
             </div>
             <div>
-              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-xs font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
-              <p className="font-body text-[#3e4c59]/50 text-sm mb-2">Zambia</p>
+              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-base font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
+              <p className="font-body text-[#3e4c59]/50 text-base mb-2">Zambia</p>
               <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Hope for Lusaka's Street Children</h3>
               <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-6">
                 In Lusaka, Zambia, an estimated 100,000 children live on the streets, facing daily hunger, illness, and danger. Through Sabin Children's Foundation's support, drop-in centers and a medical clinic now serve thousands of orphaned and vulnerable children — providing shelter, meals, medical care, counseling, education, and skills training. Every day, the feeding center serves approximately 600 meals to children living on the streets of Lusaka.
@@ -371,7 +371,7 @@ export default function AngelsOfLight() {
                 />
               </div>
               <div className="lg:col-span-3">
-                <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+                <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
                   Venture Philanthropy
                 </p>
                 <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Rising Star Outreach</h3>
@@ -382,12 +382,12 @@ export default function AngelsOfLight() {
                   <p className="font-body text-[#3e4c59] text-base italic leading-relaxed mb-4">
                     "Thank you, again, for the extraordinary leap of faith in donating $85,000 for the land on which we built a school for Rising Star Outreach. Since its opening in 2005, the school has educated thousands of children, many of whom have gone on to attend college and pursue advanced degrees. In 2019, the school was recognized as the number one school in all of India for hands-on learning. This success was made possible in part through a partnership with Harvard."
                   </p>
-                  <footer className="font-body text-[#12365a] text-sm font-semibold">— Becky, PRW</footer>
+                  <footer className="font-body text-[#12365a] text-base font-semibold">— Becky, PRW</footer>
                 </blockquote>
                 <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
                   <div>
                     <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$85,000</p>
-                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Investment That Keeps Growing</p>
+                    <p className="font-body text-[#12365a] text-base font-semibold mt-1">Investment That Keeps Growing</p>
                   </div>
                 </div>
               </div>
@@ -412,7 +412,7 @@ export default function AngelsOfLight() {
                     setSubmitted(false);
                     setFormData({ name: "", email: "", phone: "", participationLevel: "", annualGiftAmount: "", customAmount: "", interests: "" });
                   }}
-                  className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-sm rounded transition-colors"
+                  className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-base rounded transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -433,7 +433,7 @@ export default function AngelsOfLight() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
                   <div>
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                       Full Name <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -442,12 +442,12 @@ export default function AngelsOfLight() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                       placeholder="Your name"
                     />
                   </div>
                   <div>
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                       Email Address <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -456,13 +456,13 @@ export default function AngelsOfLight() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                       placeholder="you@example.com"
                     />
                   </div>
                 </div>
                 <div className="mb-5">
-                  <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                  <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                     Phone Number
                   </label>
                   <input
@@ -470,21 +470,21 @@ export default function AngelsOfLight() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                     placeholder="(555) 123-4567"
                   />
                 </div>
                 <div className="mb-5">
-                  <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                  <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                     Participation Level <span className="text-red-500">*</span>
                   </label>
-                  <p className="font-body text-[#3e4c59] text-xs mb-2 italic">Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.</p>
+                  <p className="font-body text-[#3e4c59] text-base mb-2 italic">Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.</p>
                   <select
                     name="participationLevel"
                     value={formData.participationLevel}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff] text-[#3e4c59]"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff] text-[#3e4c59]"
                   >
                     <option value="" disabled>Select a level...</option>
                     <option value="1% per project">1% per project</option>
@@ -497,18 +497,18 @@ export default function AngelsOfLight() {
 
                 {formData.participationLevel === "Set Annual Gift" && (
                   <div className="mb-5">
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                       Annual Gift Amount <span className="text-red-500">*</span>
                     </label>
                     <div className="relative">
-                      <span className="absolute left-4 top-1/2 -translate-y-1/2 font-body text-[#3e4c59] text-sm font-semibold">$</span>
+                      <span className="absolute left-4 top-1/2 -translate-y-1/2 font-body text-[#3e4c59] text-base font-semibold">$</span>
                       <input
                         type="number"
                         name="annualGiftAmount"
                         value={formData.annualGiftAmount}
                         onChange={handleChange}
                         min="1"
-                        className="w-full pl-8 pr-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                        className="w-full pl-8 pr-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                         placeholder="e.g. 5000"
                       />
                     </div>
@@ -517,7 +517,7 @@ export default function AngelsOfLight() {
 
                 {formData.participationLevel === "Custom Amount" && (
                   <div className="mb-5">
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                       Tell us your preferred giving amount or range <span className="text-red-500">*</span>
                     </label>
                     <input
@@ -525,14 +525,14 @@ export default function AngelsOfLight() {
                       name="customAmount"
                       value={formData.customAmount}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                       placeholder="e.g. 20%, $10,000 per project..."
                     />
                   </div>
                 )}
 
                 <div className="mb-6">
-                  <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                  <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                     Tell us about your interests or the types of projects you care most about
                   </label>
                   <textarea
@@ -540,13 +540,13 @@ export default function AngelsOfLight() {
                     value={formData.interests}
                     onChange={handleChange}
                     rows={5}
-                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]"
+                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]"
                     placeholder="Tell us about your interest in becoming an Angel of Light, including any causes or regions you feel drawn to..."
                   />
                 </div>
                 <button
                   type="submit"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
                 >
                   <Send size={16} /> I'M INTERESTED
                 </button>

@@ -75,7 +75,7 @@ export default function Partners() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Partners</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Partners</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Trusted Organizations
               <span className="block text-[#D4A853]">Delivering Real Impact</span>
@@ -91,7 +91,7 @@ export default function Partners() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Global Reach</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Global Reach</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">18 Countries Across 4 Continents</h2>
             <p className="font-body text-[#3e4c59] text-lg max-w-2xl mx-auto">
               From Central America to Southeast Asia, our partnerships reach the most vulnerable communities.
@@ -102,7 +102,7 @@ export default function Partners() {
               <div key={i} className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
                 <Globe className="text-[#D4A853] mb-3" size={24} />
                 <h3 className="font-display text-[#12365a] text-lg font-bold mb-2">{region.name}</h3>
-                <p className="font-body text-[#3e4c59] text-sm">{region.countries}</p>
+                <p className="font-body text-[#3e4c59] text-base">{region.countries}</p>
               </div>
             ))}
           </div>
@@ -122,7 +122,7 @@ export default function Partners() {
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
           <div className="text-center mb-16">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Organizations</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Partner Organizations</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Who We Work With</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -142,7 +142,7 @@ export default function Partners() {
                   {partner.name}
                 </h3>
                 {partner.formerName && (
-                  <p className="font-body text-[#3e4c59]/50 text-xs text-center mt-1">
+                  <p className="font-body text-[#3e4c59]/50 text-base text-center mt-1">
                     formerly {partner.formerName}
                   </p>
                 )}
@@ -158,7 +158,7 @@ export default function Partners() {
           <div className="flex flex-col lg:flex-row items-center gap-16">
             {/* Text */}
             <div className="flex-1 max-w-xl">
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Criteria</p>
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Partner Criteria</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-2">What We Look for in a Partner</h2>
               <div className="w-12 h-0.5 bg-[#D4A853] mb-6" />
               <p className="font-body text-white/80 text-lg leading-relaxed mb-8">
@@ -175,7 +175,7 @@ export default function Partners() {
                   "Do you track and report measurable results?",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
-                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[#D4A853] text-[#12365a] font-bold text-sm flex items-center justify-center mt-0.5">{i + 1}</span>
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[#D4A853] text-[#12365a] font-bold text-base flex items-center justify-center mt-0.5">{i + 1}</span>
                     <p className="font-body text-white/80 text-base leading-relaxed pt-1">{item}</p>
                   </li>
                 ))}
@@ -222,7 +222,7 @@ export default function Partners() {
           <p className="font-body text-white/70 text-lg max-w-xl mx-auto mb-8">
             Interested in partnering with Sabin Children's Foundation? We'd love to hear from you.
           </p>
-          <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all">
+          <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all">
             CONTACT US <ArrowRight size={16} />
           </Link>
         </div>

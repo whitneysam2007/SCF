@@ -62,7 +62,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="font-body text-[#D4A853] text-sm md:text-base tracking-[0.2em] uppercase mb-4 font-semibold"
+              className="font-body text-[#D4A853] text-base md:text-base tracking-[0.2em] uppercase mb-4 font-semibold"
             >
               Since 1993
             </motion.p>
@@ -91,13 +91,13 @@ export default function Home() {
             >
               <Link
                 href="/stories"
-                className="px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+                className="px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
               >
                 SEE THE IMPACT
               </Link>
               <Link
                 href="/donate"
-                className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-sm tracking-wide rounded transition-all hover:bg-white/10"
+                className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10"
               >
                 BECOME A PARTNER
               </Link>
@@ -135,7 +135,7 @@ export default function Home() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-16">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
               The Challenge
             </p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
@@ -156,7 +156,7 @@ export default function Home() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                   <item.icon className="text-[#D4A853] mb-3" size={28} />
                   <h3 className="font-display text-white text-xl md:text-2xl font-bold mb-2">{item.title}</h3>
-                  <p className="font-body text-white/80 text-sm md:text-base">{item.text}</p>
+                  <p className="font-body text-white/80 text-base md:text-base">{item.text}</p>
                 </div>
               </div>
             ))}
@@ -169,7 +169,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Approach</p>
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Approach</p>
               <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-6">Venture Philanthropy</h2>
               <p className="font-body text-[#3e4c59] text-lg leading-relaxed mb-8">
                 Sabin Children's Foundation works like a venture philanthropy fund, identifying the most impactful and efficient humanitarian projects and channeling donor resources to support them.
@@ -192,7 +192,7 @@ export default function Home() {
               <img src="/manus-storage/venture-philanthropy_baed5f58.png" alt="SCF community program" className="rounded-lg shadow-2xl w-full" />
               <div className="absolute -bottom-6 -left-6 bg-[#12365a] text-white p-6 rounded-lg shadow-xl max-w-[240px]">
                 <p className="font-stat text-[#D4A853] text-3xl font-bold mb-1">100%</p>
-                <p className="font-body text-white/80 text-sm">Donation model — every dollar goes directly to programs</p>
+                <p className="font-body text-white/80 text-base">Donation model — every dollar goes directly to programs</p>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
       <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Model</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Model</p>
             <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-4">
               We support <span className="text-[#D4A853]">self-sustaining projects</span>
             </h2>
@@ -220,7 +220,7 @@ export default function Home() {
             ].map((item, i) => (
               <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:bg-white/10 transition-colors">
                 <h3 className="font-display text-[#D4A853] text-lg font-bold mb-3">{item.label}</h3>
-                <p className="font-body text-white/70 text-sm leading-relaxed">{item.desc}</p>
+                <p className="font-body text-white/70 text-base leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -231,7 +231,7 @@ export default function Home() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Global Impact</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Global Impact</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Creating Change, One Child at a Time</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
@@ -249,7 +249,7 @@ export default function Home() {
               <div key={i} className="relative group overflow-hidden rounded-lg aspect-[4/3]">
                 <img src={item.src} alt={item.label} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a1428]/70 to-transparent" />
-                <span className="absolute bottom-3 left-4 font-body text-white text-sm font-semibold tracking-wide">{item.label}</span>
+                <span className="absolute bottom-3 left-4 font-body text-white text-base font-semibold tracking-wide">{item.label}</span>
               </div>
             ))}
           </div>
@@ -260,7 +260,7 @@ export default function Home() {
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">What We Do</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">What We Do</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Our Pillars</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
@@ -281,7 +281,7 @@ export default function Home() {
                     <pillar.icon className="text-[#D4A853]" size={22} />
                     <h3 className="font-display text-[#12365a] text-lg font-bold">{pillar.title}</h3>
                   </div>
-                  <p className="font-body text-[#3e4c59] text-sm leading-relaxed">{pillar.desc}</p>
+                  <p className="font-body text-[#3e4c59] text-base leading-relaxed">{pillar.desc}</p>
                 </div>
               </div>
             ))}
@@ -297,13 +297,13 @@ export default function Home() {
         </div>
         <div className="relative container">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Stories of Impact</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Stories of Impact</p>
             <h2 className="font-display text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Care Without Barriers</h2>
             <p className="font-body text-white/80 text-lg md:text-xl leading-relaxed mb-6">
               Sabin Children's Foundation partners with organizations willing to treat every individual in need. Across cultures, religions, and communities around the world, care is given without discrimination and without exception.
             </p>
             <p className="font-display text-[#D4A853] text-xl md:text-2xl italic mb-10">Every life has equal value.</p>
-            <Link href="/stories" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg">
+            <Link href="/stories" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg">
               SEE MORE STORIES
               <ArrowRight size={16} />
             </Link>
@@ -315,7 +315,7 @@ export default function Home() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">What One Act of Generosity Can Do</h2>
             <p className="font-body text-[#3e4c59] text-lg max-w-2xl mx-auto">
               A well can bring clean water to an entire village. A surgery can restore sight. A school can change the future of a community. A meal can save a child's life.
@@ -331,7 +331,7 @@ export default function Home() {
               <div key={i} className="bg-white rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                 <p className="font-stat text-[#D4A853] text-3xl md:text-4xl font-bold mb-2">{item.cost}</p>
                 <h3 className="font-display text-[#12365a] text-lg font-bold mb-2">{item.label}</h3>
-                <p className="font-body text-[#3e4c59] text-sm">{item.desc}</p>
+                <p className="font-body text-[#3e4c59] text-base">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -343,7 +343,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
+              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Together We Can Go Further</h2>
               <p className="font-body text-white/80 text-lg leading-relaxed mb-6">
                 Angels of Light is a small group of caring individuals who work together to multiply the amount of good that can be done. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
@@ -356,11 +356,11 @@ export default function Home() {
                 ].map((item, i) => (
                   <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-5">
                     <h3 className="font-display text-[#D4A853] text-base font-bold mb-2">{item.title}</h3>
-                    <p className={`font-body text-sm leading-relaxed ${item.gold ? 'text-[#D4A853]' : 'text-white/60'}`}>{item.desc}</p>
+                    <p className={`font-body text-base leading-relaxed ${item.gold ? 'text-[#D4A853]' : 'text-white/60'}`}>{item.desc}</p>
                   </div>
                 ))}
               </div>
-              <Link href="/angels-of-light" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg">
+              <Link href="/angels-of-light" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg">
                 BECOME AN ANGEL OF LIGHT
                 <ArrowRight size={16} />
               </Link>
@@ -368,8 +368,8 @@ export default function Home() {
             <div className="relative">
               <img src="/manus-storage/children-waving_f0d014ab.png" alt="Children waving" className="rounded-lg shadow-2xl w-full" />
               <div className="absolute -top-4 -right-4 bg-[#D4A853] text-[#12365a] px-5 py-3 rounded-lg shadow-lg">
-                <p className="font-display text-sm font-bold italic">"Let your light so shine"</p>
-                <p className="font-body text-xs mt-1">— Matthew 5:16</p>
+                <p className="font-display text-base font-bold italic">"Let your light so shine"</p>
+                <p className="font-body text-base mt-1">— Matthew 5:16</p>
               </div>
             </div>
           </div>

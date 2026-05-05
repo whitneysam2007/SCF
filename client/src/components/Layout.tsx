@@ -155,12 +155,12 @@ export default function Layout({ children }: { children: ReactNode }) {
 
             {/* Location */}
             <div>
-              <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Location</h4>
+              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Location</h4>
               <a
                 href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-white/80 hover:text-white transition-colors leading-relaxed block"
+                className="text-base text-white/80 hover:text-white transition-colors leading-relaxed block"
               >
                 15 W S Temple, Suite 900<br />
                 Salt Lake City, UT 84101
@@ -169,18 +169,18 @@ export default function Layout({ children }: { children: ReactNode }) {
 
             {/* Contact */}
             <div>
-              <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Contact</h4>
-              <a href="tel:8583655112" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
-              <a href="mailto:eric@sabinfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
+              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Contact</h4>
+              <a href="tel:8583655112" className="text-base text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
+              <a href="mailto:eric@sabinfoundation.org" className="text-base text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
             </div>
 
             {/* Resources */}
             <div>
-              <h4 className="text-[#D4A853] text-xs font-bold tracking-widest uppercase mb-4">Resources</h4>
+              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Resources</h4>
               <a
                 href="/manus-storage/Final_SCFBrochure(2)_69810193.pdf"
                 download
-                className="text-sm text-white/80 hover:text-white transition-colors block mb-2"
+                className="text-base text-white/80 hover:text-white transition-colors block mb-2"
               >
                 Download Our Brochure
               </a>
@@ -188,7 +188,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 href="/manus-storage/Final_SCFDeck(6)_f5d43381.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-white/80 hover:text-white transition-colors block"
+                className="text-base text-white/80 hover:text-white transition-colors block"
               >
                 View Our Slide Deck
               </a>
@@ -199,10 +199,10 @@ export default function Layout({ children }: { children: ReactNode }) {
         {/* Bottom bar */}
         <div className="border-t border-white/10">
           <div className="container py-5 flex flex-col md:flex-row items-center justify-between gap-3">
-            <p className="text-xs text-white/50">
+            <p className="text-base text-white/50">
               &copy;2028 Sabin Holdings All rights reserved.
             </p>
-            <div className="flex items-center gap-3 text-xs text-white/50">
+            <div className="flex items-center gap-3 text-base text-white/50">
               <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
               <span>|</span>
               <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>

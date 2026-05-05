@@ -42,7 +42,7 @@ export default function Contact() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Get in Touch</p>
+            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Get in Touch</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Let's Connect</h1>
             <p className="font-body text-white/80 text-lg max-w-xl">
               Whether you're interested in partnering, donating, or learning more about our work, we'd love to hear from you.
@@ -69,7 +69,7 @@ export default function Contact() {
                       setSubmitted(false);
                       setFormData({ name: "", email: "", phone: "", subject: "", message: "", interest: "general" });
                     }}
-                    className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-sm rounded transition-colors"
+                    className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-base rounded transition-colors"
                   >
                     Send Another Message
                   </button>
@@ -79,22 +79,22 @@ export default function Contact() {
                   <h2 className="font-display text-[#12365a] text-2xl font-bold mb-6">Send Us a Message</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
                     <div>
-                      <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">Full Name <span className="text-red-500">*</span></label>
-                      <input type="text" name="name" value={formData.name} onChange={handleChange} required className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="Your name" />
+                      <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Full Name <span className="text-red-500">*</span></label>
+                      <input type="text" name="name" value={formData.name} onChange={handleChange} required className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="Your name" />
                     </div>
                     <div>
-                      <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">Email Address <span className="text-red-500">*</span></label>
-                      <input type="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="you@example.com" />
+                      <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Email Address <span className="text-red-500">*</span></label>
+                      <input type="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="you@example.com" />
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
                     <div>
-                      <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">Phone Number</label>
-                      <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="(555) 123-4567" />
+                      <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Phone Number</label>
+                      <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="(555) 123-4567" />
                     </div>
                     <div>
-                      <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">I'm Interested In</label>
-                      <select name="interest" value={formData.interest} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]">
+                      <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">I'm Interested In</label>
+                      <select name="interest" value={formData.interest} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]">
                         <option value="general">General Inquiry</option>
                         <option value="donate">Making a Donation</option>
                         <option value="angels">Angels of Light Program</option>
@@ -105,14 +105,14 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="mb-5">
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">Subject</label>
-                    <input type="text" name="subject" value={formData.subject} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="How can we help?" />
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Subject</label>
+                    <input type="text" name="subject" value={formData.subject} onChange={handleChange} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]" placeholder="How can we help?" />
                   </div>
                   <div className="mb-6">
-                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">Message <span className="text-red-500">*</span></label>
-                    <textarea name="message" value={formData.message} onChange={handleChange} required rows={6} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]" placeholder="Tell us about your interest in Sabin Children's Foundation..." />
+                    <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Message <span className="text-red-500">*</span></label>
+                    <textarea name="message" value={formData.message} onChange={handleChange} required rows={6} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]" placeholder="Tell us about your interest in Sabin Children's Foundation..." />
                   </div>
-                  <button type="submit" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
+                  <button type="submit" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
                     <Send size={16} /> SEND MESSAGE
                   </button>
                 </form>
@@ -128,42 +128,42 @@ export default function Contact() {
                     <div className="flex items-start gap-3">
                       <Mail className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
-                        <p className="font-body text-[#3e4c59] text-sm font-semibold">Email</p>
-                        <a href="mailto:eric@sabinfoundation.org" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">eric@sabinfoundation.org</a>
+                        <p className="font-body text-[#3e4c59] text-base font-semibold">Email</p>
+                        <a href="mailto:eric@sabinfoundation.org" className="font-body text-[#12365a] text-base hover:text-[#D4A853] transition-colors">eric@sabinfoundation.org</a>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Phone className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
-                        <p className="font-body text-[#3e4c59] text-sm font-semibold">Phone</p>
-                        <a href="tel:8583655112" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">858-365-5112</a>
+                        <p className="font-body text-[#3e4c59] text-base font-semibold">Phone</p>
+                        <a href="tel:8583655112" className="font-body text-[#12365a] text-base hover:text-[#D4A853] transition-colors">858-365-5112</a>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <MapPin className="text-[#D4A853] mt-1 shrink-0" size={18} />
                       <div>
-                        <p className="font-body text-[#3e4c59] text-sm font-semibold">Address</p>
-                        <a href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101" target="_blank" rel="noopener noreferrer" className="font-body text-[#12365a] text-sm hover:text-[#D4A853] transition-colors">15 W S Temple, Suite 900<br />Salt Lake City, UT 84101</a>
+                        <p className="font-body text-[#3e4c59] text-base font-semibold">Address</p>
+                        <a href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101" target="_blank" rel="noopener noreferrer" className="font-body text-[#12365a] text-base hover:text-[#D4A853] transition-colors">15 W S Temple, Suite 900<br />Salt Lake City, UT 84101</a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="bg-[#12365a] rounded-lg p-6">
                   <h3 className="font-display text-white text-lg font-bold mb-3">Angels of Light</h3>
-                  <p className="font-body text-white/70 text-sm leading-relaxed mb-4">
+                  <p className="font-body text-white/70 text-base leading-relaxed mb-4">
                     Interested in joining our Angels of Light initiative? This small group of caring individuals works together to multiply the reach of SCF.
                   </p>
-                  <a href="/angels-of-light" className="inline-block font-body text-[#D4A853] text-sm font-semibold hover:underline">Learn more about Angels of Light &rarr;</a>
+                  <a href="/angels-of-light" className="inline-block font-body text-[#D4A853] text-base font-semibold hover:underline">Learn more about Angels of Light &rarr;</a>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
                   <h3 className="font-display text-[#12365a] text-lg font-bold mb-3">Partnership Inquiries</h3>
-                  <p className="font-body text-[#3e4c59] text-sm leading-relaxed">
+                  <p className="font-body text-[#3e4c59] text-base leading-relaxed">
                     If you represent an organization and would like to explore a partnership with Sabin Children's Foundation, please reach out. We're always looking for trusted partners who share our commitment to transforming lives.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
                   <h3 className="font-display text-[#12365a] text-lg font-bold mb-3">Visit Our Projects</h3>
-                  <p className="font-body text-[#3e4c59] text-sm leading-relaxed">
+                  <p className="font-body text-[#3e4c59] text-base leading-relaxed">
                     Angels of Light partners receive the invitation to visit projects in person. Contact us to learn more about upcoming trips.
                   </p>
                 </div>
