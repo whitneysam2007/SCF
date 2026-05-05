@@ -361,7 +361,7 @@ export default function AngelsOfLight() {
                 </p>
                 <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Rising Star Outreach</h3>
                 <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-6">
-                  This story captures the essence of our venture philanthropy model. Our early investment in the land for Rising Star Outreach helped launch a school that has since educated hundreds of children and continues to flourish.
+                  This story captures the essence of our venture philanthropy model. Our early investment in the land for Rising Star Outreach helped launch a school that has since educated thousands of children and continues to flourish.
                 </p>
                 <blockquote className="border-l-4 border-[#D4A853] pl-6 mb-6">
                   <p className="font-body text-[#3e4c59] text-base italic leading-relaxed mb-4">
