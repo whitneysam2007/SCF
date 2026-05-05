@@ -76,7 +76,7 @@ export default function AngelsOfLight() {
                 Multiply the Reach of Sabin Children's Foundation
               </h2>
               <p className="font-body text-[#3e4c59] text-lg leading-relaxed mb-6">
-                Angels of Light is a small group of caring individuals who work together to multiply the reach of Sabin Children's Foundation.
+                Angels of Light is a small group of caring individuals who work together to multiply the amount of good that can be done.
               </p>
               <p className="font-body text-[#3e4c59] text-lg leading-relaxed mb-6">
                 By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
