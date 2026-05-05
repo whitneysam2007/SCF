@@ -201,7 +201,7 @@ export default function Stories() {
             {[
               { cost: "$50", label: "Cataract Surgery" },
               { cost: "$8/mo", label: "Child Nutrition" },
-              { cost: "$30", label: "Clubfoot Surgery" },
+              { cost: "$60", label: "Clubfoot Surgery" },
               { cost: "$100", label: "Cleft Palate Surgery" },
             ].map((item, i) => (
               <div key={i} className="text-center p-6 bg-[#f5f7fb] rounded-lg">

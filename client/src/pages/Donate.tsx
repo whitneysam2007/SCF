@@ -43,7 +43,7 @@ export default function Donate() {
             {[
               { cost: "$50", label: "Cataract Surgery", desc: "Restoring sight to a child or parent", img: "/manus-storage/donate-cataract-crop_7101dc09.jpg" },
               { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition", img: "/manus-storage/donate-nutrition-crop_b1f27dc0.jpg" },
-              { cost: "$30", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "/manus-storage/donate-clubfoot-crop_2c4f7335.png" },
+              { cost: "$60", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "/manus-storage/donate-clubfoot-crop_2c4f7335.png" },
               { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile", img: "/manus-storage/donate-cleft-crop_f1090178.png" },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">

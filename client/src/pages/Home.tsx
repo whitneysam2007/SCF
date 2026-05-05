@@ -325,7 +325,7 @@ export default function Home() {
             {[
               { cost: "$50", label: "Cataract Surgery", desc: "Restoring sight to a child or parent" },
               { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition" },
-              { cost: "$30", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time" },
+              { cost: "$60", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time" },
               { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile" },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow border border-gray-100">
