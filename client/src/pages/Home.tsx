@@ -350,7 +350,7 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-8">
                 {[
-                  { title: "Flexible", desc: "Choose the participation level that fits your life — 1%, 5%, 10%, or a set annual gift." },
+                  { title: "Flexible", desc: "Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift." },
                   { title: "Community", desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving." },
                   { title: "Transparent", desc: "100% of your gift reaches programs. Receive real stories, real numbers, and the invitation to visit." },
                 ].map((item, i) => (
