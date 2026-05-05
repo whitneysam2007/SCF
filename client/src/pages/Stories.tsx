@@ -234,7 +234,7 @@ export default function Stories() {
               <div key={i} className="overflow-hidden rounded-lg aspect-square relative">
                 <img src={src} alt="SCF beneficiary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 {i === 6 && (
-                  <div className="absolute inset-0 rounded-lg" style={{ background: "rgba(210, 100, 20, 0.35)", mixBlendMode: "multiply" }} />
+                  <div className="absolute inset-0 rounded-lg" style={{ background: "rgba(200, 130, 60, 0.18)", mixBlendMode: "color" }} />
                 )}
               </div>
             ))}
