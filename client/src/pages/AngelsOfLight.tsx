@@ -89,8 +89,8 @@ export default function AngelsOfLight() {
               <img
                 src="/manus-storage/aol-boy-v3_d225d5df.png"
                 alt="Child smiling"
-                className="rounded-lg shadow-2xl w-full object-cover object-[center_20%]"
-                style={{ height: '480px' }}
+                className="rounded-lg shadow-2xl w-full object-cover object-[center_35%]"
+                style={{ height: '380px' }}
               />
             </div>
           </div>
