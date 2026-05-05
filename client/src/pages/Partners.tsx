@@ -170,26 +170,27 @@ export default function Partners() {
             </div>
             {/* Chart */}
             <div className="flex-shrink-0 w-72 md:w-96">
-              <svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+              <svg viewBox="0 0 380 360" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
                 {/* Y axis */}
-                <line x1="60" y1="260" x2="60" y2="30" stroke="#D4A853" strokeWidth="3" />
-                <polygon points="60,20 53,38 67,38" fill="#D4A853" />
+                <line x1="80" y1="300" x2="80" y2="40" stroke="#D4A853" strokeWidth="4" />
+                {/* Y arrow (chevron style) */}
+                <polyline points="65,62 80,34 95,62" fill="none" stroke="#D4A853" strokeWidth="4" strokeLinejoin="round" strokeLinecap="round" />
                 {/* X axis */}
-                <line x1="60" y1="260" x2="290" y2="260" stroke="#D4A853" strokeWidth="3" />
-                <polygon points="300,260 282,253 282,267" fill="#D4A853" />
-                {/* Axis labels */}
-                <text x="48" y="150" fill="#D4A853" fontSize="16" fontWeight="bold" textAnchor="middle" transform="rotate(-90, 48, 150)">Efficiency</text>
-                <text x="180" y="292" fill="#D4A853" fontSize="16" fontWeight="bold" textAnchor="middle">Impact</text>
-                {/* Star marker in top-right quadrant */}
-                <g transform="translate(240, 80)">
-                  {/* 6-pointed asterisk star */}
-                  <line x1="0" y1="-18" x2="0" y2="18" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
-                  <line x1="-15.6" y1="-9" x2="15.6" y2="9" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
-                  <line x1="-15.6" y1="9" x2="15.6" y2="-9" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
+                <line x1="80" y1="300" x2="330" y2="300" stroke="#D4A853" strokeWidth="4" />
+                {/* X arrow (chevron style) */}
+                <polyline points="308,285 336,300 308,315" fill="none" stroke="#D4A853" strokeWidth="4" strokeLinejoin="round" strokeLinecap="round" />
+                {/* Efficiency label — rotated on left */}
+                <text x="38" y="175" fill="#D4A853" fontSize="20" fontWeight="bold" textAnchor="middle" transform="rotate(-90, 38, 175)">Efficiency</text>
+                {/* Impact label — below X axis */}
+                <text x="205" y="342" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">Impact</text>
+                {/* Star marker — centered in upper-right quadrant */}
+                <g transform="translate(220, 140)">
+                  <line x1="0" y1="-22" x2="0" y2="22" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
+                  <line x1="-19" y1="-11" x2="19" y2="11" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
+                  <line x1="-19" y1="11" x2="19" y2="-11" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
                 </g>
-                {/* Label */}
-                <text x="265" y="58" fill="white" fontSize="12" textAnchor="middle">SCF target</text>
-                <text x="265" y="73" fill="white" fontSize="12" textAnchor="middle">projects</text>
+                {/* Label above star on one line */}
+                <text x="220" y="105" fill="white" fontSize="14" textAnchor="middle">SCF target projects</text>
               </svg>
             </div>
           </div>
