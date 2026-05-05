@@ -516,7 +516,7 @@ export default function AngelsOfLight() {
                     onChange={handleChange}
                     rows={5}
                     className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]"
-                    placeholder="Tell us about your interest in becoming an Angel of Light, and any causes or regions you feel drawn to..."
+                    placeholder="Tell us about your interest in becoming an Angel of Light, including any causes or regions you feel drawn to..."
                   />
                 </div>
                 <button
