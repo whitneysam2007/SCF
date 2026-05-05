@@ -231,8 +231,11 @@ export default function Stories() {
               "/manus-storage/children-india_3608c2d6.png",
               "/manus-storage/children-sitting-crop_afcc347f.png",
             ].map((src, i) => (
-              <div key={i} className="overflow-hidden rounded-lg aspect-square">
+              <div key={i} className="overflow-hidden rounded-lg aspect-square relative">
                 <img src={src} alt="SCF beneficiary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                {i === 6 && (
+                  <div className="absolute inset-0 rounded-lg" style={{ background: "rgba(210, 100, 20, 0.35)", mixBlendMode: "multiply" }} />
+                )}
               </div>
             ))}
           </div>
