@@ -350,13 +350,13 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-8">
                 {[
-                  { title: "Flexible", desc: "Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift." },
-                  { title: "Community", desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving." },
-                  { title: "Transparent", desc: "100% of your gift reaches programs. Receive real stories, real numbers, and the invitation to visit." },
+                  { title: "Flexible", desc: "Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.", gold: false },
+                  { title: "Transparent", desc: "100% of your gift is applied to our supported programs.", gold: true },
+                  { title: "Community", desc: "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving.", gold: false },
                 ].map((item, i) => (
                   <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-5">
                     <h3 className="font-display text-[#D4A853] text-base font-bold mb-2">{item.title}</h3>
-                    <p className="font-body text-white/60 text-sm leading-relaxed">{item.desc}</p>
+                    <p className={`font-body text-sm leading-relaxed ${item.gold ? 'text-[#D4A853]' : 'text-white/60'}`}>{item.desc}</p>
                   </div>
                 ))}
               </div>
