@@ -231,9 +231,11 @@ export default function AngelsOfLight() {
                 <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-4">
                   After bravely ending her engagement, her former fiancé attacked her with acid, leaving her face severely burned and her eyesight at risk. Through the Angels of Light Project, $15,000 funded the skin grafts and eye surgery she urgently needed—giving her the chance to heal, regain her sight, and begin rebuilding her life.
                 </p>
-                <div className="text-center inline-block">
-                  <p className="font-stat text-[#D4A853] text-2xl font-bold">$15,000</p>
-                  <p className="font-body text-[#3e4c59] text-sm">Life-Changing Surgery</p>
+                <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
+                  <div>
+                    <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$15,000</p>
+                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Life-Changing Surgery</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -245,9 +247,11 @@ export default function AngelsOfLight() {
                 <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-4">
                   In a small orphanage in China, children whose parents were in prison faced the bitter winter cold without proper coats. When we learned of their situation, warm winter coats were provided for every child. What had been a season of hardship became one of comfort and care—children finally able to play, learn, and rest knowing they were warm.
                 </p>
-                <div className="text-center inline-block">
-                  <p className="font-stat text-[#D4A853] text-2xl font-bold">$5,000</p>
-                  <p className="font-body text-[#3e4c59] text-sm">Warmth for Every Child</p>
+                <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
+                  <div>
+                    <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$5,000</p>
+                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Warmth for Every Child</p>
+                  </div>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
@@ -286,9 +290,11 @@ export default function AngelsOfLight() {
                 <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-4">
                   In a small village in Thailand, many children had never experienced Christmas—no gifts, no toys, no celebration of their own. When we visited, we learned that something as simple as a bicycle could change everything. Happily, we were able to gift each child a brand-new bike and the supplies needed to ride safely—creating a Christmas filled with joy and laughter.
                 </p>
-                <div className="text-center inline-block">
-                  <p className="font-stat text-[#D4A853] text-2xl font-bold">$3,000</p>
-
+                <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
+                  <div>
+                    <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$3,000</p>
+                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Christmas Joy for Every Child</p>
+                  </div>
                 </div>
               </div>
               <div className="order-1 lg:order-2">
@@ -357,9 +363,11 @@ export default function AngelsOfLight() {
                   </p>
                   <footer className="font-body text-[#12365a] text-sm font-semibold">— Becky, PRW</footer>
                 </blockquote>
-                <div className="inline-block">
-                  <p className="font-stat text-[#D4A853] text-2xl font-bold">$85,000</p>
-                  <p className="font-body text-[#3e4c59] text-sm">Investment That Keeps Growing</p>
+                <div className="flex items-center gap-4 border-l-4 border-[#D4A853] pl-4">
+                  <div>
+                    <p className="font-stat text-[#D4A853] text-3xl font-bold leading-none">$85,000</p>
+                    <p className="font-body text-[#12365a] text-sm font-semibold mt-1">Investment That Keeps Growing</p>
+                  </div>
                 </div>
               </div>
             </div>
