@@ -83,7 +83,6 @@ export default function Donate() {
                   "Join a small, trusted circle sharing both the responsibility and the joy of meaningful giving",
                   "100% of your gift reaches programs",
                   "Receive real stories, real numbers, and the invitation to visit projects in person",
-                  "Annual gathering to review impact and plan future initiatives",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <Check className="text-[#D4A853] mt-1 shrink-0" size={18} />
