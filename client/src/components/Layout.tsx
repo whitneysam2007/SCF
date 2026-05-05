@@ -138,19 +138,20 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="container py-14">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
             {/* Brand Column */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <img
                   src="/manus-storage/ripple-droplet-clean_59eee497.png"
                   alt="SCF Water Ripple"
-                  className="h-14 w-auto"
+                  className="h-20 w-auto"
                 />
                 <img
                   src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
                   alt="Sabin Children's Foundation"
-                  className="h-10 w-auto"
+                  className="h-14 w-auto"
                 />
               </div>
+              <p className="text-sm text-white/50 leading-relaxed max-w-[220px]">Expanding life-saving impact for children and families worldwide.</p>
             </div>
 
             {/* Location */}
