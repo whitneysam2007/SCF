@@ -152,8 +152,52 @@ export default function Partners() {
         </div>
       </AnimatedSection>
 
+      {/* Our Focus — Venture Philanthropy */}
+      <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
+        <div className="container">
+          <div className="flex flex-col lg:flex-row items-center gap-16">
+            {/* Text */}
+            <div className="flex-1 max-w-xl">
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Focus</p>
+              <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-2">Venture Philanthropy</h2>
+              <div className="w-12 h-0.5 bg-[#D4A853] mb-6" />
+              <p className="font-body text-white/80 text-lg leading-relaxed">
+                Sabin Children's Foundation works like a venture philanthropy fund, identifying the most{" "}
+                <span className="text-[#D4A853] font-semibold">impactful</span> and{" "}
+                <span className="text-[#D4A853] font-semibold">efficient</span>{" "}
+                humanitarian projects and channeling donor resources to support them.
+              </p>
+            </div>
+            {/* Chart */}
+            <div className="flex-shrink-0 w-72 md:w-96">
+              <svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+                {/* Y axis */}
+                <line x1="60" y1="260" x2="60" y2="30" stroke="#D4A853" strokeWidth="3" />
+                <polygon points="60,20 53,38 67,38" fill="#D4A853" />
+                {/* X axis */}
+                <line x1="60" y1="260" x2="290" y2="260" stroke="#D4A853" strokeWidth="3" />
+                <polygon points="300,260 282,253 282,267" fill="#D4A853" />
+                {/* Axis labels */}
+                <text x="48" y="150" fill="#D4A853" fontSize="16" fontWeight="bold" textAnchor="middle" transform="rotate(-90, 48, 150)">Efficiency</text>
+                <text x="180" y="292" fill="#D4A853" fontSize="16" fontWeight="bold" textAnchor="middle">Impact</text>
+                {/* Star marker in top-right quadrant */}
+                <g transform="translate(240, 80)">
+                  {/* 6-pointed asterisk star */}
+                  <line x1="0" y1="-18" x2="0" y2="18" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
+                  <line x1="-15.6" y1="-9" x2="15.6" y2="9" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
+                  <line x1="-15.6" y1="9" x2="15.6" y2="-9" stroke="#D4A853" strokeWidth="3.5" strokeLinecap="round" />
+                </g>
+                {/* Label */}
+                <text x="265" y="58" fill="white" fontSize="12" textAnchor="middle">SCF target</text>
+                <text x="265" y="73" fill="white" fontSize="12" textAnchor="middle">projects</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* CTA */}
-      <section className="py-20 md:py-24 bg-[#12365a]">
+      <section className="py-20 md:py-24 bg-[#0e2a47]">
         <div className="container text-center">
           <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">
             Become a Partner
