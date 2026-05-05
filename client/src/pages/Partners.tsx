@@ -152,20 +152,36 @@ export default function Partners() {
         </div>
       </AnimatedSection>
 
-      {/* Our Focus — Venture Philanthropy */}
+      {/* What We Look for in a Partner */}
       <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
         <div className="container">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             {/* Text */}
             <div className="flex-1 max-w-xl">
-              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Focus</p>
-              <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-2">Venture Philanthropy</h2>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Criteria</p>
+              <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-2">What We Look for in a Partner</h2>
               <div className="w-12 h-0.5 bg-[#D4A853] mb-6" />
-              <p className="font-body text-white/80 text-lg leading-relaxed">
-                Sabin Children's Foundation works like a venture philanthropy fund, identifying the most{" "}
-                <span className="text-[#D4A853] font-semibold">impactful</span> and{" "}
-                <span className="text-[#D4A853] font-semibold">efficient</span>{" "}
-                humanitarian projects and channeling donor resources to support them.
+              <p className="font-body text-white/80 text-lg leading-relaxed mb-8">
+                We seek local organizations that are solving the world's most critical needs with proven programs and measurable results — with exceptional{" "}
+                <span className="text-[#D4A853] font-semibold">efficiency</span> and{" "}
+                <span className="text-[#D4A853] font-semibold">impact</span>.
+              </p>
+              <p className="font-body text-white font-semibold text-base mb-5">Is your organization a good fit? Ask yourself:</p>
+              <ol className="space-y-4">
+                {[
+                  "Do you identify critical needs in your community?",
+                  "Do you work with trusted local physicians and organizations?",
+                  "Do you run proven humanitarian programs?",
+                  "Do you track and report measurable results?",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-4">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[#D4A853] text-[#12365a] font-bold text-sm flex items-center justify-center mt-0.5">{i + 1}</span>
+                    <p className="font-body text-white/80 text-base leading-relaxed pt-1">{item}</p>
+                  </li>
+                ))}
+              </ol>
+              <p className="font-body text-white/60 text-base italic mt-8">
+                If the answer is yes — and you operate with high efficiency and high impact — we'd love to hear from you.
               </p>
             </div>
             {/* Chart */}
