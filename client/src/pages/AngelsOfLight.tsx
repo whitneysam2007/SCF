@@ -192,6 +192,16 @@ export default function AngelsOfLight() {
               ))}
             </div>
           </div>
+
+          {/* CTA below cards */}
+          <div className="text-center mt-10">
+            <a
+              href="#become-angel"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+            >
+              <Sparkles size={18} /> Become an Angel of Light
+            </a>
+          </div>
         </div>
       </AnimatedSection>
 
