@@ -75,7 +75,7 @@ export default function Contact() {
                   </button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-gray-100">
+                <form id="contact-form" onSubmit={handleSubmit} className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-gray-100">
                   <h2 className="font-display text-[#12365a] text-2xl font-bold mb-6">Send Us a Message</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
                     <div>

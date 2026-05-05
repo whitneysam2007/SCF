@@ -76,12 +76,12 @@ export default function Layout({ children }: { children: ReactNode }) {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/donate"
+            <a
+              href="/contact#contact-form"
               className="ml-3 px-6 py-3 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-colors"
             >
               GIVE NOW
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Toggle */}
@@ -117,12 +117,12 @@ export default function Layout({ children }: { children: ReactNode }) {
                     {link.label}
                   </Link>
                 ))}
-                <Link
-                  href="/donate"
+                <a
+                  href="/contact#contact-form"
                   className="mt-3 px-6 py-3 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-center rounded transition-colors"
                 >
                   GIVE NOW
-                </Link>
+                </a>
               </div>
             </motion.div>
           )}

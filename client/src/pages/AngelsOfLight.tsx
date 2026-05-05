@@ -359,7 +359,7 @@ export default function AngelsOfLight() {
                 </p>
                 <blockquote className="border-l-4 border-[#D4A853] pl-6 mb-6">
                   <p className="font-body text-[#3e4c59] text-base italic leading-relaxed mb-4">
-                    "Thank you, again, for the extraordinary leap of faith in donating $85,000 for the land on which we built a school for Rising Star Outreach. Since its opening in 2005, the school has educated hundreds of children, many of whom have gone on to attend college and pursue advanced degrees. In 2019, the school was recognized as the number one school in all of India for hands-on learning. This success was made possible in part through a partnership with Harvard."
+                    "Thank you, again, for the extraordinary leap of faith in donating $85,000 for the land on which we built a school for Rising Star Outreach. Since its opening in 2005, the school has educated thousands of children, many of whom have gone on to attend college and pursue advanced degrees. In 2019, the school was recognized as the number one school in all of India for hands-on learning. This success was made possible in part through a partnership with Harvard."
                   </p>
                   <footer className="font-body text-[#12365a] text-sm font-semibold">— Becky, PRW</footer>
                 </blockquote>
