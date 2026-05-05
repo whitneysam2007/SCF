@@ -156,7 +156,7 @@ export default function Home() {
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                   <item.icon className="text-[#D4A853] mb-3" size={28} />
                   <h3 className="font-display text-white text-xl md:text-2xl font-bold mb-2">{item.title}</h3>
-                  <p className="font-body text-white/80 text-base md:text-base">{item.text}</p>
+                  <p className="font-body text-white/80 text-lg">{item.text}</p>
                 </div>
               </div>
             ))}
