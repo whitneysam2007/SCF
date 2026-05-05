@@ -304,7 +304,7 @@ export default function Home() {
             </p>
             <p className="font-display text-[#D4A853] text-xl md:text-2xl italic mb-10">Every life has equal value.</p>
             <Link href="/stories" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg">
-              READ MORE STORIES
+              SEE MORE STORIES
               <ArrowRight size={16} />
             </Link>
           </div>
