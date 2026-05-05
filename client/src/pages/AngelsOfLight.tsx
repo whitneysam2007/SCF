@@ -16,6 +16,7 @@ export default function AngelsOfLight() {
     email: "",
     phone: "",
     participationLevel: "",
+    annualGiftAmount: "",
     customAmount: "",
     interests: "",
   });
@@ -28,6 +29,10 @@ export default function AngelsOfLight() {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.participationLevel) {
       toast.error("Please fill in all required fields.");
+      return;
+    }
+    if (formData.participationLevel === "Set Annual Gift" && !formData.annualGiftAmount) {
+      toast.error("Please enter your annual gift amount.");
       return;
     }
     if (formData.participationLevel === "Custom Amount" && !formData.customAmount) {
@@ -405,7 +410,7 @@ export default function AngelsOfLight() {
                 <button
                   onClick={() => {
                     setSubmitted(false);
-                    setFormData({ name: "", email: "", phone: "", participationLevel: "", customAmount: "", interests: "" });
+                    setFormData({ name: "", email: "", phone: "", participationLevel: "", annualGiftAmount: "", customAmount: "", interests: "" });
                   }}
                   className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-sm rounded transition-colors"
                 >
@@ -489,6 +494,26 @@ export default function AngelsOfLight() {
                     <option value="Custom Amount">Custom Amount</option>
                   </select>
                 </div>
+
+                {formData.participationLevel === "Set Annual Gift" && (
+                  <div className="mb-5">
+                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                      Annual Gift Amount <span className="text-red-500">*</span>
+                    </label>
+                    <div className="relative">
+                      <span className="absolute left-4 top-1/2 -translate-y-1/2 font-body text-[#3e4c59] text-sm font-semibold">$</span>
+                      <input
+                        type="number"
+                        name="annualGiftAmount"
+                        value={formData.annualGiftAmount}
+                        onChange={handleChange}
+                        min="1"
+                        className="w-full pl-8 pr-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                        placeholder="e.g. 5000"
+                      />
+                    </div>
+                  </div>
+                )}
 
                 {formData.participationLevel === "Custom Amount" && (
                   <div className="mb-5">
