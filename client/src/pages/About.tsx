@@ -87,7 +87,7 @@ export default function About() {
               <cite className="font-body text-[#D4A853] text-lg not-italic font-semibold">Gary B. Sabin, Founder and Chairman</cite>
             </blockquote>
             <p className="font-body text-white/70 text-lg leading-relaxed text-center">
-              Since 1993, Gary B. Sabin has led the foundation with a clear vision: to identify the world's most solvable problems and direct resources where they can create the greatest impact. What began as a personal commitment to helping children in need has grown into a global network of partnerships reaching 18 countries across Central America, South America, Africa, and Asia.
+              Since 1993, Gary B. and Valerie Sabin have led the foundation with a clear vision: to identify the world's most solvable problems and direct resources where they can create the greatest impact. What began as a personal commitment to helping children in need has grown into a global network of partnerships reaching 18 countries across Central America, South America, Africa, and Asia.
             </p>
           </div>
         </div>
