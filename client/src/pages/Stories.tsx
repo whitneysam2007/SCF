@@ -228,7 +228,7 @@ export default function Stories() {
               "/manus-storage/child-smile-crop_e17f6b11.png",
               "/manus-storage/woman-headscarf_c6340b22.png",
               "/manus-storage/faces-of-hope-kids_f48425ed.png",
-              "/manus-storage/R6B_7224(2)_f5fd0657.webp",
+              "https://files.manuscdn.com/user_upload_by_module/session_file/310519663520822653/GjxsBrJzUWvHZWZO.webp",
               "/manus-storage/children-sitting-crop_afcc347f.png",
             ].map((src, i) => (
               <div key={i} className="overflow-hidden rounded-lg aspect-square">

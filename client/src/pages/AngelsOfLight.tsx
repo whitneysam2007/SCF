@@ -87,7 +87,7 @@ export default function AngelsOfLight() {
             </div>
             <div>
               <img
-                src="/manus-storage/image1_761fdc82.jpeg"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663520822653/XfIbIzfRmYJjrAQO.jpeg"
                 alt="Smiling child"
                 className="rounded-lg shadow-2xl w-full object-cover object-center"
                 style={{ height: '400px' }}
