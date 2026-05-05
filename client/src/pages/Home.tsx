@@ -176,10 +176,10 @@ export default function Home() {
               </p>
               <div className="space-y-6">
                 {[
-                  { step: "01", text: "Identify critical needs around the world" },
-                  { step: "02", text: "Partner with trusted local organizations and physicians" },
-                  { step: "03", text: "Fund proven humanitarian programs" },
-                  { step: "04", text: "Track measurable results" },
+                  { step: "1", text: "Identify critical needs around the world" },
+                  { step: "2", text: "Partner with trusted local organizations and physicians" },
+                  { step: "3", text: "Fund proven humanitarian programs" },
+                  { step: "4", text: "Track measurable results" },
                 ].map((item) => (
                   <div key={item.step} className="flex items-start gap-4">
                     <span className="font-stat text-[#D4A853] text-2xl font-bold leading-none mt-0.5">{item.step}</span>
