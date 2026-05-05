@@ -42,7 +42,7 @@ export default function AngelsOfLight() {
             alt="Community building together"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/90 via-[#0a1428]/70 to-[#0a1428]/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/75 via-[#0a1428]/55 to-[#0a1428]/25" />
         </div>
         <div className="relative container pt-28 pb-16">
           <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">

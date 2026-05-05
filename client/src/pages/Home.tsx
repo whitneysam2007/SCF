@@ -52,7 +52,7 @@ export default function Home() {
             alt="Children smiling"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/80 via-[#0a1428]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/65 via-[#0a1428]/35 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a1428]/60 via-transparent to-[#0a1428]/30" />
         </div>
 
