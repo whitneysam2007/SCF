@@ -15,21 +15,27 @@ export default function AngelsOfLight() {
     name: "",
     email: "",
     phone: "",
-    message: "",
+    participationLevel: "",
+    customAmount: "",
+    interests: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) {
+    if (!formData.name || !formData.email || !formData.participationLevel) {
       toast.error("Please fill in all required fields.");
       return;
     }
+    if (formData.participationLevel === "Custom Amount" && !formData.customAmount) {
+      toast.error("Please describe your preferred giving amount.");
+      return;
+    }
     setSubmitted(true);
-    toast.success("Thank you! We'll be in touch about the Angels of Light initiative.");
+    toast.success("Thank you! We'll be in touch when the right opportunity becomes available.");
   };
 
   return (
@@ -389,7 +395,7 @@ export default function AngelsOfLight() {
                 <button
                   onClick={() => {
                     setSubmitted(false);
-                    setFormData({ name: "", email: "", phone: "", message: "" });
+                    setFormData({ name: "", email: "", phone: "", participationLevel: "", customAmount: "", interests: "" });
                   }}
                   className="px-6 py-2.5 bg-[#12365a] hover:bg-[#0d2847] text-white font-body font-medium text-sm rounded transition-colors"
                 >
@@ -406,7 +412,7 @@ export default function AngelsOfLight() {
                     Contact Us to Become an Angel of Light
                   </h2>
                   <p className="font-body text-[#3e4c59] text-base">
-                    Be one of the first Angels of Light. Fill out the form below and we'll reach out to share more.
+                    Be one of the first Angels of Light. Fill out the form below and we'll reach out when the right opportunity becomes available.
                   </p>
                 </div>
 
@@ -453,25 +459,61 @@ export default function AngelsOfLight() {
                     placeholder="(555) 123-4567"
                   />
                 </div>
-                <div className="mb-6">
+                <div className="mb-5">
                   <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
-                    Message <span className="text-red-500">*</span>
+                    Participation Level <span className="text-red-500">*</span>
                   </label>
-                  <textarea
-                    name="message"
-                    value={formData.message}
+                  <p className="font-body text-[#3e4c59] text-xs mb-2 italic">Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.</p>
+                  <select
+                    name="participationLevel"
+                    value={formData.participationLevel}
                     onChange={handleChange}
                     required
+                    className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff] text-[#3e4c59]"
+                  >
+                    <option value="" disabled>Select a level...</option>
+                    <option value="1% per project">1% per project</option>
+                    <option value="5% per project">5% per project</option>
+                    <option value="10% per project">10% per project</option>
+                    <option value="Set Annual Gift">Set Annual Gift</option>
+                    <option value="Custom Amount">Custom Amount</option>
+                  </select>
+                </div>
+
+                {formData.participationLevel === "Custom Amount" && (
+                  <div className="mb-5">
+                    <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                      Tell us your preferred giving amount or range <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="customAmount"
+                      value={formData.customAmount}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
+                      placeholder="e.g. 20%, $10,000 per project..."
+                    />
+                  </div>
+                )}
+
+                <div className="mb-6">
+                  <label className="font-body text-[#3e4c59] text-sm font-semibold block mb-1.5">
+                    Tell us about your interests or the types of projects you care most about
+                  </label>
+                  <textarea
+                    name="interests"
+                    value={formData.interests}
+                    onChange={handleChange}
                     rows={5}
                     className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]"
-                    placeholder="Tell us about your interest in becoming an Angel of Light..."
+                    placeholder="Tell us about your interest in becoming an Angel of Light, and any causes or regions you feel drawn to..."
                   />
                 </div>
                 <button
                   type="submit"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-sm tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
                 >
-                  <Send size={16} /> SEND MESSAGE
+                  <Send size={16} /> I'M INTERESTED
                 </button>
               </form>
             )}
