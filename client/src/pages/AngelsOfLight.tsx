@@ -181,7 +181,7 @@ export default function AngelsOfLight() {
                   </div>
                   <h3 className="font-display text-white text-xl font-bold mb-3">{item.title}</h3>
                   <div className="w-8 h-0.5 bg-[#D4A853] mx-auto mb-4" />
-                  <p className="font-body text-white/70 text-base leading-relaxed">{item.desc}</p>
+                  <p className={`font-body text-base leading-relaxed ${item.icon === 'transparent' ? 'text-[#D4A853]' : 'text-white/70'}`}>{item.desc}</p>
                 </div>
               ))}
             </div>
