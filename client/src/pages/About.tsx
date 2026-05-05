@@ -84,7 +84,7 @@ export default function About() {
               <p className="font-display text-white text-2xl md:text-3xl italic leading-relaxed mb-6">
                 "If we hope to change the world, we have to begin with the children."
               </p>
-              <cite className="font-body text-[#D4A853] text-lg not-italic font-semibold">— Gary B. Sabin, Founder and Chairman</cite>
+              <cite className="font-body text-[#D4A853] text-lg not-italic font-semibold">Gary B. Sabin, Founder and Chairman</cite>
             </blockquote>
             <p className="font-body text-white/70 text-lg leading-relaxed text-center">
               Since 1993, Gary B. Sabin has led the foundation with a clear vision: to identify the world's most solvable problems and direct resources where they can create the greatest impact. What began as a personal commitment to helping children in need has grown into a global network of partnerships reaching 18 countries across Central America, South America, Africa, and Asia.
