@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <img
               src="/manus-storage/ripple-droplet-clean_59eee497.png"
               alt="SCF Water Ripple"
-              className="h-10 sm:h-12 md:h-[64px] w-auto max-w-[64px] md:max-w-[64px] rounded-sm object-cover object-center"
+              className="h-10 sm:h-12 md:h-[64px] w-auto max-w-[70px] md:max-w-[70px] rounded-sm object-cover object-center"
             />
             <img
               src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
