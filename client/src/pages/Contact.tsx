@@ -22,14 +22,32 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       toast.error("Please fill in all required fields.");
       return;
     }
-    setSubmitted(true);
-    toast.success("Thank you! Your message has been sent.");
+    setIsSubmitting(true);
+    try {
+      const res = await fetch("https://formspree.io/f/mvzlrazz", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (res.ok) {
+        setSubmitted(true);
+        toast.success("Thank you! Your message has been sent.");
+      } else {
+        toast.error("Something went wrong. Please try again or email us directly.");
+      }
+    } catch {
+      toast.error("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -112,8 +130,8 @@ export default function Contact() {
                     <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">Message <span className="text-red-500">*</span></label>
                     <textarea name="message" value={formData.message} onChange={handleChange} required rows={6} className="w-full px-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors resize-none bg-[#ffffff]" placeholder="Tell us about your interest in Sabin Children's Foundation..." />
                   </div>
-                  <button type="submit" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
-                    <Send size={16} /> SEND MESSAGE
+                  <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] disabled:opacity-60 disabled:cursor-not-allowed text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
+                    <Send size={16} /> {isSubmitting ? "SENDING…" : "SEND MESSAGE"}
                   </button>
                 </form>
               )}

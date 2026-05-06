@@ -25,7 +25,9 @@ export default function AngelsOfLight() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.participationLevel) {
       toast.error("Please fill in all required fields.");
@@ -39,8 +41,27 @@ export default function AngelsOfLight() {
       toast.error("Please describe your preferred giving amount.");
       return;
     }
-    setSubmitted(true);
-    toast.success("Thank you! We'll be in touch when the right opportunity becomes available.");
+    setIsSubmitting(true);
+    try {
+      const res = await fetch("https://formspree.io/f/mvzlrazz", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          _subject: "New Angel of Light Inquiry",
+        }),
+      });
+      if (res.ok) {
+        setSubmitted(true);
+        toast.success("Thank you! We'll be in touch when the right opportunity becomes available.");
+      } else {
+        toast.error("Something went wrong. Please try again or contact us directly.");
+      }
+    } catch {
+      toast.error("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -546,9 +567,10 @@ export default function AngelsOfLight() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+                  disabled={isSubmitting}
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] disabled:opacity-60 disabled:cursor-not-allowed text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
                 >
-                  <Send size={16} /> I'M INTERESTED
+                  <Send size={16} /> {isSubmitting ? "SENDING…" : "I'M INTERESTED"}
                 </button>
               </form>
             )}
