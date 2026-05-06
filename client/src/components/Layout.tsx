@@ -52,12 +52,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             <img
               src="/manus-storage/ripple-droplet-clean_59eee497.png"
               alt="SCF Water Ripple"
-              className="h-10 sm:h-14 md:h-[80px] w-auto rounded-sm object-contain object-bottom"
+              className="h-10 sm:h-12 md:h-[64px] w-auto max-w-[64px] md:max-w-[64px] rounded-sm object-cover object-center"
             />
             <img
               src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
               alt="Sabin Children's Foundation"
-              className="h-8 sm:h-10 md:h-[64px] w-auto object-contain"
+              className="h-8 sm:h-10 md:h-[52px] w-auto object-contain"
             />
           </Link>
 
