@@ -68,7 +68,7 @@ export default function Partners() {
   return (
     <div className="pt-20 md:pt-28">
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img src="/manus-storage/partners-banner-1-clean_356cbae3.png" alt="Two nurses in a mobile medical van" className="w-full h-full object-cover object-top" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />

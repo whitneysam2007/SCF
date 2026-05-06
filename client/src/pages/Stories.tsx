@@ -85,7 +85,7 @@ export default function Stories() {
   return (
     <div className="pt-20 md:pt-28">
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img src="/manus-storage/stories-banner-2-cropped_dbe57a23.png" alt="Children peering through wooden fence" className="w-full h-full object-cover object-right" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />

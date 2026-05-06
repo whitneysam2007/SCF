@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div className="pt-20 md:pt-28">
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img src="/manus-storage/about-hero-kids_cropped_95ac4cb1.jpg" alt="Two children smiling" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
