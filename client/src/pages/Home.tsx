@@ -145,7 +145,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {[
-              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png", objPos: "" },
+              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png", objPos: "object-top" },
               { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9.png", objPos: "" },
               { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump-face-crop2_bb906eaf.png", objPos: "object-top" },
               { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9.png", objPos: "" },
