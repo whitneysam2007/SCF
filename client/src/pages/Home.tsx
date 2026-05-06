@@ -317,7 +317,7 @@ export default function Home() {
           <div className="text-center mb-14">
             <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">What One Act of Generosity Can Do</h2>
-            <p className="font-body text-[#3e4c59] text-lg max-w-2xl mx-auto">
+            <p className="font-body text-[#3e4c59] text-base max-w-2xl mx-auto">
               A well can bring clean water to an entire village. A surgery can restore sight. A school can change the future of a community. A meal can save a child's life.
             </p>
           </div>
@@ -345,7 +345,7 @@ export default function Home() {
             <div>
               <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Together We Can Go Further</h2>
-              <p className="font-body text-white/80 text-lg leading-relaxed mb-6">
+              <p className="font-body text-white/80 text-base leading-relaxed mb-6">
                 Angels of Light is a small group of caring individuals who work together to multiply the amount of good that can be done. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-8">
@@ -383,10 +383,10 @@ export default function Home() {
           <div className="absolute inset-0 bg-[#0a1428]/70" />
         </div>
         <div className="relative container text-center">
-          <h2 className="font-display text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">
             Together, We Can Make All of This Possible
           </h2>
-          <p className="font-body text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+          <p className="font-body text-white/80 text-base max-w-2xl mx-auto mb-10">
             Join the Sabin Children's Foundation in creating a ripple effect of caring and sharing that transforms lives around the world.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
