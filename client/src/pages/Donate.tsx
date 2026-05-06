@@ -17,7 +17,7 @@ export default function Donate() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Make a Difference</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Make a Difference</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Your Generosity
               <span className="block text-[#D4A853]">Changes Everything</span>
@@ -33,7 +33,7 @@ export default function Donate() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Your Impact</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">What One Act of Generosity Can Do</h2>
             <p className="font-body text-[#3e4c59] text-lg max-w-2xl mx-auto">
               A well can bring clean water to an entire village. A surgery can restore sight. A school can change the future of a community. A meal can save a child's life.
@@ -72,7 +72,7 @@ export default function Donate() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div >
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">The Angels of Light Initiative</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Together We Can Go Further</h2>
               <p className="font-body text-white/80 text-lg leading-relaxed mb-8">
                 Angels of Light is a small group of caring individuals who work together to multiply the amount of good that can be done. By sharing the responsibility of giving, these partners help identify, fund, and scale the most impactful and efficient humanitarian projects around the world.
@@ -109,7 +109,7 @@ export default function Donate() {
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Promise</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Promise</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-6">100% Donation Model</h2>
             <p className="font-body text-[#3e4c59] text-lg leading-relaxed mb-6">
               All operational costs are covered separately by private donors. That means every dollar you give goes directly to life-saving programs — healthcare, clean water, nutrition, education, and surgeries for children who need it most.

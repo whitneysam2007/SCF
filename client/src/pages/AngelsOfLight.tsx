@@ -56,7 +56,7 @@ export default function AngelsOfLight() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/75 via-[#0a1428]/55 to-[#0a1428]/25" />
         </div>
         <div className="relative container pt-28 pb-16">
-          <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
+          <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
             The Angels of Light Initiative
           </p>
           <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
@@ -80,7 +80,7 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             <div>
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
                 About the Initiative
               </p>
               <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-6">
@@ -112,7 +112,7 @@ export default function AngelsOfLight() {
       <AnimatedSection className="py-20 md:py-28 bg-[#12365a]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
               How It Works
             </p>
             <h2 className="font-display text-white text-3xl md:text-4xl font-bold">
@@ -161,7 +161,7 @@ export default function AngelsOfLight() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-14">
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold italic">
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold italic">
                 An Invitation
               </p>
               <h2 className="font-display text-[#12365a] text-3xl md:text-4xl lg:text-5xl font-bold italic mb-4">
@@ -226,7 +226,7 @@ export default function AngelsOfLight() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
               Real Impact
             </p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">
@@ -342,7 +342,7 @@ export default function AngelsOfLight() {
               />
             </div>
             <div>
-              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-base font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
+              <span className="inline-block px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-sm font-semibold tracking-wider uppercase rounded mb-4">Protection &amp; Education</span>
               <p className="font-body text-[#3e4c59]/50 text-base mb-2">Zambia</p>
               <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Hope for Lusaka's Street Children</h3>
               <p className="font-body text-[#3e4c59] text-base leading-relaxed mb-6">
@@ -371,7 +371,7 @@ export default function AngelsOfLight() {
                 />
               </div>
               <div className="lg:col-span-3">
-                <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">
+                <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">
                   Venture Philanthropy
                 </p>
                 <h3 className="font-display text-[#12365a] text-2xl font-bold mb-4">Rising Star Outreach</h3>
@@ -478,7 +478,7 @@ export default function AngelsOfLight() {
                   <label className="font-body text-[#3e4c59] text-base font-semibold block mb-1.5">
                     Participation Level <span className="text-red-500">*</span>
                   </label>
-                  <p className="font-body text-[#3e4c59] text-base mb-2 italic">Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.</p>
+                  <p className="font-body text-[#3e4c59] text-sm mb-2 italic">Choose the participation level per project that fits your life — 1%, 5%, 10%, or a set annual gift.</p>
                   <select
                     name="participationLevel"
                     value={formData.participationLevel}

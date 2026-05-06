@@ -40,7 +40,7 @@ export default function About() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">About Us</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">About Us</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Helping the Least of the Least
               <span className="block text-[#D4A853]">In the Most Efficient Way</span>
@@ -54,12 +54,12 @@ export default function About() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">One Drop at a Time</p>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">One Drop at a Time</p>
               <blockquote className="border-l-4 border-[#D4A853] pl-6 mb-8">
                 <p className="font-display text-[#12365a] text-2xl md:text-3xl italic leading-relaxed mb-4">
                   "Just as ripples spread out when a single pebble is dropped into water, the actions of individuals can have far-reaching effects."
                 </p>
-                <cite className="font-body text-[#D4A853] text-base not-italic font-semibold tracking-wide uppercase">— Dalai Lama</cite>
+                <cite className="font-body text-[#D4A853] text-sm not-italic font-semibold tracking-wide uppercase">— Dalai Lama</cite>
               </blockquote>
               <p className="font-body text-[#3e4c59] text-lg leading-relaxed">
                 That is the belief at the heart of everything we do. The Sabin Children's Foundation was built on the conviction that one person, moved to act, can set something in motion that reaches far beyond what they can see. A well brings clean water to an entire village. A surgery restores a child's sight. A meal saves a life. A school changes the future of a community. We exist to connect generous people to those moments — to be the drop that starts the ripple.
@@ -77,7 +77,7 @@ export default function About() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Story</p>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Story</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-6">Founded on a Simple Belief</h2>
             </div>
             <blockquote className="text-center mb-12">
@@ -97,7 +97,7 @@ export default function About() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Leadership</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Meet Our Team</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 max-w-5xl mx-auto">
@@ -116,7 +116,7 @@ export default function About() {
       <AnimatedSection className="py-16 md:py-20 bg-white">
         <div className="container">
           <div className="text-center mb-10">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Resources</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Resources</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">Learn More About SCF</h2>
             <p className="font-body text-gray-600 text-lg max-w-xl mx-auto">Download our brochure or view our full slide deck to learn more about our mission, impact, and programs.</p>
           </div>

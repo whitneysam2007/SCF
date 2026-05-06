@@ -92,7 +92,7 @@ export default function Stories() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Stories of Impact</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Stories of Impact</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Real Stories,
               <span className="block text-[#D4A853]">Real Lives Changed</span>
@@ -108,7 +108,7 @@ export default function Stories() {
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Short Films</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Short Films</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Stories in Their Own Words</h2>
             <p className="font-body text-[#3e4c59] text-lg mt-4 max-w-2xl mx-auto">Watch the people and projects behind the numbers.</p>
           </div>
@@ -171,7 +171,7 @@ export default function Stories() {
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-base font-semibold tracking-wider uppercase rounded">{story.category}</span>
+                    <span className="px-3 py-1 bg-[#D4A853]/10 text-[#D4A853] font-body text-sm font-semibold tracking-wider uppercase rounded">{story.category}</span>
                     <span className="font-body text-[#3e4c59]/50 text-base">{story.location}</span>
                   </div>
                   <h2 className="font-display text-[#12365a] text-2xl md:text-3xl font-bold mb-4">{story.title}</h2>
@@ -217,7 +217,7 @@ export default function Stories() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Gallery</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Gallery</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Faces of Hope</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">

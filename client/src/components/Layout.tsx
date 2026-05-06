@@ -155,7 +155,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
             {/* Location */}
             <div>
-              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Location</h4>
+              <h4 className="text-[#D4A853] text-sm font-bold tracking-widest uppercase mb-4">Location</h4>
               <a
                 href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
@@ -169,14 +169,14 @@ export default function Layout({ children }: { children: ReactNode }) {
 
             {/* Contact */}
             <div>
-              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Contact</h4>
+              <h4 className="text-[#D4A853] text-sm font-bold tracking-widest uppercase mb-4">Contact</h4>
               <a href="tel:8583655112" className="text-base text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
               <a href="mailto:eric@sabinfoundation.org" className="text-base text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
             </div>
 
             {/* Resources */}
             <div>
-              <h4 className="text-[#D4A853] text-base font-bold tracking-widest uppercase mb-4">Resources</h4>
+              <h4 className="text-[#D4A853] text-sm font-bold tracking-widest uppercase mb-4">Resources</h4>
               <a
                 href="/manus-storage/Final_SCFBrochure(2)_69810193.pdf"
                 download

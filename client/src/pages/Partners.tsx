@@ -75,7 +75,7 @@ export default function Partners() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Our Partners</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Our Partners</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Trusted Organizations
               <span className="block text-[#D4A853]">Delivering Real Impact</span>
@@ -91,7 +91,7 @@ export default function Partners() {
       <AnimatedSection className="py-20 md:py-28 bg-[#f5f7fb]">
         <div className="container">
           <div className="text-center mb-14">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Global Reach</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Global Reach</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold mb-4">18 Countries Across 4 Continents</h2>
             <p className="font-body text-[#3e4c59] text-lg max-w-2xl mx-auto">
               From Central America to Southeast Asia, our partnerships reach the most vulnerable communities.
@@ -122,7 +122,7 @@ export default function Partners() {
       <AnimatedSection className="py-20 md:py-28 bg-white">
         <div className="container">
           <div className="text-center mb-16">
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Partner Organizations</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Organizations</p>
             <h2 className="font-display text-[#12365a] text-3xl md:text-4xl font-bold">Who We Work With</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -158,7 +158,7 @@ export default function Partners() {
           <div className="flex flex-col lg:flex-row items-center gap-16">
             {/* Text */}
             <div className="flex-1 max-w-xl">
-              <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Partner Criteria</p>
+              <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Partner Criteria</p>
               <h2 className="font-display text-white text-3xl md:text-4xl font-bold mb-2">What We Look for in a Partner</h2>
               <div className="w-12 h-0.5 bg-[#D4A853] mb-6" />
               <p className="font-body text-white/80 text-lg leading-relaxed mb-8">

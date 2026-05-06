@@ -42,7 +42,7 @@ export default function Contact() {
         </div>
         <div className="relative container pt-28 pb-16">
           <div>
-            <p className="font-body text-[#D4A853] text-base tracking-[0.2em] uppercase mb-3 font-semibold">Get in Touch</p>
+            <p className="font-body text-[#D4A853] text-sm tracking-[0.2em] uppercase mb-3 font-semibold">Get in Touch</p>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Let's Connect</h1>
             <p className="font-body text-white/80 text-lg max-w-xl">
               Whether you're interested in partnering, donating, or learning more about our work, we'd love to hear from you.
