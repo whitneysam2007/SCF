@@ -178,14 +178,14 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div>
               <h4 className="text-[#D4A853] text-sm font-bold tracking-widest uppercase mb-4">Resources</h4>
               <a
-                href="/manus-storage/Final_SCFBrochure(2)_69810193.pdf"
+                href="/manus-storage/scf-brochure_b76b8621.pdf"
                 download
                 className="text-base text-white/80 hover:text-white transition-colors block mb-2"
               >
                 Download Our Brochure
               </a>
               <a
-                href="/manus-storage/Final_SCFDeck(6)_f5d43381.pdf"
+                href="/manus-storage/scf-slide-deck_50ca44b0.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-base text-white/80 hover:text-white transition-colors block"
