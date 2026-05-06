@@ -66,7 +66,7 @@ const REGIONS = [
 
 export default function Partners() {
   return (
-    <div>
+    <div className="pt-20 md:pt-28">
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
