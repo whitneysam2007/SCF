@@ -200,13 +200,13 @@ export default function Partners() {
                 {/* Impact label — below X axis */}
                 <text x="205" y="342" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">Impact</text>
                 {/* Star marker — centered in upper-right quadrant */}
-                <g transform="translate(220, 140)">
+                <g transform="translate(295, 78)">
                   <line x1="0" y1="-22" x2="0" y2="22" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
                   <line x1="-19" y1="-11" x2="19" y2="11" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
                   <line x1="-19" y1="11" x2="19" y2="-11" stroke="#D4A853" strokeWidth="4" strokeLinecap="round" />
                 </g>
                 {/* Label above star on one line */}
-                <text x="220" y="105" fill="white" fontSize="14" textAnchor="middle">SCF target projects</text>
+                <text x="295" y="48" fill="white" fontSize="14" textAnchor="middle">SCF target projects</text>
               </svg>
             </div>
           </div>
