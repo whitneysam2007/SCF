@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
-              src="/manus-storage/ripple-droplet-clean_59eee497.png"
+              src="/manus-storage/ripple-droplet-noborder_4f8490b3.png"
               alt="SCF Water Ripple"
               className="h-10 sm:h-12 md:h-[52px] w-auto md:w-[74px] rounded-sm object-cover object-top"
             />
@@ -141,7 +141,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <img
-                  src="/manus-storage/ripple-droplet-clean_59eee497.png"
+                  src="/manus-storage/ripple-droplet-noborder_4f8490b3.png"
                   alt="SCF Water Ripple"
                   className="h-20 w-auto"
                 />
