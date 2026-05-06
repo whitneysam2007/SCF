@@ -122,7 +122,7 @@ export default function About() {
           </div>
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="/manus-storage/scf-brochure_b76b8621.pdf"
+              href="/manus-storage/scf-brochure-v2_5ebd4b5e.pdf"
               download
               className="inline-flex items-center gap-3 px-8 py-4 bg-[#12365a] hover:bg-[#0e2a47] text-white font-body font-bold text-base tracking-wide rounded transition-all shadow-md"
             >
@@ -130,7 +130,7 @@ export default function About() {
               DOWNLOAD OUR BROCHURE
             </a>
             <a
-              href="/manus-storage/scf-slide-deck_50ca44b0.pdf"
+              href="/manus-storage/scf-deck-v2_5dcca794.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 border-2 border-[#12365a] text-[#12365a] hover:bg-[#12365a] hover:text-white font-body font-bold text-base tracking-wide rounded transition-all"
