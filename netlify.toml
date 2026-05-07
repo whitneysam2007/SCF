@@ -2,6 +2,56 @@
   command   = "vite build"
   publish   = "dist/public"
 
+# Block WordPress brute-force bots and common scanner paths
+[[redirects]]
+  from   = "/wp-login.php"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/wp-admin"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/wp-admin/*"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/wp-content/*"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/wp-includes/*"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/xmlrpc.php"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/.env"
+  to     = "/404"
+  status = 404
+  force  = true
+
+[[redirects]]
+  from   = "/phpmyadmin/*"
+  to     = "/404"
+  status = 404
+  force  = true
+
+# SPA catch-all — must remain last
 [[redirects]]
   from   = "/*"
   to     = "/index.html"
