@@ -440,6 +440,8 @@ export default function AngelsOfLight() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-gray-100">
+                {/* Honeypot field — hidden from humans, catches bots */}
+                <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
                 <div className="text-center mb-8">
                   <div className="w-14 h-14 rounded-full bg-[#D4A853]/10 flex items-center justify-center mx-auto mb-4">
                     <Heart className="text-[#D4A853]" size={24} />
