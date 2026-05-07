@@ -43,13 +43,14 @@ export default function AngelsOfLight() {
     }
     setIsSubmitting(true);
     try {
-      const res = await fetch("https://formspree.io/f/mvzlrazz", {
+      const body = new URLSearchParams({
+        "form-name": "angel-of-light",
+        ...formData,
+      }).toString();
+      const res = await fetch("/", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          ...formData,
-          _subject: "New Angel of Light Inquiry",
-        }),
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body,
       });
       if (res.ok) {
         setSubmitted(true);
@@ -440,8 +441,9 @@ export default function AngelsOfLight() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-gray-100">
-                {/* Honeypot field — hidden from humans, catches bots */}
-                <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+                {/* Netlify hidden fields */}
+                <input type="hidden" name="form-name" value="angel-of-light" />
+                <p hidden><input name="bot-field" /></p>
                 <div className="text-center mb-8">
                   <div className="w-14 h-14 rounded-full bg-[#D4A853]/10 flex items-center justify-center mx-auto mb-4">
                     <Heart className="text-[#D4A853]" size={24} />

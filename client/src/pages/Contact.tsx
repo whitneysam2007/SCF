@@ -32,10 +32,14 @@ export default function Contact() {
     }
     setIsSubmitting(true);
     try {
-      const res = await fetch("https://formspree.io/f/mvzlrazz", {
+      const body = new URLSearchParams({
+        "form-name": "contact",
+        ...formData,
+      }).toString();
+      const res = await fetch("/", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify(formData),
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body,
       });
       if (res.ok) {
         setSubmitted(true);
@@ -94,8 +98,9 @@ export default function Contact() {
                 </div>
               ) : (
                 <form id="contact-form" onSubmit={handleSubmit} className="bg-white rounded-lg p-8 md:p-10 shadow-sm border border-gray-100">
-                  {/* Honeypot field — hidden from humans, catches bots */}
-                  <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+                  {/* Netlify honeypot field */}
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p hidden><input name="bot-field" /></p>
                   <h2 className="font-display text-[#12365a] text-2xl font-bold mb-6">Send Us a Message</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
                     <div>
