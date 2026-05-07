@@ -528,11 +528,14 @@ export default function AngelsOfLight() {
                     <div className="relative">
                       <span className="absolute left-4 top-1/2 -translate-y-1/2 font-body text-[#3e4c59] text-base font-semibold">$</span>
                       <input
-                        type="number"
+                        type="text"
+                        inputMode="numeric"
                         name="annualGiftAmount"
                         value={formData.annualGiftAmount}
-                        onChange={handleChange}
-                        min="1"
+                        onChange={(e) => {
+                          const clean = e.target.value.replace(/[^0-9]/g, "");
+                          setFormData({ ...formData, annualGiftAmount: clean });
+                        }}
                         className="w-full pl-8 pr-4 py-3 border border-gray-200 rounded-md font-body text-base focus:outline-none focus:ring-2 focus:ring-[#D4A853]/50 focus:border-[#D4A853] transition-colors bg-[#ffffff]"
                         placeholder="e.g. 5000"
                       />
