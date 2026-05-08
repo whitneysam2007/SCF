@@ -57,7 +57,7 @@ const STORIES = [
     location: "Philippines",
     category: "Surgery",
     img: "/manus-storage/clubfoot_sidebyside_6e6c240e.jpg",
-    text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. This is him proudly wearing his first pair of shoes.",
+    text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. He looks so proud wearing his first pair of shoes.",
     stat: "$60",
     statLabel: "Corrects both of a child's feet",
   },
