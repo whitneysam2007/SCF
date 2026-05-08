@@ -71,7 +71,7 @@ export default function AngelsOfLight() {
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/building-school_ff708dac_41961aa7.png"
+            src="/manus-storage/building-school_ff708dac.png"
             alt="Community building together"
             className="w-full h-full object-cover"
           />
@@ -146,17 +146,17 @@ export default function AngelsOfLight() {
               {
                 title: "You Give",
                 desc: "Your contribution goes 100% directly to life-saving programs for children and families. All operational costs are covered separately by private donors.",
-                img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/you-give-mother-child_2557e047_babca2de.jpg",
+                img: "/manus-storage/you-give-mother-child_2557e047.jpg",
               },
               {
                 title: "We Direct",
                 desc: "We identify, vet, and partner with trusted local organizations and physicians delivering the most impactful and efficient humanitarian solutions.",
-                img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/food-prep_b1ea10c6_4d07abc0.png",
+                img: "/manus-storage/food-prep_b1ea10c6.png",
               },
               {
                 title: "Lives Change",
                 desc: "You receive clear reporting and measurable results, showing the real impact your support creates around the world.",
-                img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/guatemala-family-garden_4ce7b931_e788da60.jpg",
+                img: "/manus-storage/guatemala-family-garden_4ce7b931.jpg",
               },
             ].map((step, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:bg-white/10 transition-colors">
@@ -264,7 +264,7 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/cairo-heba_2d53c88a_a2652365.webp"
+                  src="/manus-storage/cairo-heba_2d53c88a.webp"
                   alt="Acid attack survivor in Egypt receiving care"
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -299,7 +299,7 @@ export default function AngelsOfLight() {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/chinese-orphans_00fe62d9_724f5ff9.webp"
+                  src="/manus-storage/chinese-orphans_00fe62d9.webp"
                   alt="Chinese orphans with SCF volunteer"
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -310,7 +310,7 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/disabled-learning-center-v2_b4aee080_ec0f2a3f.png"
+                  src="/manus-storage/disabled-learning-center-v2_b4aee080.png"
                   alt="Child at disabled children's learning center"
                   className="rounded-lg shadow-lg w-full h-80 object-cover object-top"
                 />
@@ -342,7 +342,7 @@ export default function AngelsOfLight() {
               </div>
               <div className="order-1 lg:order-2">
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/christmas-thailand-v2_85706d92_fc4a63f9.png"
+                  src="/manus-storage/christmas-thailand-v2_85706d92.png"
                   alt="Children with Christmas bicycles in Thailand"
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -358,7 +358,7 @@ export default function AngelsOfLight() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="overflow-hidden rounded-lg">
               <img
-                src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/lusaka-3_d337782e_e90b7d10.jpg"
+                src="/manus-storage/lusaka-3_d337782e.jpg"
                 alt="Children carrying babies on their backs in Lusaka, Zambia"
                 className="w-full h-full object-cover"
               />
@@ -382,12 +382,12 @@ export default function AngelsOfLight() {
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
               <div className="lg:col-span-2 flex flex-col gap-4">
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/rising-star-1_f1f91089_2794f970.jpg"
+                  src="/manus-storage/rising-star-1_f1f91089.jpg"
                   alt="Becky with Rising Star Outreach students in India"
                   className="rounded-lg shadow-lg w-full object-cover"
                 />
                 <img
-                  src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/rising-star-2_a5fb59df_a774efb0.jpg"
+                  src="/manus-storage/rising-star-2_a5fb59df.jpg"
                   alt="Becky hugging two Rising Star students"
                   className="rounded-lg shadow-lg w-full object-cover"
                 />
@@ -589,7 +589,7 @@ export default function AngelsOfLight() {
       <section className="relative py-20 md:py-24 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/children-waving_f0d014ab_84603020.png"
+            src="/manus-storage/children-waving_f0d014ab.png"
             alt="Children waving"
             className="w-full h-full object-cover"
           />
