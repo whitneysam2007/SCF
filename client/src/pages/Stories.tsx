@@ -11,7 +11,7 @@ const STORIES = [
     title: "Life-changing Cataract Surgery",
     location: "Philippines",
     category: "Surgery",
-    img: "/manus-storage/cataract-mother-cropped_37f34fe8_c1df0b3c.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/cataract-mother-cropped_37f34fe8_c1df0b3c.jpg",
     text: "This young mother saw her children for the first time thanks to a cataract surgery.",
     stat: "$50",
     statLabel: "Restores sight",
@@ -20,7 +20,7 @@ const STORIES = [
     title: "Nutrition Programs That Save Lives",
     location: "Guatemala",
     category: "Nutrition",
-    img: "/manus-storage/nutrition-girl-face_2cad4fee_1bca8198.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/nutrition-girl-face_2cad4fee_1bca8198.jpg",
     text: "For just $8 a month, a child gets the nutrition they need to survive and thrive. Our partner in Guatemala delivers emergency care to severely malnourished children and teaches their mothers how to sustain that health for good, because a healthy baby starts with an empowered mom.",
     stat: "$8/mo",
     statLabel: "Saves a child from malnutrition",
@@ -29,7 +29,7 @@ const STORIES = [
     title: "A New Smile, A New Life",
     location: "Philippines",
     category: "Surgery",
-    img: "/manus-storage/cleft-palate-clean_d0b5286c_801e5ca3.png",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/cleft-palate-clean_d0b5286c_801e5ca3.png",
     text: "Cleft palate surgery gives a child the ability to eat, speak, and smile. In Peru, our partners perform cleft palate repairs, clubfoot corrections, and other life-changing surgeries for children who would otherwise never receive care.",
     stat: "$100",
     statLabel: "Cleft palate surgery",
@@ -38,7 +38,7 @@ const STORIES = [
     title: "Asa's Children: All Born Blind",
     location: "Pakistan",
     category: "Surgery",
-    img: "/manus-storage/asa-family-clean2_49decb9f_b9decded.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/asa-family-clean2_49decb9f_b9decded.jpg",
     text: "When all three of Asa's children were born with cataract blindness, she lost all hope. Thanks to a simple surgery, they opened their eyes for the first time.",
     stat: "$50",
     statLabel: "Per child, restores sight",
@@ -47,7 +47,7 @@ const STORIES = [
     title: "Abandoned Orphans in India",
     location: "India",
     category: "protection & education",
-    img: "/manus-storage/gary-orphans_51388a11_e259c0b1.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/gary-orphans_51388a11_e259c0b1.jpg",
     objectPosition: "top",
     aspectRatio: "3/4",
     text: "Huddled beside their mother's lifeless body in a roadside gutter, three young girls were found alone and frightened as people passed by. They were brought to Pathway in India, where they found safety, care, and a loving family. Today, the sisters are flourishing — growing up with hope for a brighter future.",
@@ -56,7 +56,7 @@ const STORIES = [
     title: "Clubfoot Surgery",
     location: "Philippines",
     category: "Surgery",
-    img: "/manus-storage/clubfoot_sidebyside_6e6c240e_621763f9.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/clubfoot_sidebyside_6e6c240e_621763f9.jpg",
     text: "After corrective clubfoot surgery, this young boy walked confidently for the first time. He looks so proud wearing his first pair of shoes.",
     stat: "$60",
     statLabel: "Corrects both of a child's feet",
@@ -65,7 +65,7 @@ const STORIES = [
     title: "Clean Water Changes Everything",
     location: "Uganda",
     category: "Clean Water",
-    img: "/manus-storage/children-water_f6e57a45_8fe69b0b.png",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/children-water_f6e57a45_8fe69b0b.png",
     text: "A single well can bring clean water to an entire village. In Uganda and across East Africa, SCF partners install fresh water wells and sanitation systems that transform communities, reducing disease and giving children the chance to attend school instead of walking miles for water.",
     stat: "$5,000–$12,000",
     statLabel: "Brings clean water to a community",
@@ -74,7 +74,7 @@ const STORIES = [
     title: "Leprosy Screening in India",
     location: "India",
     category: "Healthcare",
-    img: "/manus-storage/leprosy-4_73d61a8b_4ac8d8cc.jpg",
+    img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/leprosy-4_73d61a8b_4ac8d8cc.jpg",
     text: "Sabin Children's Foundation sponsors a leprosy screening program for at-risk schoolchildren in Hyderabad and Chennai, India. In its first two years, the program screened over 300,000 children and cured thousands of cases.",
     stat: "$0.10",
     statLabel: "Per child screened",
@@ -87,7 +87,7 @@ export default function Stories() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/stories-banner-2-cropped_dbe57a23_11430ad0.png" alt="Children peering through wooden fence" className="w-full h-full object-cover object-right" />
+          <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/stories-banner-2-cropped_dbe57a23_11430ad0.png" alt="Children peering through wooden fence" className="w-full h-full object-cover object-right" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
         </div>
         <div className="relative container pt-28 pb-16">
@@ -222,14 +222,14 @@ export default function Stories() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {[
-              "/manus-storage/child-portrait-crop_a19c0ab0_6d9ce6ba.png",
-              "/manus-storage/girl-glasses_f44b1d2b_02562fe3.png",
-              "/manus-storage/boy-glasses_8817b354_80a86a93.png",
-              "/manus-storage/child-smile-crop_e17f6b11_cffccf59.png",
-              "/manus-storage/woman-headscarf_c6340b22_de31eda7.png",
-              "/manus-storage/faces-of-hope-kids_f48425ed_11d6e23a.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/child-portrait-crop_a19c0ab0_6d9ce6ba.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/girl-glasses_f44b1d2b_02562fe3.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/boy-glasses_8817b354_80a86a93.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/child-smile-crop_e17f6b11_cffccf59.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/woman-headscarf_c6340b22_de31eda7.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/faces-of-hope-kids_f48425ed_11d6e23a.png",
               "https://files.manuscdn.com/user_upload_by_module/session_file/310519663520822653/GjxsBrJzUWvHZWZO.webp",
-              "/manus-storage/children-sitting-crop_afcc347f_0b4fbd36.png",
+              "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/children-sitting-crop_afcc347f_0b4fbd36.png",
             ].map((src, i) => (
               <div key={i} className="overflow-hidden rounded-lg aspect-square">
                 <img src={src} alt="SCF beneficiary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
@@ -242,7 +242,7 @@ export default function Stories() {
       {/* CTA */}
       <section className="relative py-20 md:py-24 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/children-waving_f0d014ab_84603020.png" alt="Children waving" className="w-full h-full object-cover" />
+          <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/children-waving_f0d014ab_84603020.png" alt="Children waving" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#0a1428]/70" />
         </div>
         <div className="relative container text-center">

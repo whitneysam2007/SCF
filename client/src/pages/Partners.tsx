@@ -11,48 +11,48 @@ const PARTNER_LOGOS = [
   {
     name: "Charity Vision",
     formerName: "Deseret International",
-    logo: "/manus-storage/logo-charity-vision_0f8be18e_145a6480.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-charity-vision_0f8be18e_145a6480.png",
     url: "https://www.charityvision.org",
   },
   {
     name: "The Humble Village",
-    logo: "/manus-storage/logo-humble-village_b2a5c825_1136a450.webp",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-humble-village_b2a5c825_1136a450.webp",
     url: "https://www.the-humble-village.org",
   },
   {
     name: "Pathway India",
-    logo: "/manus-storage/logo-pathway-india_2f167b0f_c63194b2.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-pathway-india_2f167b0f_c63194b2.png",
     url: "https://www.pathwayindia.org",
   },
   {
     name: "Hope Projects",
-    logo: "/manus-storage/logo-hope-projects_3ff5121d_392be111.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-hope-projects_3ff5121d_392be111.png",
     url: "https://www.hopeprojects.com",
   },
   {
     name: "Rise and Rebuild",
-    logo: "/manus-storage/logo-rise-rebuild_4f129faa_3e3d863a.jpg",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-rise-rebuild_4f129faa_3e3d863a.jpg",
     url: "https://www.riserebuildinc.org",
   },
   {
     name: "Rising Star Outreach",
-    logo: "/manus-storage/logo-rising-star_1360bac1_80fe6891.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-rising-star_1360bac1_80fe6891.png",
     url: "https://risingstaroutreach.org",
   },
   {
     name: "Global Communities",
     formerName: "Project Concern International",
-    logo: "/manus-storage/logo-global-communities_6e6ce44f_6f85f2fc.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-global-communities_6e6ce44f_6f85f2fc.png",
     url: "https://globalcommunities.org",
   },
   {
     name: "Catholic Charities",
-    logo: "/manus-storage/logo-catholic-charities_29c96e5f_6181bd8a.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-catholic-charities_29c96e5f_6181bd8a.png",
     url: "https://www.catholiccharitiesusa.org",
   },
   {
     name: "The Church of Jesus Christ of Latter-day Saints",
-    logo: "/manus-storage/logo-lds-church_59e1ba88_ed9da1ca.png",
+    logo: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/logo-lds-church_59e1ba88_ed9da1ca.png",
     url: "https://www.churchofjesuschrist.org",
   },
 ];
@@ -70,7 +70,7 @@ export default function Partners() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/partners-banner-1-clean_356cbae3_733ec817.png" alt="Two nurses in a mobile medical van" className="w-full h-full object-cover object-top" />
+          <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/partners-banner-1-clean_356cbae3_733ec817.png" alt="Two nurses in a mobile medical van" className="w-full h-full object-cover object-top" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
         </div>
         <div className="relative container pt-28 pb-16">
@@ -110,7 +110,7 @@ export default function Partners() {
           {/* SCF Global Impact Map */}
           <div className="mt-14">
             <img
-              src="/manus-storage/scf-global-impact-map_93aa47aa_1539594a.png"
+              src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/scf-global-impact-map_93aa47aa_1539594a.png"
               alt="SCF Global Impact Map showing 18 countries across 4 continents"
               className="w-full rounded-lg shadow-md block"
             />

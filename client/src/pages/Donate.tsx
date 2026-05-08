@@ -12,7 +12,7 @@ export default function Donate() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/donate-hero_777307b6_3b8f0dba.jpg" alt="Community members preparing food together" className="w-full h-full object-cover" style={{ objectPosition: 'center 30%' }} />
+          <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/donate-hero_777307b6_3b8f0dba.jpg" alt="Community members preparing food together" className="w-full h-full object-cover" style={{ objectPosition: 'center 30%' }} />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
         </div>
         <div className="relative container pt-28 pb-16">
@@ -41,10 +41,10 @@ export default function Donate() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-14">
             {[
-              { cost: "$50", label: "Cataract Surgery", desc: "Restoring sight to a child or parent", img: "/manus-storage/donate-cataract-crop_7101dc09_d0e4c7e1.jpg" },
-              { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition", img: "/manus-storage/donate-nutrition-crop_b1f27dc0_e6b82226.jpg" },
-              { cost: "$60", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "/manus-storage/donate-clubfoot-crop_2c4f7335_52a72b72.png" },
-              { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile", img: "/manus-storage/donate-cleft-crop_f1090178_accdbd13.png" },
+              { cost: "$50", label: "Cataract Surgery", desc: "Restoring sight to a child or parent", img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/donate-cataract-crop_7101dc09_d0e4c7e1.jpg" },
+              { cost: "$8/mo", label: "Child Nutrition", desc: "Saving a child from severe malnutrition", img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/donate-nutrition-crop_b1f27dc0_e6b82226.jpg" },
+              { cost: "$60", label: "Clubfoot Surgery", desc: "Helping a child walk for the first time", img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/donate-clubfoot-crop_2c4f7335_52a72b72.png" },
+              { cost: "$100", label: "Cleft Palate Surgery", desc: "Giving a child the ability to eat, speak, and smile", img: "https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/donate-cleft-crop_f1090178_accdbd13.png" },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                 <div className="aspect-[4/3] overflow-hidden">
@@ -95,7 +95,7 @@ export default function Donate() {
               </Link>
             </div>
             <div >
-              <img src="/manus-storage/children-waving_f0d014ab_84603020.png" alt="Children waving" className="rounded-lg shadow-2xl w-full" />
+              <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/children-waving_f0d014ab_84603020.png" alt="Children waving" className="rounded-lg shadow-2xl w-full" />
               <div className="mt-6 bg-white/5 border border-white/10 rounded-lg p-6">
                 <p className="font-display text-[#D4A853] text-lg italic mb-2">"Let your light so shine before men, that they may see your good works"</p>
                 <p className="font-body text-white/50 text-base">— Matthew 5:16</p>
@@ -124,7 +124,7 @@ export default function Donate() {
       {/* Final CTA */}
       <section className="relative py-20 md:py-24 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/african-children-group_9be27a03_720d690c.png" alt="Group of children" className="w-full h-full object-cover" />
+          <img src="https://d36hbw14aib5lz.cloudfront.net/310519663520822653/gck96ofZSr9RHT3ULk9Y66/african-children-group_9be27a03_720d690c.png" alt="Group of children" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#0a1428]/70" />
         </div>
         <div className="relative container text-center">
