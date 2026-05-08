@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 
 const teamMembers = [
   { name: "Gary Sabin", role: "Founder & Chairman", img: "/manus-storage/Gary_Sabin_Square-e1557441395765_1b8727f8.jpeg" },
-  { name: "Valerie Sabin", role: "Director", img: "/manus-storage/Gary-and-Val-Sabin_f9be02ec.jpg" },
+  { name: "Valerie Sabin", role: "Director", img: "/manus-storage/ValPhoto.jpg" },
   { name: "Eric Ottesen", role: "President", img: "/manus-storage/Eric-Ottesen_0d73a20f.jpg" },
   { name: "Spencer Plumb", role: "Vice President", img: "/manus-storage/IMG_8562-1-e1557441692941_b5ff3e3f.jpg" },
   { name: "Kimberly Sabin Plumb", role: "Director", img: "/manus-storage/Spencer-and-Kim-Plumb_24f3c808.jpg" },
