@@ -59,7 +59,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/holy-innocents_26c52704.jpg" alt="Four children looking at the camera in Zambia" className="w-full h-full object-cover object-center" />
+          <img src="/manus-storage/holy-innocents_26c52704_def6506b.jpg" alt="Four children looking at the camera in Zambia" className="w-full h-full object-cover object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
         </div>
         <div className="relative container pt-28 pb-16">

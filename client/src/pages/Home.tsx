@@ -48,7 +48,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/manus-storage/hi-6_7997798d.webp"
+            src="/manus-storage/hi-6_7997798d_011113c0.webp"
             alt="Children smiling"
             className="w-full h-full object-cover"
           />
@@ -145,10 +145,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {[
-              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6.png", objPos: "" },
-              { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9.png", objPos: "" },
-              { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump-face-crop2_bb906eaf.png", objPos: "object-top" },
-              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9.png", objPos: "" },
+              { icon: Eye, title: "Preventable Blindness", text: "Millions suffer from preventable blindness", img: "/manus-storage/eye-closeup_d46680f6_d159c660.png", objPos: "" },
+              { icon: Baby, title: "Malnutrition", text: "Children face severe malnutrition without access to care", img: "/manus-storage/malnutrition-photo_24a512e9_f96b0042.png", objPos: "" },
+              { icon: Droplets, title: "Lack of Clean Water", text: "Clean water and sanitation remain inaccessible in many regions", img: "/manus-storage/water-pump-face-crop2_bb906eaf_fa6a9bb6.png", objPos: "object-top" },
+              { icon: Stethoscope, title: "Treatable Diseases", text: "Treatable diseases still claim thousands of lives each year", img: "/manus-storage/treatable-diseases-photo_28f423e9_51cc624a.png", objPos: "" },
             ].map((item, i) => (
               <div key={i} className="group relative overflow-hidden rounded-lg aspect-[16/10]">
                 <img src={item.img} alt={item.title} className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${item.objPos}`} />
@@ -189,7 +189,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <img src="/manus-storage/venture-philanthropy_baed5f58.png" alt="SCF community program" className="rounded-lg shadow-2xl w-full" />
+              <img src="/manus-storage/venture-philanthropy_baed5f58_f2432564.png" alt="SCF community program" className="rounded-lg shadow-2xl w-full" />
               <div className="absolute -bottom-6 -left-6 bg-[#12365a] text-white p-6 rounded-lg shadow-xl max-w-[240px]">
                 <p className="font-stat text-[#D4A853] text-3xl font-bold mb-1">100%</p>
                 <p className="font-body text-white/80 text-lg">Donation model — every dollar goes directly to programs</p>
@@ -241,10 +241,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
             {[
-              { src: "/manus-storage/africa-community_e5d09f33.png", label: "Uganda" },
-              { src: "/manus-storage/girls-smiling_a37fc95e.png", label: "India" },
-              { src: "/manus-storage/peru-family_e1da7a0a.png", label: "Guatemala" },
-              { src: "/manus-storage/feeding-program_2769e285.png", label: "Philippines" },
+              { src: "/manus-storage/africa-community_e5d09f33_032e9dd5.png", label: "Uganda" },
+              { src: "/manus-storage/girls-smiling_a37fc95e_21947ded.png", label: "India" },
+              { src: "/manus-storage/peru-family_e1da7a0a_1f59ed20.png", label: "Guatemala" },
+              { src: "/manus-storage/feeding-program_2769e285_0c652830.png", label: "Philippines" },
             ].map((item, i) => (
               <div key={i} className="relative group overflow-hidden rounded-lg aspect-[4/3]">
                 <img src={item.src} alt={item.label} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -265,12 +265,12 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
             {[
-              { icon: Stethoscope, title: "Essential Healthcare Access", desc: "Clinics, mobile health vans, and hospitals providing care to underserved communities.", img: "/manus-storage/pillar-healthcare_f9271335.png" },
-              { icon: Heart, title: "Safe Care for Vulnerable Children", desc: "Children's homes, orphanages, and support programs giving children safety and hope.", img: "/manus-storage/pillar-safe-care_924b56c5.png" },
-              { icon: Baby, title: "Maternal & Child Nutrition", desc: "Programs helping severely malnourished children recover and thrive.", img: "/manus-storage/mother-baby_f6648b22.jpg" },
-              { icon: Droplets, title: "Clean Water, Sanitation & Hygiene", desc: "Fresh water wells and sanitation systems bringing safe water to communities.", img: "/manus-storage/pillar-clean-water-crop_bcabe271.png" },
-              { icon: Eye, title: "Life-Changing Surgeries & Specialty Care", desc: "Cleft palate repairs, eye surgeries, clubfoot corrections, and prosthetics.", img: "/manus-storage/surgery-room_5bf1238e.png" },
-              { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/pillar-education_7b8b8d1c.png" },
+              { icon: Stethoscope, title: "Essential Healthcare Access", desc: "Clinics, mobile health vans, and hospitals providing care to underserved communities.", img: "/manus-storage/pillar-healthcare_f9271335_91ca5fd7.png" },
+              { icon: Heart, title: "Safe Care for Vulnerable Children", desc: "Children's homes, orphanages, and support programs giving children safety and hope.", img: "/manus-storage/pillar-safe-care_924b56c5_c99318d8.png" },
+              { icon: Baby, title: "Maternal & Child Nutrition", desc: "Programs helping severely malnourished children recover and thrive.", img: "/manus-storage/mother-baby_f6648b22_a038e3cc.jpg" },
+              { icon: Droplets, title: "Clean Water, Sanitation & Hygiene", desc: "Fresh water wells and sanitation systems bringing safe water to communities.", img: "/manus-storage/pillar-clean-water-crop_bcabe271_f1149d67.png" },
+              { icon: Eye, title: "Life-Changing Surgeries & Specialty Care", desc: "Cleft palate repairs, eye surgeries, clubfoot corrections, and prosthetics.", img: "/manus-storage/surgery-room_5bf1238e_11aecfd8.png" },
+              { icon: GraduationCap, title: "Education & Opportunity", desc: "Schools, textbooks, and vocational programs opening doors for children.", img: "/manus-storage/pillar-education_7b8b8d1c_16904676.png" },
             ].map((pillar, i) => (
               <div key={i} className="group relative overflow-hidden rounded-lg flex flex-col h-full">
                 <div className="aspect-[4/3] overflow-hidden shrink-0">
@@ -292,7 +292,7 @@ export default function Home() {
       {/* ===== STORIES PREVIEW ===== */}
       <AnimatedSection className="relative py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/volunteer-africa_0323e985.png" alt="Volunteer with children" className="w-full h-full object-cover" />
+          <img src="/manus-storage/volunteer-africa_0323e985_21479284.png" alt="Volunteer with children" className="w-full h-full object-cover" />
           <div className="absolute inset-0 scrim-full" />
         </div>
         <div className="relative container">
@@ -366,7 +366,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative">
-              <img src="/manus-storage/children-waving_f0d014ab.png" alt="Children waving" className="rounded-lg shadow-2xl w-full" />
+              <img src="/manus-storage/children-waving_f0d014ab_84603020.png" alt="Children waving" className="rounded-lg shadow-2xl w-full" />
               <div className="absolute -top-4 -right-4 bg-[#D4A853] text-[#12365a] px-5 py-3 rounded-lg shadow-lg">
                 <p className="font-display text-base font-bold italic">"Let your light so shine"</p>
                 <p className="font-body text-base mt-1">— Matthew 5:16</p>
@@ -379,7 +379,7 @@ export default function Home() {
       {/* ===== FINAL CTA ===== */}
       <AnimatedSection className="relative py-24 md:py-32 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/african-children-group_9be27a03.png" alt="Group of children" className="w-full h-full object-cover" />
+          <img src="/manus-storage/african-children-group_9be27a03_720d690c.png" alt="Group of children" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#0a1428]/70" />
         </div>
         <div className="relative container text-center">

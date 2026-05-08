@@ -7,18 +7,18 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import { ArrowRight } from "lucide-react";
 
 const teamMembers = [
-  { name: "Gary Sabin", role: "Founder & Chairman", img: "/manus-storage/Gary_Sabin_Square-e1557441395765_1b8727f8.jpeg" },
-  { name: "Valerie Sabin", role: "Director", img: "/manus-storage/Gary-and-Val-Sabin_f9be02ec.jpg" },
-  { name: "Eric Ottesen", role: "President", img: "/manus-storage/Eric-Ottesen_0d73a20f.jpg" },
-  { name: "Spencer Plumb", role: "Vice President", img: "/manus-storage/IMG_8562-1-e1557441692941_b5ff3e3f.jpg" },
-  { name: "Kimberly Sabin Plumb", role: "Director", img: "/manus-storage/Spencer-and-Kim-Plumb_24f3c808.jpg" },
-  { name: "Mark Burton", role: "Vice President", img: "/manus-storage/Mark-Burton_992b7dfc.jpg" },
-  { name: "Van Tengberg", role: "Director", img: "/manus-storage/Van-Tengberg_1af3d39a.jpg" },
-  { name: "Jennifer Sabin Sattley", role: "Director", img: "/manus-storage/Jennifer-Sabin-Sattley_df244b88.jpg" },
-  { name: "Matt Romney", role: "Director", img: "/manus-storage/Matt_Romney-e1557440827771_c11f6a17.png" },
-  { name: "Steve Henry", role: "Director", img: "/manus-storage/IMG_8631-e1557442294325_8589e70d.jpg" },
-  { name: "Dan Haslam", role: "Director", img: "/manus-storage/IMG_8539-e1557441852358_612e19f6.jpg" },
-  { name: "Rachel Miller", role: "Secretary", img: "/manus-storage/IMG_8637-e1557442471441_c210f945.jpg" },
+  { name: "Gary Sabin", role: "Founder & Chairman", img: "/manus-storage/Gary_Sabin_Square-e1557441395765_1b8727f8_7e696872.jpeg" },
+  { name: "Valerie Sabin", role: "Director", img: "/manus-storage/Gary-and-Val-Sabin_f9be02ec_be36be98.jpg" },
+  { name: "Eric Ottesen", role: "President", img: "/manus-storage/Eric-Ottesen_0d73a20f_378ff9b4.jpg" },
+  { name: "Spencer Plumb", role: "Vice President", img: "/manus-storage/IMG_8562-1-e1557441692941_b5ff3e3f_b8d7045c.jpg" },
+  { name: "Kimberly Sabin Plumb", role: "Director", img: "/manus-storage/Spencer-and-Kim-Plumb_24f3c808_1db3b6ee.jpg" },
+  { name: "Mark Burton", role: "Vice President", img: "/manus-storage/Mark-Burton_992b7dfc_1d8f734b.jpg" },
+  { name: "Van Tengberg", role: "Director", img: "/manus-storage/Van-Tengberg_1af3d39a_c5330c75.jpg" },
+  { name: "Jennifer Sabin Sattley", role: "Director", img: "/manus-storage/Jennifer-Sabin-Sattley_df244b88_f5402e87.jpg" },
+  { name: "Matt Romney", role: "Director", img: "/manus-storage/Matt_Romney-e1557440827771_c11f6a17_42e203c3.png" },
+  { name: "Steve Henry", role: "Director", img: "/manus-storage/IMG_8631-e1557442294325_8589e70d_0748dbc5.jpg" },
+  { name: "Dan Haslam", role: "Director", img: "/manus-storage/IMG_8539-e1557441852358_612e19f6_f4c02d53.jpg" },
+  { name: "Rachel Miller", role: "Secretary", img: "/manus-storage/IMG_8637-e1557442471441_c210f945_a5efb8e4.jpg" },
 ];
 
 function TeamAvatar({ name, img }: { name: string; img: string }) {
@@ -35,7 +35,7 @@ export default function About() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/manus-storage/about-hero-kids_cropped_95ac4cb1.jpg" alt="Two children smiling" className="w-full h-full object-cover" />
+          <img src="/manus-storage/about-hero-kids_cropped_95ac4cb1_79b0cd0a.jpg" alt="Two children smiling" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1428]/70 via-[#0a1428]/45 to-[#0a1428]/15" />
         </div>
         <div className="relative container pt-28 pb-16">
@@ -66,7 +66,7 @@ export default function About() {
               </p>
             </div>
             <div>
-              <img src="/manus-storage/about-hero-child_09758f14.jpg" alt="Child looking up with hope" className="rounded-lg shadow-2xl w-full object-cover" style={{aspectRatio: '3/4', maxHeight: '520px'}} />
+              <img src="/manus-storage/about-hero-child_09758f14_aa7d5ac5.jpg" alt="Child looking up with hope" className="rounded-lg shadow-2xl w-full object-cover" style={{aspectRatio: '3/4', maxHeight: '520px'}} />
             </div>
           </div>
         </div>
