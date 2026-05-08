@@ -138,17 +138,17 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="container py-14">
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-12 items-start">
             {/* Brand Column */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 justify-start">
               <div className="flex items-center gap-3">
                 <img
                   src="/manus-storage/ripple-droplet-noborder_4f8490b3.png"
                   alt="SCF Water Ripple"
-                  className="h-16 w-auto"
+                  className="h-10 w-auto"
                 />
                 <img
                   src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
                   alt="Sabin Children's Foundation"
-                  className="h-16 w-auto"
+                  className="h-10 w-auto"
                 />
               </div>
             </div>
