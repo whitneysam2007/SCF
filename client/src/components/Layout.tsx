@@ -143,12 +143,12 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <img
                   src="/manus-storage/ripple-droplet-noborder_4f8490b3.png"
                   alt="SCF Water Ripple"
-                  className="h-20 w-auto"
+                  className="h-16 w-auto"
                 />
                 <img
                   src="/manus-storage/scf-logo-text-clean_72a7b4d7.png"
                   alt="Sabin Children's Foundation"
-                  className="h-14 w-auto"
+                  className="h-16 w-auto"
                 />
               </div>
             </div>
