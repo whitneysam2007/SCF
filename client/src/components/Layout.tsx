@@ -160,7 +160,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base text-white/80 hover:text-white transition-colors leading-relaxed block"
+                className="text-sm text-white/80 hover:text-white transition-colors leading-relaxed block"
               >
                 15 W S Temple, Suite 900<br />
                 Salt Lake City, UT 84101
@@ -170,8 +170,8 @@ export default function Layout({ children }: { children: ReactNode }) {
             {/* Contact */}
             <div>
               <h4 className="text-[#D4A853] text-sm font-bold tracking-widest uppercase mb-4">Contact</h4>
-              <a href="tel:8583655112" className="text-base text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
-              <a href="mailto:eric@sabinfoundation.org" className="text-base text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
+              <a href="tel:8583655112" className="text-sm text-white/80 hover:text-white transition-colors block mb-2">858-365-5112</a>
+              <a href="mailto:eric@sabinfoundation.org" className="text-sm text-white/80 hover:text-white transition-colors block">eric@sabinfoundation.org</a>
             </div>
 
             {/* Resources */}
@@ -180,7 +180,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               <a
                 href="https://drive.google.com/uc?export=download&id=1AO2WWZEDNncJ2E_bEqP13q8UQG8gawtj"
                 download
-                className="text-base text-white/80 hover:text-white transition-colors block mb-2"
+                className="text-sm text-white/80 hover:text-white transition-colors block mb-2"
               >
                 Download Our Brochure
               </a>
@@ -188,7 +188,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 href="https://drive.google.com/uc?export=download&id=1w3sKccEVsHLgZ1fXSOJ0AmnbhR5i9Z5R"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base text-white/80 hover:text-white transition-colors block"
+                className="text-sm text-white/80 hover:text-white transition-colors block"
               >
                 View Our Slide Deck
               </a>
