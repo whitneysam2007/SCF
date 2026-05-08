@@ -160,9 +160,16 @@ export default function Layout({ children }: { children: ReactNode }) {
                 href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-white/80 hover:text-white transition-colors leading-relaxed block"
+                className="text-sm text-white/80 hover:text-white transition-colors block mb-2"
               >
-                15 W S Temple, Suite 900<br />
+                15 W S Temple, Suite 900
+              </a>
+              <a
+                href="https://maps.google.com/?q=15+W+S+Temple+Suite+900+Salt+Lake+City+UT+84101"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-white/80 hover:text-white transition-colors block"
+              >
                 Salt Lake City, UT 84101
               </a>
             </div>
