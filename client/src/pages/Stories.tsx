@@ -251,9 +251,14 @@ export default function Stories() {
           </h2>
           <p className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8">Your generosity creates ripple effects that transform lives. Join us today.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/donate" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all">
+            <a
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all"
+            >
               DONATE NOW <ArrowRight size={16} />
-            </Link>
+            </a>
             <Link href="/contact" className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10">
               CONTACT US
             </Link>

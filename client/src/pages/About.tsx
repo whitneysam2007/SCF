@@ -153,9 +153,14 @@ export default function About() {
             <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all">
               GET IN TOUCH <ArrowRight size={16} />
             </Link>
-            <Link href="/donate" className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10">
+            <a
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10"
+            >
               DONATE NOW
-            </Link>
+            </a>
           </div>
         </div>
       </section>

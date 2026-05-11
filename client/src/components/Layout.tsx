@@ -77,7 +77,9 @@ export default function Layout({ children }: { children: ReactNode }) {
               </Link>
             ))}
             <a
-              href="/contact#contact-form"
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-3 px-6 py-3 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-colors"
             >
               GIVE NOW
@@ -118,7 +120,9 @@ export default function Layout({ children }: { children: ReactNode }) {
                   </Link>
                 ))}
                 <a
-                  href="/contact#contact-form"
+                  href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-3 px-6 py-3 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-center rounded transition-colors"
                 >
                   GIVE NOW

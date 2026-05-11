@@ -59,9 +59,14 @@ export default function Donate() {
             ))}
           </div>
           <div className="text-center">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
+            <a
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+            >
               <Heart size={18} /> DONATE NOW
-            </Link>
+            </a>
             <p className="font-body text-[#3e4c59]/60 text-base mt-4">Contact us to arrange your donation</p>
           </div>
         </div>
@@ -134,9 +139,14 @@ export default function Donate() {
           <p className="font-body text-white/80 text-lg max-w-xl mx-auto mb-8">
             Join the Sabin Children's Foundation in creating a ripple effect of caring and sharing.
           </p>
-          <Link href="/contact" className="px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg">
-            CONTACT US TO DONATE
-          </Link>
+          <a
+            href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg"
+          >
+            DONATE NOW
+          </a>
         </div>
       </section>
     </div>

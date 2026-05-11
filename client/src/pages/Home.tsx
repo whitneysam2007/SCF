@@ -390,9 +390,14 @@ export default function Home() {
             Join the Sabin Children's Foundation in creating a ripple effect of caring and sharing that transforms lives around the world.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/donate" className="px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20">
+            <a
+              href="https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-13658"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-10 py-4 bg-[#D4A853] hover:bg-[#c49a45] text-[#12365a] font-body font-bold text-base tracking-wide rounded transition-all hover:shadow-lg hover:shadow-[#D4A853]/20"
+            >
               DONATE NOW
-            </Link>
+            </a>
             <Link href="/contact" className="px-10 py-4 border-2 border-white/30 hover:border-white/60 text-white font-body font-bold text-base tracking-wide rounded transition-all hover:bg-white/10">
               PARTNER WITH US
             </Link>
